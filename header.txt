@@ -1,0 +1,5 @@
+Declaration file for rpg maker MZ 
+@name rpg_core 
+@author nio kasgami 
+@version 1.00 
+@license MIT
