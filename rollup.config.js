@@ -2,6 +2,7 @@ import dts from "rollup-plugin-dts";
 import banner from "rollup-plugin-banner";
 var path = require("path");
 
+// TODO : implement a way to build all the files 
 const config = [
   {
     external: ["pixi.js", "effekseer"],
