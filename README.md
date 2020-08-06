@@ -1,9 +1,9 @@
 ![name of the image](https://github.com/niokasgami/Rpg-Maker-MZ-Typescript/blob/master/typescript.jpg)
 
-###Introductions
+### Introductions
 This project document the whole MZ codebase allowing programmer to create plugins for rpg maker MZ using typescript.
 
-###How to use it?
+### How to use it?
 Just download the project and get the files from dist/libs 
 There's a totals of 7 files (including the external library)
 There's two way of using it : 
