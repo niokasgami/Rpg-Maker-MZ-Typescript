@@ -67,3 +67,6 @@ Simply do rollup configfilename for the time being. In the futur their will be a
  * Create plugins helper.
  * Establish the plugin environment
  * Establish proper NPM command for ease the building.
+ 
+## Licenses 
+MIT
