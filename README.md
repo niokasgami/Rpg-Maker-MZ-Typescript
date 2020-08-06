@@ -1,5 +1,4 @@
-# Rpg-Maker-MZ-Typescript V.1A
-The typescript definitions files for MZ
+![name of the image](https://github.com/niokasgami/Rpg-Maker-MZ-Typescript/blob/master/typescript.jpg)
 
 ###Introductions
 This project document the whole MZ codebase allowing programmer to create plugins for rpg maker MZ using typescript.
