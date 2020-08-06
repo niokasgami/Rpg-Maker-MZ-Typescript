@@ -59,3 +59,11 @@ Do not references separated module directly from separated folder
 
 ## build the files 
 Simply do rollup configfilename for the time being. In the futur their will be a NPM script command to just build the whole library in one call.
+
+## Roadmap
+ * Documents all the classes.
+ * Create RPG_Object, Manager , etc definitions files
+ * Convert the project to a NPM project.
+ * Create plugins helper.
+ * Establish the plugin environment
+ * Establish proper NPM command for ease the building.
