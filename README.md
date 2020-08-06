@@ -1,4 +1,4 @@
-# Rpg-Maker-MZ-Typescript
+# Rpg-Maker-MZ-Typescript V.1A
 The typescript definitions files for MZ
 
 ###Introductions
@@ -20,7 +20,12 @@ There's two way of using it :
  The plugin environment is still a work in progress but will be worked once the definitions files will be released. It will use rollup.js to build your plugins. An integration with gulp is also planned.
 
  ### Contributing
-You can contribute to the project by any means! Although, there's specific rules to follow : 
+You can contribute to the project by any means! 
+use to install all the dependencies.
+```npm
+    npm install 
+ ```
+As the project is open to contribution there's specific rules to follow : 
 
 All class must be declared then exported 
  ```ts
