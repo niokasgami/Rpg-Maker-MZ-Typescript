@@ -1,3 +1,4 @@
+import {CurrentAudio} from "./AudioManager";
 
 declare class BattleManager {
 
@@ -9,10 +10,10 @@ declare class BattleManager {
     private static _eventCallback: boolean;
     private static _preemptive: boolean;
     private static _surprise: boolean;
-    private static _currentActor: any // TODO fix the typing.
-    private static _actionForceBattler: any // TODO fix typing.
-    private static _mapBgm = null;
-    private static _mapBgs = null;
+    private static _currentActor: unknown // TODO fix the typing.
+    private static _actionForceBattler: unknown // TODO fix typing.
+    private static _mapBgm: CurrentAudio;
+    private static _mapBgs: CurrentAudio;
     private static _actionBattlers = [];
     private static _subject = null;
     private static _action = null;

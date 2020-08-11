@@ -149,7 +149,7 @@ declare namespace RPG {
         stepsToRemove: number;
         traits: Trait[];
     }
-
+    
     export interface DataAnimation {
         id: number;
         displayType: number;

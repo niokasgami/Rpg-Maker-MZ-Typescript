@@ -1,3 +1,5 @@
 
 TODO : 
   ☐ Refactor the RPG namespace to be more organised 
+  ☐ Upgrade the rollup plugin to work similar to the PIXI.js workflow see https://github.com/pixijs/pixi-particles/blob/master/src/index.ts
+  ☐ Refactor the plugins to be compile into one file?

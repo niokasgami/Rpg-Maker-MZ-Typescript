@@ -1,7 +1,7 @@
 import { WebAudio } from "../External/rpg_core";
 
 
-interface CurrentAudio {
+declare interface CurrentAudio {
     name: string;
     volume: number;
     pitch: number;
@@ -74,4 +74,4 @@ declare class AudioManager {
     public static throwLoadError(webAudio: WebAudio): void;
 }
 
-export { AudioManager }
+export { AudioManager, CurrentAudio}

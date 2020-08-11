@@ -7,11 +7,14 @@
     "lib"
   ],
   "scripts": {
-    "test": "rollup -c"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/niokasgami/Rpg-Maker-MZ-Typescript.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +24,7 @@
   "homepage": "https://github.com/niokasgami/Rpg-Maker-MZ-Typescript#readme",
   "dependencies": {
     "@types/pako": "^1.0.1",
+    "pixi-particles": "^4.2.1",
     "pixi.js": "^5.3.0"
   },
   "devDependencies": {
