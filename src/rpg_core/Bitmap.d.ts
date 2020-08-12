@@ -78,6 +78,7 @@ declare class Bitmap {
 
     public static snap(stage: Stage): Bitmap;
 
+    // eslint-disable-next-line @typescript-eslint/ban-types
     public addLoadListener(listner: Function): void;
 
     public blt(source: Bitmap,sx: number,sy: number,sw: number,sh: number, dx: number,dy: number, dw: number, dh: number): void;

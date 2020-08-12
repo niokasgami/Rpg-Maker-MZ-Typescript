@@ -1,4 +1,5 @@
-import { Stage, Bitmap } from "../External/rpg_core";
+import { Stage } from "../rpg_core/Stage";
+import { Bitmap } from "../rpg_core/Bitmap";
 
 
 

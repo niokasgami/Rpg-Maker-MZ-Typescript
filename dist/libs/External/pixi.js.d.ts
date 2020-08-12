@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/prefer-namespace-keyword */
+/* eslint-disable no-var */
 /**
  * @namespace PIXI
  */
@@ -12134,6 +12136,7 @@ declare namespace PIXI {
      */
     class LoaderResource {
     }
+    // eslint-disable-next-line @typescript-eslint/no-empty-interface
     interface TextureLoader extends PIXI.ILoaderPlugin {
     }
     /**

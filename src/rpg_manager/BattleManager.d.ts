@@ -14,12 +14,12 @@ declare class BattleManager {
     private static _actionForceBattler: unknown // TODO fix typing.
     private static _mapBgm: CurrentAudio;
     private static _mapBgs: CurrentAudio;
-    private static _actionBattlers = [];
-    private static _subject = null;
-    private static _action = null;
-    private static _targets = [];
-    private static _logWindow = null;
-    private static _spriteset = null;
+    private static _actionBattlers: unknown[];
+    private static _subject: unknown;
+    private static _action: unknown;
+    private static _targets: unknown[];
+    private static _logWindow: unknown;
+    private static _spriteset;
     private static _escapeRatio = 0;
     private static _escaped = false;
     private static _rewards = {};

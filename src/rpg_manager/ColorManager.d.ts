@@ -1,4 +1,4 @@
-import { Bitmap } from "../External/rpg_core";
+import { Bitmap } from "../rpg_core/Bitmap";
 
 
 declare class ColorManager {

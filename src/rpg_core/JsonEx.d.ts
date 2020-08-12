@@ -1,7 +1,7 @@
 
 declare class JsonEx {
 
-    public static maxDepth: number = 100;
+    public static maxDepth: number;
     
     public static makeDeepCopy<T>(object : Object): T;
 

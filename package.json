@@ -13,11 +13,8 @@
     "type": "git",
     "url": "git+https://github.com/niokasgami/Rpg-Maker-MZ-Typescript.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "author": "",
-  "license": "ISC",
+  "author": "Nio Kasgami",
+  "license": "LicenseRef-LICENSE",
   "bugs": {
     "url": "https://github.com/niokasgami/Rpg-Maker-MZ-Typescript/issues"
   },

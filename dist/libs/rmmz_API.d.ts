@@ -1,9 +1,10 @@
 /**
  * Declaration file for rpg maker MZ 
- * @name rpg_core 
+ * @name rmmz_API
  * @author nio kasgami 
  * @version 1.00 
- * @license MIT
+ * @license https://github.com/niokasgami/Rpg-Maker-MZ-Typescript/blob/master/LICENSE
+ * 
  */
 
 import { Container, Application, Rectangle as Rectangle$1, BaseTexture, Filter, Point as Point$1, Sprite as Sprite$1, TilingSprite, Renderer } from 'pixi.js';
@@ -310,6 +311,7 @@ declare class Bitmap {
 
     public static snap(stage: Stage): Bitmap;
 
+    // eslint-disable-next-line @typescript-eslint/ban-types
     public addLoadListener(listner: Function): void;
 
     public blt(source: Bitmap,sx: number,sy: number,sw: number,sh: number, dx: number,dy: number, dw: number, dh: number): void;
@@ -529,31 +531,4 @@ declare class WindowLayer extends Container {
     public update(): void;
 }
 
-declare module "rpg_core" {
-    export {
-        Graphics,
-        Input,
-        Array,
-        Math,
-        Number,
-        String,
-        JsonEx,
-        TouchInput,
-        Utils, 
-        Video,
-        Bitmap,
-        ColorFilter,
-        Point,
-        Rectangle,
-        ScreenSprite,
-        Sprite,
-        Stage,
-        Tilemap,
-        TillingSprite,
-        Weather,
-        WebAudio,
-        Window,
-        WindowLayer,
-        RPG
-    }
-}
+export { Array, Bitmap, ColorFilter, Graphics, Input, JsonEx, Math, Number, Point, RPG, Rectangle, ScreenSprite, Sprite, Stage, String, Tilemap, TillingSprite, TouchInput, Utils, Video, Weather, WebAudio, Window, WindowLayer };

@@ -1,4 +1,4 @@
-import { WebAudio } from "../External/rpg_core";
+import { WebAudio } from "../rpg_core/WebAudio";
 
 
 declare interface CurrentAudio {

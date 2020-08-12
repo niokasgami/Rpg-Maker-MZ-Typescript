@@ -6,24 +6,6 @@
 //mport { RPG } from "./RPG";
 
 
-
-// @todo make sure to declare those variables later
-$gameTemp = null;
-$gameSystem = null;
-$gameScreen = null;
-$gameTimer = null;
-$gameMessage = null;
-$gameSwitches = null;
-$gameVariables = null;
-$gameSelfSwitches = null;
-$gameActors = null;
-$gameParty = null;
-$gameTroop = null;
-$gameMap = null;
-$gamePlayer = null;
-$testEvent = null;
-
-
 /**
  * @todo Fix the structure.
  */
