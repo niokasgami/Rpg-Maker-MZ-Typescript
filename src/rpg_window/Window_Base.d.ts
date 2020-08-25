@@ -1,7 +1,7 @@
 import { Window } from "../rpg_core/Window";
 import { Rectangle } from "../rpg_core/Rectangle";
 
-declare class TextState{
+declare interface TextState{
     public text: string;
     public index: number;
     public x: number;
