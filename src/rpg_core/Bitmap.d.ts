@@ -112,6 +112,8 @@ declare class Bitmap {
     public retry(): void;
 
     public strokeRect(x: number, y: number, width: number, height: number, color: string): void;
+
+    public resize(width: number, height: number)
 }
 
 export {Bitmap}
