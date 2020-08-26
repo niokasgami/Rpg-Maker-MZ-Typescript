@@ -110,7 +110,7 @@ declare class Window_Base extends Window{
     public drawFace(faceName: string, faceIndex: number, x: number, y: number, width: number, height: number): void;
     public drawCharacter(characterName: string, characterIndex: number, x: number, y: number): void;
     // TODO can we be more specific about the 'item' type? It looks like it can be a consumable item, a piece of equipment or a skill...
-    public drawItemName(item: { iconIndex: number; name: string; }, x: number, y: number, width: number): void;
+    public drawItemName(item: { iconIndex: number; name: string; description: string; }, x: number, y: number, width: number): void;
     // TODO value seems like it should be number, but is passed directly to draw text which requires a string...
     public drawCurrencyValue(value: number | string, unit: string, x: number, y: number, width: number): void;
     public setBackgroundType(type: number): void;
