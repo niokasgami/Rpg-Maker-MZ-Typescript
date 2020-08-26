@@ -1,16 +1,19 @@
-MIT License
+RMMZ License
 
 Copyright (c) 2020 Nio Kasgami
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+By using MZ Typescript tool set you recognize :
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Owning a legal copy of RPG Maker.
+You recognize to not REPOST the Typescript definitions files anywhere else and claim you did it.
+Use NPM install / gitclone. Forking the project on github is fine.
+To not sell the Typescript definitions files or hide them behind a paywall.
+To not remove the copyright header on top of the definitions files.
+
+By agreeing on those terms you are allowed :
+To develop games both commercial and non commercial using the typescript toolset free of charge
+Free to distribute plugins built using the MZ typescript tool set both commercially and non commercial.
+To like cat.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
