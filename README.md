@@ -46,16 +46,15 @@ declare module "rpg_core" {
  ```
 #### do and don't 
 
-Do not references separated module directly from separated folder
+Do references separated module directly from separated folder
 ```ts 
  import {Game_Temp} from "../rpg_object/Game_Temp";
  ```
- It will provoke bundling error. Take in consideration when working on plugins it is fine to use the separated module. Using the bundled file is less typing though.
-
- do references separated module like this when doing the rpg declaration files: 
- ```ts
- import {Game_Temp} from "../bundled/rpg_object";
+ In compiled file just using 
+ ```ts 
+ import {Game_Temp} from "../libs/rmmz_api";
  ```
+ will work fine. 
 
 ## build the files 
 Simply do rollup configfilename for the time being. In the futur their will be a NPM script command to just build the whole library in one call.
