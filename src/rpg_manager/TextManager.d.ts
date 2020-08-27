@@ -7,7 +7,7 @@ declare class TextManager {
     public static message(messageId: number): string;
     public static getter(method: Function, param: any[]): Function;
 
-    public static get currencyUnit(): number;
+    public static get currencyUnit(): string;
 
     public static get level(): string;
     public static get levelA(): string;

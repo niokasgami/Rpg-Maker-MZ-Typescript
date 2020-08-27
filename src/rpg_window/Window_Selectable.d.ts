@@ -1,5 +1,6 @@
 import { Window_Scrollable } from "./Window_Scrollable";
 import { Window_Help } from "./Window_Help";
+import { Rectangle } from "../rpg_core/Rectangle";
 
 /**
  * Window_Selectable
