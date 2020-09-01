@@ -15,7 +15,7 @@ declare class Window_DebugRange extends Window_Selectable {
 
     public maxItems(): number;
     public update(): void;
-    public mode(index: number): boolean;
+    public mode(index: number): string;
     public topId(index: number): number;
     public isSwitchMode(index: number): boolean;
     public drawItem(index: number): void;

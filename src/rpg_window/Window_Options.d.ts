@@ -6,7 +6,7 @@ import { Rectangle } from "../rpg_core/Rectangle";
  * 
  * The window for changing various settings on the options screen.
  */
-declare class Window_Options extends Window_Command {
+declare class Window_Options<T> extends Window_Command<T> {
     constructor(rect: Rectangle);
     public makeCommandList(): void;
     public addGeneralOptions(): void;

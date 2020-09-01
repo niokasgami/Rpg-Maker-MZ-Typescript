@@ -7,7 +7,7 @@ import { Window_ItemList } from "./Window_ItemList";
  * 
  * The window for selecting a category of items on the item and shop screens.
  */
-declare class Window_ItemCategory extends Window_HorzCommand {
+declare class Window_ItemCategory<T> extends Window_HorzCommand<T> {
     constructor(rect: Rectangle);
 
     public maxCols(): number;

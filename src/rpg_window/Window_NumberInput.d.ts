@@ -8,7 +8,7 @@ import { Window_Message } from "./Window_Message";
  * The window used for the event command [Input Number].
  */
 declare class Window_NumberInput extends Window_Selectable {
-    constructor(rect: Rectangle);
+    constructor();
     public setMessageWindow(messageWindow: Window_Message): void;
     public start(): void;
     public updatePlacement(): void;

@@ -6,7 +6,7 @@ import { Rectangle } from "../rpg_core/Rectangle";
  * 
  * The command window for the horizontal selection format.
  */
-declare class Window_HorzCommand extends Window_Command {
+declare class Window_HorzCommand<T> extends Window_Command<T> {
     constructor(rect: Rectangle);
 
     public maxCols(): number;

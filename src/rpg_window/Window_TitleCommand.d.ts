@@ -6,7 +6,7 @@ import { Rectangle } from "../rpg_core/Rectangle";
  * 
  * The window for selecting New Game/Continue on the title screen.
  */
-declare class Window_TitleCommand extends Window_Command {
+declare class Window_TitleCommand<T> extends Window_Command<T> {
     constructor(rect: Rectangle);
     public static initCommandPosition(): void;
     public makeCommandList(): void;

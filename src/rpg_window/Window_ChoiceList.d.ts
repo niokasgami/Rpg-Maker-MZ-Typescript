@@ -7,8 +7,8 @@ import { Window_Message } from "./Window_Message";
  * 
  * The window used for the event command [Show Choices].
  */
-declare class Window_ChoiceList extends Window_Command {
-    constructor(rect: Rectangle);
+declare class Window_ChoiceList<T> extends Window_Command<T> {
+    constructor();
     public setMessageWindow(messageWindow: Window_Message): void;
     public createCancelButton(): void;
     public start(): void;

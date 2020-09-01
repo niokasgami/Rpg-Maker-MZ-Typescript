@@ -7,7 +7,7 @@ import { Game_Actor } from "../rpg_core/Game_Actor";
  * 
  * The window for selecting an actor's action on the battle screen.
  */
-declare class Window_ActorCommand extends Window_Command {
+declare class Window_ActorCommand extends Window_Command<number> {
     constructor(rect: Rectangle);
 
     public makeCommandList(): void;

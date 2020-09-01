@@ -8,7 +8,7 @@ import { Window_SkillList } from "./Window_SkillList";
  * 
  * The window for selecting a skill type on the skill screen.
  */
-declare class Window_SkillType extends Window_Command {
+declare class Window_SkillType extends Window_Command<number> {
     constructor(rect: Rectangle);
 
     public setActor(actor: Game_Actor): void;

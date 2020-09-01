@@ -6,7 +6,7 @@ import { Rectangle } from "../rpg_core/Rectangle";
  * 
  * The window for selecting a command on the equipment screen.
  */
-declare class Window_EquipCommand extends Window_HorzCommand {
+declare class Window_EquipCommand<T> extends Window_HorzCommand<T> {
     constructor(rect: Rectangle);
 
     public maxCols(): number;

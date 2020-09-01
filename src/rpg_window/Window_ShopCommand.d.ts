@@ -6,7 +6,7 @@ import { Rectangle } from "../rpg_core/Rectangle";
  * 
  * The window for selecting buy/sell on the shop screen.
  */
-declare class Window_ShopCommand extends Window_HorzCommand {
+declare class Window_ShopCommand<T> extends Window_HorzCommand<T> {
     constructor(rect: Rectangle);
     public setPurchaseOnly(purchaseOnly: boolean): void;
     public maxCols(): number;

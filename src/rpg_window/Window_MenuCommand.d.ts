@@ -6,7 +6,7 @@ import { Rectangle } from "../rpg_core/Rectangle";
  * 
  * The window for selecting a command on the menu screen.
  */
-declare class Window_MenuCommand extends Window_Command{
+declare class Window_MenuCommand<T> extends Window_Command<T>{
     constructor(rect: Rectangle);
 
     public static initCommandPosition(): void;
