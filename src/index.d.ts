@@ -9,7 +9,8 @@ export {TouchInput} from "./rpg_core/TouchInput";
 export {Utils} from "./rpg_core/Utils";
 export {Video} from "./rpg_core/Video";
 export { Bitmap } from "./rpg_core/Bitmap";
-export { ColorFilter } from "./rpg_core/ColorFilter";
+//import {ColorFilter} from "./rpg_core/ColorFilter";
+//export {ColorFilter}
 export { Point } from "./rpg_core/Point";
 export { Rectangle } from "./rpg_core/Rectangle";
 export { ScreenSprite } from "./rpg_core/ScreenSprite";
@@ -22,6 +23,7 @@ export {WebAudio} from "./rpg_core/WebAudio";
 export {Window} from "./rpg_core/Window";
 export {WindowLayer} from "./rpg_core/WindowLayer"
 export {RPG} from "./rpg_core/RPG";
+
 
 /**
  * rmmz_managers
@@ -60,3 +62,6 @@ export { Window_ShopCommand } from "./rpg_window/Window_ShopCommand";
 export { Window_ShopNumber } from "./rpg_window/Window_ShopNumber";
 export { Window_ShopSell } from "./rpg_window/Window_ShopSell";
 export { Window_TitleCommand } from "./rpg_window/Window_TitleCommand";
+
+
+

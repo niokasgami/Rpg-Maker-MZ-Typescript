@@ -23135,7 +23135,7 @@ declare namespace PIXI {
          * It must return an array of characters.
          *
          * @example
-         * // Correctly splits emojis, eg "🤪🤪" will result in two element array, each with one emoji.
+         * // Correctly js emojis, eg "🤪🤪" will result in two element array, each with one emoji.
          * TextMetrics.wordWrapSplit = (token) => [...token];
          *
          * @param  {string}  token - The token to split

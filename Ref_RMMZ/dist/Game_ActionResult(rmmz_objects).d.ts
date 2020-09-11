@@ -1,0 +1,36 @@
+declare function Game_ActionResult(...args: any[]): void;
+declare class Game_ActionResult {
+    constructor(...args: any[]);
+    initialize(): void;
+    clear(): void;
+    used: boolean;
+    missed: boolean;
+    evaded: boolean;
+    physical: boolean;
+    drain: boolean;
+    critical: boolean;
+    success: boolean;
+    hpAffected: boolean;
+    hpDamage: number;
+    mpDamage: number;
+    tpDamage: number;
+    addedStates: any[];
+    removedStates: any[];
+    addedBuffs: any[];
+    addedDebuffs: any[];
+    removedBuffs: any[];
+    addedStateObjects(): any[];
+    removedStateObjects(): any[];
+    isStatusAffected(): boolean;
+    isHit(): boolean;
+    isStateAdded(stateId: any): boolean;
+    pushAddedState(stateId: any): void;
+    isStateRemoved(stateId: any): boolean;
+    pushRemovedState(stateId: any): void;
+    isBuffAdded(paramId: any): boolean;
+    pushAddedBuff(paramId: any): void;
+    isDebuffAdded(paramId: any): boolean;
+    pushAddedDebuff(paramId: any): void;
+    isBuffRemoved(paramId: any): boolean;
+    pushRemovedBuff(paramId: any): void;
+}

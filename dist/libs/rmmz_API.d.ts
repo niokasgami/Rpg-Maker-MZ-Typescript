@@ -7,7 +7,7 @@
  * 
  */
 
-import { Container, Application, Rectangle as Rectangle$1, BaseTexture, Filter, Point as Point$1, Sprite as Sprite$1, TilingSprite, Renderer } from 'pixi.js';
+import { Container, Application, Rectangle as Rectangle$1, BaseTexture, Point as Point$1, Sprite as Sprite$1, TilingSprite, Renderer } from 'pixi.js';
 import { EffekseerContext } from 'effekseer';
 
 /**
@@ -346,6 +346,7 @@ declare class Bitmap {
 
     public strokeRect(x: number, y: number, width: number, height: number, color: string): void;
 
+
     public resize(width: number, height: number)
 }
 
@@ -362,7 +363,10 @@ declare class ColorFilter extends Filter {
     public setColorTone(tone: ColorTone): void;
 
     public setHue(hue: number);
+=======
 
+
+    public resize(width: number, height: number)
 }
 
 declare class Point extends Point$1 {
@@ -532,6 +536,7 @@ declare class WindowLayer extends Container {
     public render(renderer: Renderer): void;
     public update(): void;
 }
+
 
 //-----------------------------------------------------------------------------
 // DataManager
@@ -1489,3 +1494,6 @@ declare class Window_TitleCommand<T> extends Window_Command<T> {
 }
 
 export { Array, Bitmap, ColorFilter, Command, DataManager, Graphics, Input, JsonEx, Math, Number, Point, RPG, Rectangle, SavefileContent, SavefileInfo, ScreenSprite, Sprite, Stage, String, TextState, Tilemap, TillingSprite, TouchInput, Utils, Video, Weather, WebAudio, Window, WindowLayer, Window_Base, Window_BattleItem, Window_ChoiceList, Window_Command, Window_DebugEdit, Window_DebugRange, Window_EquipCommand, Window_EventItem, Window_GameEnd, Window_Gold, Window_Help, Window_HorzCommand, Window_ItemCategory, Window_ItemList, Window_MapName, Window_MenuCommand, Window_Message, Window_NameBox, Window_NumberInput, Window_Options, Window_PartyCommand, Window_SavefileList, Window_ScrollText, Window_Scrollable, Window_Selectable, Window_ShopCommand, Window_ShopNumber, Window_ShopSell, Window_TitleCommand };
+
+export { Array, Bitmap, Graphics, Input, JsonEx, Math, Number, Point, RPG, Rectangle, ScreenSprite, Sprite, Stage, String, Tilemap, TillingSprite, TouchInput, Utils, Video, Weather, WebAudio, Window, WindowLayer };
+

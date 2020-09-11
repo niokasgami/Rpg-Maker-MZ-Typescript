@@ -1,0 +1,37 @@
+declare function Window_ChoiceList(...args: any[]): void;
+declare class Window_ChoiceList {
+    constructor(...args: any[]);
+    constructor: typeof Window_ChoiceList;
+    initialize(): void;
+    openness: number;
+    _background: any;
+    _canRepeat: boolean;
+    setMessageWindow(messageWindow: any): void;
+    _messageWindow: any;
+    createCancelButton(): void;
+    _cancelButton: Sprite_Button;
+    start(): void;
+    update(): void;
+    updateCancelButton(): void;
+    selectDefault(): void;
+    updatePlacement(): void;
+    x: number;
+    y: any;
+    width: number;
+    height: any;
+    updateBackground(): void;
+    placeCancelButton(): void;
+    windowX(): number;
+    windowY(): any;
+    windowWidth(): number;
+    windowHeight(): any;
+    numVisibleRows(): number;
+    maxLines(): 4 | 8;
+    maxChoiceWidth(): number;
+    makeCommandList(): void;
+    drawItem(index: any): void;
+    isCancelEnabled(): boolean;
+    needsCancelButton(): boolean;
+    callOkHandler(): void;
+    callCancelHandler(): void;
+}

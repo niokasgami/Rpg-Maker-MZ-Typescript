@@ -1,0 +1,33 @@
+declare function Scene_Equip(...args: any[]): void;
+declare class Scene_Equip {
+    constructor(...args: any[]);
+    constructor: typeof Scene_Equip;
+    initialize(): void;
+    create(): void;
+    createStatusWindow(): void;
+    _statusWindow: Window_EquipStatus;
+    statusWindowRect(): Rectangle;
+    createCommandWindow(): void;
+    _commandWindow: Window_EquipCommand;
+    commandWindowRect(): Rectangle;
+    createSlotWindow(): void;
+    _slotWindow: Window_EquipSlot;
+    slotWindowRect(): Rectangle;
+    createItemWindow(): void;
+    _itemWindow: Window_EquipItem;
+    itemWindowRect(): Rectangle;
+    statusWidth(): number;
+    needsPageButtons(): boolean;
+    arePageButtonsEnabled(): boolean;
+    refreshActor(): void;
+    commandEquip(): void;
+    commandOptimize(): void;
+    commandClear(): void;
+    onSlotOk(): void;
+    onSlotCancel(): void;
+    onItemOk(): void;
+    executeEquipChange(): void;
+    onItemCancel(): void;
+    onActorChange(): void;
+    hideItemWindow(): void;
+}

@@ -1,0 +1,30 @@
+declare function SoundManager(): void;
+declare namespace SoundManager {
+    function preloadImportantSounds(): void;
+    function loadSystemSound(n: any): void;
+    function playSystemSound(n: any): void;
+    function playCursor(): void;
+    function playOk(): void;
+    function playCancel(): void;
+    function playBuzzer(): void;
+    function playEquip(): void;
+    function playSave(): void;
+    function playLoad(): void;
+    function playBattleStart(): void;
+    function playEscape(): void;
+    function playEnemyAttack(): void;
+    function playEnemyDamage(): void;
+    function playEnemyCollapse(): void;
+    function playBossCollapse1(): void;
+    function playBossCollapse2(): void;
+    function playActorDamage(): void;
+    function playActorCollapse(): void;
+    function playRecovery(): void;
+    function playMiss(): void;
+    function playEvasion(): void;
+    function playMagicEvasion(): void;
+    function playReflection(): void;
+    function playShop(): void;
+    function playUseItem(): void;
+    function playUseSkill(): void;
+}
