@@ -1,9 +1,3 @@
-import { Game_System } from "../rpg_object/Game_System";
-import { Game_Timer } from "../rpg_object/Game_Timer";
-import { Game_Switches } from "../rpg_object/Game_Switches";
-import { Game_Variables } from "../rpg_object/Game_Variables";
-import { Game_SelfSwitches } from "../rpg_object/Game_SelfSwitches";
-
 declare export const $dataActors: RPG.DataActor[];
 declare export const $dataClasses: RPG.DataClass[];
 declare export const $dataSkills: RPG.DataSkill[];
@@ -19,18 +13,18 @@ declare export const $dataCommonEvents: RPG.DataCommonEvent[];
 declare export const $dataSystem: RPG.DataSystem;
 declare export const $dataMapInfos: RPG.DataMapInfo[];
 declare export const $dataMap: RPG.DataMap[];
-// @todo make sure to declare those variables later
-$gameTemp = null;
+declare export const $gameTemp: Game_Temp;
 declare export const $gameSystem: Game_System;
-$gameScreen = null;
+declare export const $gameScreen: Game_Screen;
 declare export const $gameTimer: Game_Timer;
 declare export const $gameMessage: Game_Message;
 declare export const $gameSwitches: Game_Switches;
 declare export const $gameVariables: Game_Variables;
 declare export const $gameSelfSwitches: Game_SelfSwitches;
-$gameActors = null;
-$gameParty = null;
-$gameTroop = null;
-$gameMap = null;
-$gamePlayer = null;
-$testEvent = null;
+declare export const $gameActors: Game_Actors;
+declare export const $gameParty: Game_Party;
+declare export const $gameTroop: Game_Troop;
+declare export const $gameMap: Game_Map;
+declare export const $gamePlayer: Game_Player;
+
+// declare export const $testEvent = null; // ????

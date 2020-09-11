@@ -1,4 +1,4 @@
-import { Sprite, Rectangle } from "../External/rpg_core";
+import { Sprite, Rectangle } from "../rpg_core";
 
 
 declare abstract class Sprite_Clickable extends Sprite {

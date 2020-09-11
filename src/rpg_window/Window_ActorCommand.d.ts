@@ -1,6 +1,6 @@
 import { Window_Command } from "./Window_Command";
 import { Rectangle } from "../rpg_core/Rectangle";
-import { Game_Actor } from "../rpg_core/Game_Actor";
+import { Game_Actor } from "../rpg_object/Game_Actor";
 
 /**
  * Window_ActorCommand

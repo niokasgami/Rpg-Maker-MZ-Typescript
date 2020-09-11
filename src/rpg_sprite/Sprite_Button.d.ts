@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/ban-types */
 import { Sprite_Clickable } from "./Sprite_Clickable";
-import { Rectangle } from "../External/rpg_core";
+import { Rectangle } from "../rpg_core";
 
 declare interface ButtonTable {
     cancel: { x: 0, w: 2 },
