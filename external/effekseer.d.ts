@@ -1,4 +1,3 @@
-
 declare namespace effekseer {
 
     /**
