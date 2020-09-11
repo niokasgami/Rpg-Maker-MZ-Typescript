@@ -21,6 +21,7 @@
   "homepage": "https://github.com/niokasgami/Rpg-Maker-MZ-Typescript#readme",
   "dependencies": {
     "@types/pako": "^1.0.1",
+    "@types/pixi.js": "^5.0.0",
     "pixi-particles": "^4.2.1",
     "pixi.js": "^5.3.0"
   },
