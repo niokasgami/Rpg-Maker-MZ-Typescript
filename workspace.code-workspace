@@ -10,5 +10,7 @@
 			"path": "..\\..\\..\\Downloads\\BattleSenki3DMaidenWars\\gamedata\\js"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"typescript.tsdk": "Rpg-Maker-MZ-Typescript\\node_modules\\typescript\\lib"
+	}
 }

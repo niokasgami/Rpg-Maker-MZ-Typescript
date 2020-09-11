@@ -7,7 +7,7 @@
  * 
  */
 
-import { Container, Application, Rectangle as Rectangle$1, BaseTexture, Filter, Point as Point$1, Sprite as Sprite$1, TilingSprite, Renderer } from 'pixi.js';
+import { Container, Application, Rectangle as Rectangle$1, BaseTexture, Point as Point$1, Sprite as Sprite$1, TilingSprite, Renderer } from 'pixi.js';
 import { EffekseerContext } from 'effekseer';
 
 /**
@@ -144,7 +144,7 @@ declare interface String {
 
 declare class JsonEx {
 
-    public static maxDepth: number = 100;
+    public static maxDepth: number;
     
     public static makeDeepCopy<T>(object : Object): T;
 
@@ -345,22 +345,8 @@ declare class Bitmap {
     public retry(): void;
 
     public strokeRect(x: number, y: number, width: number, height: number, color: string): void;
-}
 
-type ColorTone = [number,number,number,number];
-
-declare class ColorFilter extends Filter {
-
-    constructor();
-
-    public setBlendColor(color: string): void;
-
-    public setBrightness(brightness: number): void;
-
-    public setColorTone(tone: ColorTone): void;
-
-    public setHue(hue: number);
-
+    public resize(width: number, height: number)
 }
 
 declare class Point extends Point$1 {
@@ -531,4 +517,4 @@ declare class WindowLayer extends Container {
     public update(): void;
 }
 
-export { Array, Bitmap, ColorFilter, Graphics, Input, JsonEx, Math, Number, Point, RPG, Rectangle, ScreenSprite, Sprite, Stage, String, Tilemap, TillingSprite, TouchInput, Utils, Video, Weather, WebAudio, Window, WindowLayer };
+export { Array, Bitmap, Graphics, Input, JsonEx, Math, Number, Point, RPG, Rectangle, ScreenSprite, Sprite, Stage, String, Tilemap, TillingSprite, TouchInput, Utils, Video, Weather, WebAudio, Window, WindowLayer };

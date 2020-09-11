@@ -17,6 +17,7 @@ declare class ColorFilter extends PIXI.Filter {
 }
 
 export {
-    ColorTone,
-    ColorFilter
+    ColorFilter,
+    ColorTone
+    
 }

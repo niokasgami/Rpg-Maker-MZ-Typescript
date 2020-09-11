@@ -1,0 +1,80 @@
+declare function AudioManager(): void;
+declare namespace AudioManager {
+    const _bgmVolume: number;
+    const _bgsVolume: number;
+    const _meVolume: number;
+    const _seVolume: number;
+    const _currentBgm: any;
+    const _currentBgs: any;
+    const _bgmBuffer: any;
+    const _bgsBuffer: any;
+    const _meBuffer: any;
+    const _seBuffers: any[];
+    const _staticBuffers: any[];
+    const _replayFadeTime: number;
+    const _path: string;
+    const bgmVolume: any;
+    const bgsVolume: any;
+    const meVolume: any;
+    const seVolume: any;
+    function playBgm(bgm: any, pos: any): void;
+    function replayBgm(bgm: any): void;
+    function isCurrentBgm(bgm: any): boolean;
+    function updateBgmParameters(bgm: any): void;
+    function updateCurrentBgm(bgm: any, pos: any): void;
+    function stopBgm(): void;
+    function fadeOutBgm(duration: any): void;
+    function fadeInBgm(duration: any): void;
+    function playBgs(bgs: any, pos: any): void;
+    function replayBgs(bgs: any): void;
+    function isCurrentBgs(bgs: any): boolean;
+    function updateBgsParameters(bgs: any): void;
+    function updateCurrentBgs(bgs: any, pos: any): void;
+    function stopBgs(): void;
+    function fadeOutBgs(duration: any): void;
+    function fadeInBgs(duration: any): void;
+    function playMe(me: any): void;
+    function updateMeParameters(me: any): void;
+    function fadeOutMe(duration: any): void;
+    function stopMe(): void;
+    function playSe(se: any): void;
+    function updateSeParameters(buffer: any, se: any): void;
+    function cleanupSe(): void;
+    function stopSe(): void;
+    function playStaticSe(se: any): void;
+    function loadStaticSe(se: any): void;
+    function isStaticSe(se: any): boolean;
+    function stopAll(): void;
+    function saveBgm(): {
+        name: string;
+        volume: number;
+        pitch: number;
+    } | {
+        name: any;
+        volume: any;
+        pitch: any;
+        pan: any;
+        pos: any;
+    };
+    function saveBgs(): {
+        name: string;
+        volume: number;
+        pitch: number;
+    } | {
+        name: any;
+        volume: any;
+        pitch: any;
+        pan: any;
+        pos: any;
+    };
+    function makeEmptyAudioObject(): {
+        name: string;
+        volume: number;
+        pitch: number;
+    };
+    function createBuffer(folder: any, name: any): WebAudio;
+    function updateBufferParameters(buffer: any, configVolume: any, audio: any): void;
+    function audioFileExt(): string;
+    function checkErrors(): void;
+    function throwLoadError(webAudio: any): never;
+}
