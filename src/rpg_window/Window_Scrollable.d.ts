@@ -1,4 +1,5 @@
 import { Window_Base } from "./Window_Base";
+import { Rectangle } from "../rpg_core/Rectangle";
 /**
  * Window_Scrollable
  * 
