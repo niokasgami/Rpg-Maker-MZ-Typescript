@@ -1,5 +1,7 @@
-export * from './rpg_core';
-export * from './rpg_manager';
-export * from './rpg_object';
-//export * from "./rpg_window";
-export * from './rpg_scene';
+export * from './rmmz_core';
+export * from './rmmz_managers';
+export * from './rmmz_objects';
+//export * from "./rmmz_windows";
+export * from './rmmz_scenes';
+
+export * from './main'

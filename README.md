@@ -10,7 +10,7 @@ There's two way of using it :
 
  by using the bundled files and calling the file globally or using the import features such as 
  ```js
-        import {Sprite} from "./lib/rpg_core";
+        import {Sprite} from "./lib/rmmz_core";
  ```
  
  Please take now that in the forseen futur the file will be created as an distributable npm project and the core file will be declared as ambient module.
@@ -33,12 +33,12 @@ All class must be declared then exported
  ```
  due to the fact the project use rollup to bundle the files.
  All the appropriate files must be imported into the main file relative to the folder.
- i.e : rpg_core.d.ts , rpg_object.d.ts etc
+ i.e : rmmz_core.d.ts , rpg_object.d.ts etc
  the structure is at follow : 
  ```ts
  import {Class} from "./module";
 
-declare module "rpg_core" {
+declare module "rmmz_core" {
     export {
         Class,
     }
