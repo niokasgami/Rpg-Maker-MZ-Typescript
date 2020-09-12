@@ -8,7 +8,6 @@ export * from './EffectManager';
 export * from './FontManager';
 export * from './ImageManager';
 export * from './PluginManager';
-export * from './RPG';
 export * from './SceneManager';
 export * from './SoundManager';
 export * from './StorageManager';

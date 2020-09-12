@@ -1,4 +1,4 @@
-import { RPG } from './RPG';
+import { RPG } from '../RPG';
 
 export declare const $dataActors: RPG.DataActor[];
 export declare const $dataClasses: RPG.DataClass[];

@@ -2,9 +2,9 @@
  * @author Brandt (Masked)
  */
 
-import { RPG } from '../rmmz_managers/RPG';
+import { RPG } from '../RPG';
 
-import { Game_Battler } from '.';
+import { Game_Battler, Game_Party, Game_Troop } from '.';
 
 declare namespace Game_Enemy {
     export enum ItemKind {

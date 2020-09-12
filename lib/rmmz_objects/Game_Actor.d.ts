@@ -2,7 +2,7 @@
  * @author Brandt (Masked)
  */
 
-import { RPG } from '../rmmz_managers/RPG';
+import { RPG } from '../RPG';
 
 import { Game_Battler, Game_Party, Game_Troop } from '.';
 
