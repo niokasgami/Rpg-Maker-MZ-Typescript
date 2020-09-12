@@ -1,33 +1,30 @@
+declare namespace Utils {
 
+    export const RPGMAKER_NAME: string;
+    export const RPGMAKER_VERSION: string;
 
-declare class Utils {
+    export function canPlayOgg(): boolean;
+    export function canPlayWebm(): boolean;
+    export function canUseCssFontLoading(): boolean;
+    export function canUseIndexedDB(): boolean;
+    export function canUseWebAudioAPI(): boolean;
+    export function canUseWebGL(): boolean;
 
-    public static readonly RPGMAKER_NAME: string;
-    public static readonly RPGMAKER_VERSION: string;
-
-    public static canPlayOgg(): boolean;
-    public static canPlayWebm(): boolean;
-    public static canUseCssFontLoading(): boolean;
-    public static canUseIndexedDB(): boolean;
-    public static canUseWebAudioAPI(): boolean;
-    public static canUseWebGL(): boolean;
-    public static checkRMVersion(version: string): boolean;
-    public static containsArabic(): boolean;
-    public static decryptArrayBuffer(source: ArrayBuffer): ArrayBuffer;
-    public static encodeURI(str: string): string;
-    public static escapeHtml(str: string): string;
-    public static hasEncryptedAudio(): boolean;
-    public static isAndroidChrome(): boolean;
-    public static isAtsumaru(): boolean;
-    public static isLocal(): boolean;
-    public static isMobileDevice(): boolean;
-    public static isMobileSafari(): boolean;
-    public static isNwjs(): boolean;
-    public static isOptionValid(name: string): boolean;
-    public static setEncryptionInfo(hasImages: boolean,hasAudio: boolean, key: string): void;
+    export function checkRMVersion(version: string): boolean;
+    export function containsArabic(): boolean;
+    export function decryptArrayBuffer(source: ArrayBuffer): ArrayBuffer;
+    export function encodeURI(str: string): string;
+    export function escapeHtml(str: string): string;
+    export function hasEncryptedAudio(): boolean;
+    export function isAndroidChrome(): boolean;
+    export function isAtsumaru(): boolean;
+    export function isLocal(): boolean;
+    export function isMobileDevice(): boolean;
+    export function isMobileSafari(): boolean;
+    export function isNwjs(): boolean;
+    export function isOptionValid(name: string): boolean;
+    export function setEncryptionInfo(hasImages: boolean,hasAudio: boolean, key: string): void;
 
 }
 
-export {
-    Utils
-}
+export { Utils };

@@ -1,16 +1,10 @@
-
-declare class JsonEx {
-
-    public static maxDepth: number;
+declare namespace JsonEx {
+    export let maxDepth: number;
     
-    public static makeDeepCopy<T>(object : Object): T;
+    export function makeDeepCopy<T>(object: T): T;
 
-    public static parse<T>(json: string): T;
-
-    public static stringify(object: Object): string;
-
+    export function parse<T>(json: string): T;
+    export function stringify(object: unknown): string;
 }
 
-export {
-    JsonEx
-}
+export { JsonEx };

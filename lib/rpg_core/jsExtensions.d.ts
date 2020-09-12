@@ -1,8 +1,7 @@
-
-declare interface Array {
-    clone<T>(): T[]; 
-    equals(array: any[]): boolean;
-    remove<T>(element: any): T[];
+declare interface Array<T> {
+    clone(): T[]; 
+    equals(array: unknown[]): boolean;
+    remove(element: T): T[];
 }
 
 declare interface Math {
@@ -10,14 +9,13 @@ declare interface Math {
 }
 
 declare interface Number {
-    clamp(min: number,max: number): number;
+    clamp(min: number, max: number): number;
     mod(n: number): number;
-    padZero(lenght: number): string;
+    padZero(length: number): string;
 }
 
 declare interface String {
-    padZero(lenght: number): string;
-    
+    padZero(length: number): string;
 }
 
 export {
@@ -25,4 +23,4 @@ export {
     Math,
     Number,
     String
-}
+};

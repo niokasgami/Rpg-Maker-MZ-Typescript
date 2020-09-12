@@ -1,4 +1,5 @@
 import * as PIXI from "pixi.js";
+
 import { Bitmap } from "./Bitmap";
 import { Rectangle } from "./Rectangle";
 import { Point } from "./Point";
@@ -14,9 +15,11 @@ declare class Window extends PIXI.Container {
     public downArrowVisible: boolean;
     public frameVisible: boolean;
     public height: number;
+
     public readonly innerHeight: number;
     public readonly innerRect: Rectangle;
     public readonly innerWidth: number;
+
     public margin: number;
     public opacity: number;
     public openness: number;
@@ -34,15 +37,20 @@ declare class Window extends PIXI.Container {
 
     public destroy(): void;
     public drawShape(): void;
+
     public isClose():boolean;
     public isOpen(): boolean;
-    public move(x: number,y: number, width: number, height: number): void;
-    public moveCursorBy(x: number,y: number): void;
-    public moveInnerChildrenBy(x: number,y: number): void;
-    public setCursorRect(x: number,y: number, width: number, height: number): void;
-    public setTone(r: number,g: number,b: number): void;
+
+    public move(x: number, y: number, width: number, height: number): void;
+    public moveCursorBy(x: number, y: number): void;
+    public moveInnerChildrenBy(x: number, y: number): void;
+
+    public setCursorRect(x: number, y: number, width: number, height: number): void;
+    public setTone(r: number, g: number, b: number): void;
+
     public update(): void;
     public updateTransform(): void;
+
 }
 
-export {Window}
+export { Window };

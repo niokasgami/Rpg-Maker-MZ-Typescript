@@ -1,24 +1,24 @@
-import {RPG} from "./RPG";
-declare class Input {
+import { RPG } from "./RPG";
 
-    public static readonly date: number;
-    public static readonly dir4: number;
-    public static readonly dir8: number;
-    public static gamepadMapper: RPG.InputGamepad;
-    public static keyMapper: RPG.InputKey;
-    public static keyRepeatInterval: number;
-    public static keyRepeatWait: number;
+declare namespace Input {
 
-    public static clear(): void;
-    public static initialize(): void;
-    public static isLongPressed(keyname: string): boolean;
-    public static isPressed(keyName: string): boolean;
-    public static isRepeated(keyName: string): boolean;
-    public static isTriggered(keyName: string): boolean;
-    public static update(): void;
+    export const date: number;
+    export const dir4: number;
+    export const dir8: number;
+    
+    export let gamepadMapper: RPG.InputGamepad;
+    export let keyMapper: RPG.InputKey;
+    export let keyRepeatInterval: number;
+    export let keyRepeatWait: number;
+
+    export function clear(): void;
+    export function initialize(): void;
+    export function isLongPressed(keyname: string): boolean;
+    export function isPressed(keyName: string): boolean;
+    export function isRepeated(keyName: string): boolean;
+    export function isTriggered(keyName: string): boolean;
+    export function update(): void;
 
 }
 
-export {
-    Input
-}
+export { Input };

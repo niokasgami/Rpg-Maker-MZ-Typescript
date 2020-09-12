@@ -8,11 +8,10 @@ declare class ScreenSprite extends PIXI.Container {
 
     public destroy(): void;
     
-    public setBlack(): void;
-
     public setColor(r: number,g: number,b: number): void;
-
+    public setBlack(): void;
     public setWhite(): void;
+
 }
 
-export {ScreenSprite}
+export { ScreenSprite };

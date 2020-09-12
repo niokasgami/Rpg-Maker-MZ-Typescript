@@ -1,29 +1,34 @@
+declare namespace TouchInput {
 
-declare class TouchInput {
+    export const date: Date;
 
-    public static readonly date: number;
-    public static keyRepeatInterval: number;
-    public static keyRepeatWait: number;
-    public static moveThreshold: number;
-    public static readonly wheelX: number;
-    public static readonly wheelY: number;
-    public static readonly inputX: number;
-    public static readonly inputY: number;
+    export const wheelX: number;
+    export const wheelY: number;
 
-    public static clear(): void;
-    public static initialize(): void;
-    public static isCancelled(): boolean;
-    public static isClicked(): boolean;
-    public static isHovered(): boolean;
-    public static isLongPressed(): boolean;
-    public static isMoved(): boolean;
-    public static isPressed(): boolean;
-    public static isReleased(): boolean;
-    public static isRepeated(): boolean;
-    public static isTriggered(): boolean;
-    public static update(): void;
+    export const inputX: number;
+    export const inputY: number;
+
+    export let keyRepeatInterval: number;
+    export let keyRepeatWait: number;
+
+    export let moveThreshold: number;
+
+    export function initialize(): void;
+
+    export function clear(): void;
+    
+    export function update(): void;
+
+    export function isCancelled(): boolean;
+    export function isClicked(): boolean;
+    export function isHovered(): boolean;
+    export function isLongPressed(): boolean;
+    export function isMoved(): boolean;
+    export function isPressed(): boolean;
+    export function isReleased(): boolean;
+    export function isRepeated(): boolean;
+    export function isTriggered(): boolean;
+
 }
 
-export {
-    TouchInput
-}
+export { TouchInput };

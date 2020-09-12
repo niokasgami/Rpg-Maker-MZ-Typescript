@@ -14,6 +14,7 @@ export namespace RPG {
         14: "left"; // D-pad left
         15: "right"; // D-pad right
     }
+    
     export interface InputKey {
         9: "tab"; // tab
         13: "ok"; // enter
