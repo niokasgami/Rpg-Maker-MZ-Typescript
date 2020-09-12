@@ -8,90 +8,74 @@ declare interface CurrentAudio {
     pos?: number;
 }
 
-declare class AudioManager {
-    private static _bgmVolume: number;
-    private static _bgsVolume: number;
-    private static _meVolume: number;
-    private static _seVolume: number;
-    
-    private static _currentBgm: CurrentAudio;
-    private static _currentBgs: CurrentAudio;
+declare namespace AudioManager {
 
-    private static _bgmBuffer: WebAudio;
-    private static _bgsBuffer: WebAudio;
-    private static _meBuffer: WebAudio;
-    private static _seBuffer: WebAudio;
+    export let bgmVolume: number;
+    export let bgsVolume: number;
+    export let meVolume: number;
+    export let seVolume: number;
 
-    private static _staticBuffers: WebAudio[];
+    export function playBgm(bgm: CurrentAudio, pos: number): void;
+    export function replayBgm(bgm: CurrentAudio): void;
 
-    private static _replayFadeTime: number;
-    private static _path: string;
+    export function isCurrentBgm(bgm: CurrentAudio): boolean;
 
-    public static bgmVolume: number;
-    public static bgsVolume: number;
-    public static meVolume: number;
-    public static seVolume: number;
+    export function updateBgmParameters(bgm: CurrentAudio): void;
+    export function updateCurrentBgm(bgm: CurrentAudio, pos: number): void;
 
-    public static playBgm(bgm: CurrentAudio, pos: number): void;
-    public static replayBgm(bgm: CurrentAudio): void;
+    export function stopBgm(): void;
 
-    public static isCurrentBgm(bgm: CurrentAudio): boolean;
+    export function fadeOutBgm(duration: number): void;
+    export function fadeInBgm(duration: number): void;
 
-    public static updateBgmParameters(bgm: CurrentAudio): void;
-    public static updateCurrentBgm(bgm: CurrentAudio, pos: number): void;
+    export function playBgs(bgs: CurrentAudio, pos: number): void;
+    export function replayBgs(bgs: CurrentAudio): void;
 
-    public static stopBgm(): void;
+    export function isCurrentBgs(bgs: CurrentAudio): boolean;
 
-    public static fadeOutBgm(duration: number): void;
-    public static fadeInBgm(duration: number): void;
+    export function updateBgsParameters(bgs: CurrentAudio): void;
 
-    public static playBgs(bgs: CurrentAudio, pos: number): void;
-    public static replayBgs(bgs: CurrentAudio): void;
+    export function stopBgs(): void;
 
-    public static isCurrentBgs(bgs: CurrentAudio): boolean;
+    export function fadeOutBgs(duration: number): void;
+    export function fadeInBgs(duration: number): void;
 
-    public static updateBgsParameters(bgs: CurrentAudio): void;
+    export function playMe(me: CurrentAudio): void;
 
-    public static stopBgs(): void;
+    export function updateMeParameters(me: CurrentAudio): void;
 
-    public static fadeOutBgs(duration: number): void;
-    public static fadeInBgs(duration: number): void;
+    export function fadeOutMe(duration: number): void;
 
-    public static playMe(me: CurrentAudio): void;
+    export function stopMe(): void;
 
-    public static updateMeParameters(me: CurrentAudio): void;
+    export function playSe(se: CurrentAudio): void;
 
-    public static fadeOutMe(duration: number): void;
+    export function updateSeParameters(buffer: WebAudio, se: CurrentAudio): void;
 
-    public static stopMe(): void;
+    export function cleanupSe(): void;
 
-    public static playSe(se: CurrentAudio): void;
+    export function stopSe(): void;
 
-    public static updateSeParameters(buffer: WebAudio, se: CurrentAudio): void;
+    export function playStaticSe(se: CurrentAudio): void;
+    export function loadStaticSe(se: CurrentAudio): void;
 
-    public static cleanupSe(): void;
+    export function isStaticSe(se: CurrentAudio): boolean;
 
-    public static stopSe(): void;
+    export function stopAll(): void;
 
-    public static playStaticSe(se: CurrentAudio): void;
-    public static loadStaticSe(se: CurrentAudio): void;
+    export function saveBgm(): CurrentAudio;
+    export function saveBgs(): CurrentAudio;
 
-    public static isStaticSe(se: CurrentAudio): boolean;
+    export function makeEmptyAudioObject(): CurrentAudio;
 
-    public static stopAll(): void;
+    export function createBuffer(folder: string, name: string): WebAudio;
+    export function updateBufferParameters(buffer: WebAudio, configVolume: number, audio: CurrentAudio): void;
 
-    public static saveBgm(): CurrentAudio;
-    public static saveBgs(): CurrentAudio;
+    export function audioFileExt(): string;
 
-    public static makeEmptyAudioObject(): CurrentAudio;
+    export function checkErrors(): void;
+    export function throwLoadError(webAudio: WebAudio): void;
 
-    public static createBuffer(folder: string, name: string): WebAudio;
-    public static updateBufferParameters(buffer: WebAudio, configVolume: number, audio: CurrentAudio): void;
-
-    public static audioFileExt(): string;
-
-    public static checkErrors(): void;
-    public static throwLoadError(webAudio: WebAudio): void;
 }
 
 export { AudioManager, CurrentAudio };

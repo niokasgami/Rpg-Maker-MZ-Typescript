@@ -1,15 +1,12 @@
 
-declare class FontManager {
-    
-    private static _urls : Record<string, string>;
-    private static _states : Record<string, string>;
+declare namespace FontManager {
 
-    public static load(family: string, filename: string): void;
-    public static isReady(): boolean;
-    public static startLoading(family: string, url: string): void;
-    public static throwLoadError(familly: string): void;
-    public static makeUrl(filename: string): string;
+    export function load(family: string, filename: string): void;
+    export function isReady(): boolean;
+    export function startLoading(family: string, url: string): void;
+    export function throwLoadError(familly: string): void;
+    export function makeUrl(filename: string): string;
 
 }
- 
+
 export {FontManager}

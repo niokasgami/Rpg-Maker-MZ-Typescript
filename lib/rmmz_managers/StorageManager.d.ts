@@ -1,42 +1,48 @@
 import Pako from "pako";
 
-declare class StorageManager {
+declare namespace StorageManager {
 
-    private static _forageKeys: string[];
-    private static _forageKeysUpdated: boolean;
+    export function isLocalMode(): boolean;
+    export function saveObject<T>(saveName: string, object: T): Promise<void>;
+    export function loadObject<T>(saveName: string): T;
 
-    constructor();
+    export function objectToJson(object: unknown): Promise<string>;
+    export function jsonToObject<T>(json: string): Promise<T>;
 
-    public static isLocalMode(): boolean;
-    public static saveObject<T>(saveName: string, object: T): Promise<void>;
-    public static loadObject<T>(saveName: string): T;
-    public static objectToJson(object: unknown): Promise<string>;
-    public static jsonToObject<T>(json: string): Promise<T>;
-    public static jsonToZip(json: Pako.Data): Promise<string>
-    public static zipToJson(zip: Pako.Inflate): Promise<string>;
-    public static saveZip(saveName: string, zip: pako.Inflate): Promise<void>;
-    public static loadZip(saveName: string): pako.Inflate;
-    public static exists(saveName: string): boolean;
-    public static remove(saveName: string): Promise<void> | void;
-    public static saveToLocalFile(saveName: string, zip: string): Promise<void>;
-    public static loadFromLocalFile(saveName: string): Promise<string>;
-    public static localFileExists(saveName: string): boolean;
-    public static removeLocalFile(saveName: string): void;
-    public static saveToForage(saveName: string, zip: string): Promise<string>;
-    public static loadFromForage(saveName: string): Promise<string>;
-    public static forageExists(saveName: string): boolean;
-    public static removeForage(saveName: string): Promise<void>;
-    public static updateForageKeys(): Promise<number>;
-    public static forageKeysUpdated(): boolean;
-    public static fsMkdir(path: string): void;
-    public static fsRename(oldPath: string, newPath: string): void;
-    public static fsUnlink(path: string): void;
-    public static fsReadFile(path: string): string;
-    public static fsWriteFile(path: string, data: string): void;
-    public static fileDirectoryPath(): string;
-    public static filePath(saveName: string): string;
-    public static forageKey(saveName: string): string;
-    public static forageTestKey(): string;
+    export function jsonToZip(json: Pako.Data): Promise<string>
+    export function zipToJson(zip: Pako.Inflate): Promise<string>;
+
+    export function saveZip(saveName: string, zip: pako.Inflate): Promise<void>;
+    export function loadZip(saveName: string): pako.Inflate;
+
+    export function exists(saveName: string): boolean;
+    export function remove(saveName: string): Promise<void> | void;
+
+    export function saveToLocalFile(saveName: string, zip: string): Promise<void>;
+    export function loadFromLocalFile(saveName: string): Promise<string>;
+    export function localFileExists(saveName: string): boolean;
+    export function removeLocalFile(saveName: string): void;
+
+    export function saveToForage(saveName: string, zip: string): Promise<string>;
+    export function loadFromForage(saveName: string): Promise<string>;
+    export function forageExists(saveName: string): boolean;
+    export function removeForage(saveName: string): Promise<void>;
+
+    export function updateForageKeys(): Promise<number>;
+    export function forageKeysUpdated(): boolean;
+
+    export function fsMkdir(path: string): void;
+    export function fsRename(oldPath: string, newPath: string): void;
+    export function fsUnlink(path: string): void;
+    export function fsReadFile(path: string): string;
+    export function fsWriteFile(path: string, data: string): void;
+
+    export function fileDirectoryPath(): string;
+    export function filePath(saveName: string): string;
+
+    export function forageKey(saveName: string): string;
+    export function forageTestKey(): string;
+
 }
 
-export { StorageManager }
+export { StorageManager };

@@ -1,39 +1,36 @@
 import { Bitmap } from "../rmmz_core/Bitmap";
 
-declare class ImageManager {
+declare namespace ImageManager {
 
-    public static iconWidth: number;
-    public static iconHeight: number;
-    public static faceWidth: number;
-    public static faceHeight: number;
+    export let iconWidth: number;
+    export let iconHeight: number;
+    export let faceWidth: number;
+    export let faceHeight: number;
 
-    private static _cache: Record<string, Bitmap>;
-    private static _system: Record<string, Bitmap>;
-    private static _newBitmap: Bitmap;
+    export function loadAnimation(filename: string): Bitmap;
+    export function loadBattleback1(filename: string): Bitmap;
+    export function loadBattleback2(filename: string): Bitmap;
+    export function loadEnemy(filename: string): Bitmap;
+    export function loadCharacter(filename: string): Bitmap;
+    export function loadFace(filename: string): Bitmap;
+    export function loadParallax(filename: string): Bitmap;
+    export function loadPicture(filename: string): Bitmap;
+    export function loadSvActor(filename: string): Bitmap;
+    export function loadSvEnemy(filename: string): Bitmap;
+    export function loadSystem(filename: string): Bitmap;
+    export function loadTileset(filename: string): Bitmap;
+    export function loadTitle1(filename: string): Bitmap;
+    export function loadTitle2(filename: string): Bitmap;
 
-    public static loadAnimation(filename: string): Bitmap;
-    public static loadBattleback1(filename: string): Bitmap;
-    public static loadBattleback2(filename: string): Bitmap;
-    public static loadEnemy(filename: string): Bitmap;
-    public static loadCharacter(filename: string): Bitmap;
-    public static loadFace(filename: string): Bitmap;
-    public static loadParallax(filename: string): Bitmap;
-    public static loadPicture(filename: string): Bitmap;
-    public static loadSvActor(filename: string): Bitmap;
-    public static loadSvEnemy(filename: string): Bitmap;
-    public static loadSystem(filename: string): Bitmap;
-    public static loadTileset(filename: string): Bitmap;
-    public static loadTitle1(filename: string): Bitmap;
-    public static loadTitle2(filename: string): Bitmap;
+    export function loadBitmap(folder: string, filename: string): Bitmap;
+    export function loadBitmapFromUrl(url: string): Bitmap;
+    export function clear(): void;
+    export function isReady(): boolean;
+    export function throwLoadError(bitmap: Bitmap): void;
+    export function isObjectCharacter(filename: string): boolean;
+    export function isBigCharacter(filename: string): boolean;
+    export function isZeroParallax(filename: string): boolean;
 
-    public static loadBitmap(folder: string, filename: string): Bitmap;
-    public static loadBitmapFromUrl(url: string): Bitmap;
-    public static clear(): void;
-    public static isReady(): boolean;
-    public static throwLoadError(bitmap: Bitmap): void;
-    public static isObjectCharacter(filename: string): boolean;
-    public static isBigCharacter(filename: string): boolean;
-    public static isZeroParallax(filename: string): boolean;
 }
 
 export { ImageManager }

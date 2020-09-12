@@ -1,19 +1,16 @@
 import { EffekseerEffect } from "effekseer";
 
-declare class EffectManager {
+declare namespace EffectManager {
 
-    private static _cache: Record<string, EffekseerEffect>;
-    private static _errorUrls: string[];
-
-    public static load(filename: string): EffekseerEffect;
-    public static startLoading(url: string): EffekseerEffect;
-    public static clear(): void;
-    public static onLoad(): void;
-    public static onError(url: string): void;
-    public static makeUrl(filename: string): string;
-    public static checkErrors(): void;
-    public static throwLoadError(url: string): void;
-    public static isReady(): boolean;
+    export function load(filename: string): EffekseerEffect;
+    export function startLoading(url: string): EffekseerEffect;
+    export function clear(): void;
+    export function onLoad(): void;
+    export function onError(url: string): void;
+    export function makeUrl(filename: string): string;
+    export function checkErrors(): void;
+    export function throwLoadError(url: string): void;
+    export function isReady(): boolean;
 
 }
 

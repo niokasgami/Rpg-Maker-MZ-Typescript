@@ -1,9 +1,5 @@
-import { RPG } from "./RPG";
+import { RPG } from "../RPG";
 
-
-/**
- * @todo Fix the structure.
- */
 declare interface SavefileInfo {
     title: string;
     characters: [string, number][];
@@ -25,76 +21,71 @@ declare interface SavefileContent {
     player: Game_Player;
 }
 
-declare class DataManager {
+declare namespace DataManager {
 
-    constructor();
+    export function loadGlobalInfo(): void;
+    export function removeInvalidGlobalInfo(): void;
+    export function saveGlobalInfo(): void;
+    export function isGlobalInfoLoaded(): boolean;
 
-    private static _globalInfo: SavefileInfo[];
-    private static _errors: {name: string, src: string, url: string}[];
-    private static _databaseFiles: {name: string, src: string}[];
+    export function loadDatabase(): void;
+    export function isDatabaseLoaded(): boolean;
 
-    public static loadGlobalInfo(): void;
-    public static removeInvalidGlobalInfo(): void;
-    public static saveGlobalInfo(): void;
-    public static isGlobalInfoLoaded(): boolean;
+    export function loadDataFile(name: string, src: string): void;
 
-    public static loadDatabase(): void;
-    public static isDatabaseLoaded(): boolean;
+    export function onXhrLoad(xhr : { status: number, responseText: string }, name: string, src: string, url: string): void;
+    export function onXhrError(name: string, src: string, url: string): void;
+    export function onLoad(object: Record<string, unknown>): void;
 
-    public static loadDataFile(name: string, src: string): void;
+    export function makeEmptyMap(): void;
+    export function loadMapData(mapId: number): void;
+    export function isMapLoaded(): boolean
+    export function isMapObject(object: Record<string, unknown>): boolean;
 
-    public static onXhrLoad(xhr : { status: number, responseText: string }, name: string, src: string, url: string): void;
-    public static onXhrError(name: string, src: string, url: string): void;
-    public static onLoad(object: Record<string, unknown>): void;
+    export function extractArrayMetadata(array: unknown[]): void;
+    export function extractMetadata(data: Record<string, unknown>): void;
 
-    public static makeEmptyMap(): void;
-    public static loadMapData(mapId: number): void;
-    public static isMapLoaded(): boolean
-    public static isMapObject(object: Record<string, unknown>): boolean;
+    export function checkError(): void;
 
-    public static extractArrayMetadata(array: unknown[]): void;
-    public static extractMetadata(data: Record<string, unknown>): void;
+    export function setupBattleTest(): void;
+    export function isBattleTest(): boolean;
 
-    public static checkError(): void;
+    export function setupEventTest(): void;
+    export function isEventTest(): boolean;
 
-    public static setupBattleTest(): void;
-    public static isBattleTest(): boolean;
+    export function isSkill(item: unknown): item is RPG.DataSkill;
+    export function isItem(item: unknown): item is RPG.DataItem;
+    export function isWeapon(item: unknown): item is RPG.DataWeapon;
+    export function isArmor(item: unknown): item is RPG.DataArmor;
 
-    public static setupEventTest(): void;
-    public static isEventTest(): boolean;
+    export function setupNewGame(): void;
+    export function createGameObjects(): void;
 
-    public static isSkill(item: unknown): item is RPG.DataSkill;
-    public static isItem(item: unknown): item is RPG.DataItem;
-    public static isWeapon(item: unknown): item is RPG.DataWeapon;
-    public static isArmor(item: unknown): item is RPG.DataArmor;
+    export function isAnySavefileExists(): boolean;
+    export function savefileExists(savefileId: number): boolean;
 
-    public static setupNewGame(): void;
-    public static createGameObjects(): void;
+    export function latestSavefileId(): number;
+    export function earliestSavefileId(): number;
+    export function emptySavefileId(): number;
 
-    public static isAnySavefileExists(): boolean;
-    public static savefileExists(savefileId: number): boolean;
+    export function loadAllSavefileImages(): void;
+    export function loadSavefileImages(info: SavefileInfo): void;
 
-    public static latestSavefileId(): number;
-    public static earliestSavefileId(): number;
-    public static emptySavefileId(): number;
+    export function maxSavefiles(): number;
 
-    public static loadAllSavefileImages(): void;
-    public static loadSavefileImages(info: SavefileInfo): void;
+    export function savefileInfo(savefileId: number): SavefileInfo;
 
-    public static maxSavefiles(): number;
+    export function saveGame(savefileId: number): Promise<number>;
+    export function makeSavename(savefileId: number): string;
+    export function makeSavefileForNewGame(): void;
+    export function makeSavefileInfo(): SavefileInfo;
+    export function makeSaveContents(): SavefileContent;
 
-    public static savefileInfo(savefileId: number): SavefileInfo;
+    export function loadGame(savefileId: number): Promise<number>;
+    export function extractSaveContents(contents: SavefileContent): void;
 
-    public static saveGame(savefileId: number): Promise<number>;
-    public static makeSavename(savefileId: number): string;
-    public static makeSavefileForNewGame(): void;
-    public static makeSavefileInfo(): SavefileInfo;
-    public static makeSaveContents(): SavefileContent;
+    export function correctDataErrors(): void;
 
-    public static loadGame(savefileId: number): Promise<number>;
-    public static extractSaveContents(contents: SavefileContent): void;
-
-    public static correctDataErrors(): void;
 }
 
 export {

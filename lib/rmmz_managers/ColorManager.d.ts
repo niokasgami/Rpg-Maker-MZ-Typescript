@@ -1,41 +1,36 @@
-import { Bitmap } from "../rmmz_core/Bitmap";
+declare namespace ColorManager {
 
+    export function loadWindowskin(): void;
+    export function textColor(n: number): string;
 
-declare class ColorManager {
-
-    private static _windowskin: Bitmap;
-
-    public static loadWindowskin(): void;
-    public static textColor(n: number): string;
-
-    public static normalColor(): string;
-    public static systemColor(): string;
-    public static crisisColor(): string;
-    public static deathColor(): string;
-    public static gaugeBackColor(): string;
-    public static hpGaugeColor1(): string;
-    public static hpGaugeColor2(): string;
-    public static mpGaugeColor1(): string;
-    public static mpGaugeColor2(): string;
-    public static mpCostColor(): string;
-    public static powerUpColor(): string;
-    public static powerDownColor(): string;
-    public static ctGaugeColor1(): string;
-    public static ctGaugeColor1(): string;
-    public static tpGaugeColor1(): string;
-    public static tpGaugeColor2(): string;
-    public static tpCostColor(): string;
-    public static pendingColor(): string;
-    public static hpColor(actor: Game_Actor): string;
-    public static mpColor(): string;
-    public static tpColor(): string;
-    public static paramchangeTextColor(change: number): string;
-    public static damageColor(colorType: number): string;
-    public static outlineColor(): string;
-    public static dimColor1(): string;
-    public static dimColor2(): string;
-    public static itemBackColor1(): string;
-    public static itemBackColor2(): string;
+    export function normalColor(): string;
+    export function systemColor(): string;
+    export function crisisColor(): string;
+    export function deathColor(): string;
+    export function gaugeBackColor(): string;
+    export function hpGaugeColor1(): string;
+    export function hpGaugeColor2(): string;
+    export function mpGaugeColor1(): string;
+    export function mpGaugeColor2(): string;
+    export function mpCostColor(): string;
+    export function powerUpColor(): string;
+    export function powerDownColor(): string;
+    export function ctGaugeColor1(): string;
+    export function ctGaugeColor1(): string;
+    export function tpGaugeColor1(): string;
+    export function tpGaugeColor2(): string;
+    export function tpCostColor(): string;
+    export function pendingColor(): string;
+    export function hpColor(actor: Game_Actor): string;
+    export function mpColor(): string;
+    export function tpColor(): string;
+    export function paramchangeTextColor(change: number): string;
+    export function damageColor(colorType: number): string;
+    export function outlineColor(): string;
+    export function dimColor1(): string;
+    export function dimColor2(): string;
+    export function itemBackColor1(): string;
+    export function itemBackColor2(): string;
 
 }
 

@@ -23,7 +23,7 @@ export declare class Main {
     makeErrorHtml(name: string, message: string): string;
 
     onWindowLoad(): void;
-    onWindowError(e: ErrorEvent): voi;
+    onWindowError(e: ErrorEvent): void;
 
     isPathRandomized(): boolean;
 

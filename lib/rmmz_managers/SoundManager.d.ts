@@ -1,32 +1,32 @@
-declare class SoundManager {
+declare namespace SoundManager {
 
-    public static preloadImportantSounds(): void;
-    public static loadSystemSound(n: number): void;
-    public static playSystemSound(n: number): void;
+    export function preloadImportantSounds(): void;
+    export function loadSystemSound(n: number): void;
+    export function playSystemSound(n: number): void;
 
-    public static playCursor(): void;
-    public static playOk(): void;
-    public static playCancel(): void;
-    public static playBuzzer(): void;
-    public static playEquip(): void;
-    public static playSave(): void;
-    public static playLoad(): void;
-    public static playBattleStart(): void;
-    public static playEscape(): void;
-    public static playEnemyAttack(): void;
-    public static playEnemyCollapse(): void;
-    public static playBossCollapse1(): void;
-    public static playBossCollapse2(): void;
-    public static playActorDamage(): void;
-    public static playActorCollapse(): void;
-    public static playRecovery(): void;
-    public static playMiss(): void;
-    public static playEvasion(): void;
-    public static playMagicEvasion(): void;
-    public static playReflection(): void;
-    public static playShop(): void;
-    public static playUseSkill(): void;
+    export function playCursor(): void;
+    export function playOk(): void;
+    export function playCancel(): void;
+    export function playBuzzer(): void;
+    export function playEquip(): void;
+    export function playSave(): void;
+    export function playLoad(): void;
+    export function playBattleStart(): void;
+    export function playEscape(): void;
+    export function playEnemyAttack(): void;
+    export function playEnemyCollapse(): void;
+    export function playBossCollapse1(): void;
+    export function playBossCollapse2(): void;
+    export function playActorDamage(): void;
+    export function playActorCollapse(): void;
+    export function playRecovery(): void;
+    export function playMiss(): void;
+    export function playEvasion(): void;
+    export function playMagicEvasion(): void;
+    export function playReflection(): void;
+    export function playShop(): void;
+    export function playUseSkill(): void;
 
 }
 
-export { SoundManager }
+export { SoundManager };

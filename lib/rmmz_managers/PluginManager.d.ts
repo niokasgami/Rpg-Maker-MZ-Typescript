@@ -11,28 +11,23 @@ interface PluginCommand {
     (args: PluginParameters): void;
 }
 
-declare class PluginManager {
+declare namespace PluginManager {
 
-    private static _scripts: string[];
-    private static _errorUrls: string[];
-    private static _parameters: Record<string, Record<string, string>>;
-    private static _commands: Record<string, PluginCommand>;
+    export function setup(plugins: PluginsStruct[]): void;
 
-    public static setup(plugins: PluginsStruct[]): void;
+    export function parameters(name: string): PluginParameters;
+    export function setParameters(name: string, parameters: string): void;
 
-    public static parameters(name: string): PluginParameters;
-    public static setParameters(name: string, parameters: string): void;
+    export function loadScript(filename: string): void;
+    export function onError(e: Event): void;
 
-    public static loadScript(filename: string): void;
-    public static onError(e: Event): void;
+    export function makeUrl(filename: string): string;
 
-    public static makeUrl(filename: string): string;
+    export function checkErrors(): void;
+    export function throwLoadError(url: string): void;
 
-    public static checkErrors(): void;
-    public static throwLoadError(url: string): void;
-
-    public static registerCommand(pluginName: string, commandName: string, func: PluginCommand): void;
-    public static callCommand(self: unknown, pluginName: string, commandName: string, args: PluginParameters): void;
+    export function registerCommand(pluginName: string, commandName: string, func: PluginCommand): void;
+    export function callCommand(self: unknown, pluginName: string, commandName: string, args: PluginParameters): void;
 
 }
 
