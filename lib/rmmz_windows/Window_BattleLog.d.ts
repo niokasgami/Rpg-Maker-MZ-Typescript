@@ -1,11 +1,16 @@
-import { Window_Base } from "./Window_Base";
-import { Rectangle } from "../rmmz_core/Rectangle";
-import { Spriteset_Battle } from "../rpg_sprite/Spriteset_Battle";
-import { Game_Battler } from "../rpg_object/Game_Battler";
-import { Game_Action } from "../rmmz_core/Game_Action";
-import { Game_Actor } from "../rpg_object/Game_Actor";
-import { Game_Enemy } from "../rpg_object/Game_Enemy";
-import { Game_BattlerBase } from "../rpg_object/Game_BattlerBase";
+import { Rectangle } from "../rmmz_core";
+
+import { Spriteset_Battle } from "../rmmz_sprites";
+
+import {
+    Game_Battler,
+    Game_Action,
+    Game_Actor,
+    Game_Enemy,
+    Game_BattlerBase
+} from "../rmmz_objects";
+
+import { Window_Base } from ".";
 
 // TODO this class was very hard to determine types for, will need to look
 // over it again very carfeully to be sure it is correct.
@@ -17,18 +22,22 @@ import { Game_BattlerBase } from "../rpg_object/Game_BattlerBase";
  */
 declare class Window_BattleLog extends Window_Base {
     constructor(rect: Rectangle);
+
     public setSpriteset(spriteset: Spriteset_Battle): void;
     public maxLines(): number;
     public numLines(): number;
     public messageSpeed(): number;
     public isBusy(): boolean;
+    
     public update(): void;
     public updateWait(): boolean;
     public updateWaitCount(): boolean;
     public updateWaitMode(): boolean;
+    
     public setWaitMode(waitMode: string): void;
     public callNextMethod(): void;
     public isFastForward(): boolean;
+
     /**
      * Adds a method and any accompanying parameters to the list of methods that
      * need to be called. The method needs to be a member of this object, and the
@@ -39,15 +48,21 @@ declare class Window_BattleLog extends Window_Base {
      * @param args The arguments to pass to the method, if any.
      */
     public push(methodName:string, ...args: any[]): void;
+
     public clear(): void;
+    
     public wait(): void;
     public waitForEffect(): void;
     public waitForMovement(): void;
+    
     public addText(text: string): void;
     public pushBaseLine(): void;
     public popBaseLine(): void;
+   
     public waitForNewLine(): void;
+    
     public popupDamage(target: Game_Battler): void;
+    
     public performActionStart(subject: Game_Battler, action: Game_Action): void;
     public performAction(subject: Game_Battler, action: Game_Action): void;
     public performActionEnd(subject: Game_Battler): void;
@@ -60,13 +75,16 @@ declare class Window_BattleLog extends Window_Base {
     public performReflection(target: Game_Battler): void;
     public performSubstitute(substitute: Game_Battler, target: Game_Battler): void;
     public performCollapse(target: Game_Battler): void;
+    
     // TODO double check type of subject/targets for animation methods.
     public showAnimation(subject: Game_BattlerBase, targets: Game_BattlerBase[], animationId: number): void;
     public showAttackAnimation(subject: Game_BattlerBase, targets: Game_BattlerBase[]): void;
     public showActorAttackAnimation(subject: Game_Actor, targets: Game_BattlerBase[]): void;
     public showEnemyAttackAnimation(/* subject, targets */): void;
     public showNormalAnimation(targets: Game_BattlerBase[], animationId: number, mirror: boolean): void;
+    
     public refresh(): void;
+    
     public drawBackground(): void;
     public backRect(): Rectangle;
     public lineRect(index: number): Rectangle;
@@ -76,6 +94,7 @@ declare class Window_BattleLog extends Window_Base {
     public startTurn(): void;
     public startAction(subject: Game_Battler, action: Game_Action, targets: Game_BattlerBase[]): void;
     public endAction(subject: Game_Battler): void;
+    
     // TODO it seems like subject should be Game_Battler (superclass of actor and enemy)
     // but subject must have the name() method, which is not defined in superclass.
     public displayCurrentState(subject: Game_Actor | Game_Enemy): void;
@@ -101,6 +120,7 @@ declare class Window_BattleLog extends Window_Base {
     public displayRemovedStates(target: Game_BattlerBase): void;
     public displayChangedBuffs(target: Game_BattlerBase): void;
     public displayBuffs(target: Game_BattlerBase, buffs: number[], fmt: string): void;
+
     public makeHpDamageText(target: Game_Actor | Game_Enemy): string;
     public makeMpDamageText(target: Game_Actor | Game_Enemy): string;
     public makeTpDamageText(target: Game_Actor | Game_Enemy): string;

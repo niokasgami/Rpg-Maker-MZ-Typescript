@@ -181,7 +181,9 @@ declare abstract class Game_Battler extends Game_BattlerBase {
     performSubstitute(target: Game_Battler): void;
     performCollapse(): void;
 
+    abstract name(): string;
     abstract index(): number;
+    
     abstract isSpriteVisible(): boolean;
     
     abstract friendsUnit(): Game_Unit<Game_Battler>;
