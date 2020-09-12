@@ -1,5 +1,3 @@
-
-
 declare class SoundManager {
 
     public static preloadImportantSounds(): void;

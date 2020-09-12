@@ -1,38 +1,38 @@
 declare namespace effekseer {
 
     /**
-    * Initialize Effekseer.js.
-    * This function must be called at first if use WebAssembly
-    * @param {string} path A file of webassembply
-    * @param {function=} onload A function that is called at loading complete
-    * @param {function=} onerror A function that is called at loading error.
-    */
+     * Initialize Effekseer.js.
+     * This function must be called at first if use WebAssembly
+     * @param {string} path A file of webassembply
+     * @param {function=} onload A function that is called at loading complete
+     * @param {function=} onerror A function that is called at loading error.
+     */
     export function initRuntime(path, onload, onerror);
 
     /**
-    * Create a context to render in multiple scenes
-    * @returns {EffekseerContext} context
-    */
+     * Create a context to render in multiple scenes
+     * @returns {EffekseerContext} context
+     */
     export function createContext(): EffekseerContext;
 
     /**
-    * Release specified context. After that, don't touch a context
-    * @param {EffekseerContext} context context
-    */
+     * Release specified context. After that, don't touch a context
+     * @param {EffekseerContext} context context
+     */
     export function releaseContext(context: EffekseerContext);
 
     /**
-         * Initialize graphics system.
-         * @param {WebGLRenderingContext} webglContext WebGL Context
-         * @param {object} settings Some settings with Effekseer initialization
-         */
-    export function init(webglContext, settings?: object);
+     * Initialize graphics system.
+     * @param {WebGLRenderingContext} webglContext WebGL Context
+     * @param {object} settings Some settings with Effekseer initialization
+     */
+    export function init(webglContext, settings ?: Record<string, unknown>);
 
     /**
      * Advance frames.
      * @param {number=} deltaFrames number of advance frames
      */
-    export function update(deltaFrames?: number);
+    export function update(deltaFrames ? : number);
 
     /**
      * Main rendering.
@@ -109,12 +109,12 @@ declare namespace effekseer {
      * @param {function=} onerror A function that is called at loading error. First argument is a message. Second argument is an url.
      * @returns {EffekseerEffect} The effect data
      */
-    export function loadEffect(path: string, scale?: number, onload?, onerror?): EffekseerEffect;
+    export function loadEffect(path: string, scale ? : number, onload ? , onerror ? ): EffekseerEffect;
 
     /**
-    * Release the specified effect. Don't touch the instance of effect after released.
-    * @param {EffekseerEffect} effect The loaded effect
-    */
+     * Release the specified effect. Don't touch the instance of effect after released.
+     * @param {EffekseerEffect} effect The loaded effect
+     */
     export function releaseEffect(effect: EffekseerEffect);
 
     /**
@@ -139,23 +139,23 @@ declare namespace effekseer {
     export function setResourceLoader(loader);
 
     /**
-    * Get whether VAO is supported
-    */
+     * Get whether VAO is supported
+     */
     export function isVertexArrayObjectSupported();
 
     export class EffekseerContext {
         /**
-             * Initialize graphics system.
-             * @param {WebGLRenderingContext} webglContext WebGL Context
-             * @param {object} settings Some settings with Effekseer initialization
-             */
-        init(webglContext, settings?: object);
+         * Initialize graphics system.
+         * @param {WebGLRenderingContext} webglContext WebGL Context
+         * @param {Record<string, unknown>} settings Some settings with Effekseer initialization
+         */
+        init(webglContext: WebGLRenderingContextBase, settings?: Record<string, unknown>): void;
 
         /**
          * Advance frames.
          * @param {number=} deltaFrames number of advance frames
          */
-        update(deltaFrames?: number);
+        update(deltaFrames?: number): void;
 
         /**
          * Main rendering.
@@ -233,12 +233,12 @@ declare namespace effekseer {
          * @param {function=} redirect A function to redirect a path. First argument is an url and return redirected url.
          * @returns {EffekseerEffect} The effect data
          */
-        loadEffect(path: string, scale?: number, onload?, onerror?, redirect?): EffekseerEffect;
+        loadEffect(path: string, scale ? : number, onload ? , onerror ? , redirect ? ): EffekseerEffect;
 
         /**
-        * Release the specified effect. Don't touch the instance of effect after released.
-        * @param {EffekseerEffect} effect The loaded effect
-        */
+         * Release the specified effect. Don't touch the instance of effect after released.
+         * @param {EffekseerEffect} effect The loaded effect
+         */
         releaseEffect(effect: EffekseerEffect);
 
         /**
@@ -263,8 +263,8 @@ declare namespace effekseer {
         setResourceLoader(loader);
 
         /**
-        * Get whether VAO is supported
-        */
+         * Get whether VAO is supported
+         */
         isVertexArrayObjectSupported();
 
         /**
@@ -280,7 +280,7 @@ declare namespace effekseer {
          * get paths to color images
          * @returns {Array<string>} paths to color images
          */
-        getColorImagePaths(): Array<string>;
+        getColorImagePaths(): Array < string > ;
     }
 
     export class EffekseerHandle {
@@ -343,7 +343,7 @@ declare namespace effekseer {
          * @param {number} index slot index
          * @returns {number} value
          */
-        getDynamicInput(index) : number;
+        getDynamicInput(index): number;
 
         /**
          * specfiy a dynamic parameter, which changes effect parameters dynamically while playing

@@ -26,7 +26,7 @@ declare class ColorManager {
     public static tpGaugeColor2(): string;
     public static tpCostColor(): string;
     public static pendingColor(): string;
-    public static hpColor(actor: any): string; // TODO : make sure it's an edited as an actor.
+    public static hpColor(actor: Game_Actor): string;
     public static mpColor(): string;
     public static tpColor(): string;
     public static paramchangeTextColor(change: number): string;

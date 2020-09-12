@@ -5,7 +5,9 @@ declare class TextManager {
     public static param(paramId: number): string;
     public static command(commandId: number): string;
     public static message(messageId: number): string;
-    public static getter(method: Function, param: any[]): Function;
+
+    public static getter(method: 'basic' | 'command', param: number): () => string;
+    public static getter(method: 'message', param: string): () => string;
 
     public static get currencyUnit(): string;
 
@@ -96,7 +98,6 @@ declare class TextManager {
     public static get debuffAdd(): string;
     public static get buffRemove(): string;
     public static get actionFailure(): string;
-
 }
 
 export { TextManager }

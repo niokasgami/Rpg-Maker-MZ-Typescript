@@ -11,5 +11,5 @@ export * from './PluginManager';
 export * from './RPG';
 export * from './SceneManager';
 export * from './SoundManager';
-export * from './storageManager';
+export * from './StorageManager';
 export * from './TextManager';

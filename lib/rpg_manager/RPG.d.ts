@@ -262,7 +262,7 @@ declare namespace RPG {
         bgs: Bgm;
         disableDashing: boolean;
         displayName: string;
-        encounterList: any[];
+        encounterList: unknown[];
         encounterStep: number;
         height: number;
         note: string;
@@ -455,12 +455,6 @@ declare namespace RPG {
         hidden: boolean;
     }
 
-    export interface Page {
-        conditions: Conditions;
-        list: List[];
-        span: number;
-    }
-
     export interface Conditions {
         actorHp: number;
         actorId: number;
@@ -481,7 +475,6 @@ declare namespace RPG {
         indent: number;
         parameters: number[];
     }
-
 
     export interface Action {
         conditionParam1: number;
@@ -509,8 +502,6 @@ declare namespace RPG {
         value: number;
     }
 
-
-
     export interface Damage {
         critical: boolean;
         elementId: number;
@@ -525,8 +516,6 @@ declare namespace RPG {
         value1: number;
         value2: number;
     }
-
-
 }
 
-//export { RPG }
+export { RPG }

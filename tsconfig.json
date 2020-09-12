@@ -3,7 +3,7 @@
     "target": "es2015",
     "module": "es2015",
     "moduleResolution": "node",
-    "lib": ["ES6", "ES5", "ES2015.Iterable", "DOM.Iterable"],
+    "lib": ["ES6", "ES5", "ES2015.Iterable", "DOM", "DOM.Iterable"],
     "declaration": true,
     "noEmit": true,
     "strict": false,

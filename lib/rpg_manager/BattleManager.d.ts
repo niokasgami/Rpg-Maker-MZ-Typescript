@@ -20,9 +20,9 @@ declare class BattleManager {
     private static _targets: unknown[];
     private static _logWindow: unknown;
     private static _spriteset;
-    private static _escapeRatio = 0;
-    private static _escaped = false;
-    private static _rewards = {};
-    private static _tpbNeedsPartyCommand = true;
+    private static _escapeRatio: number;
+    private static _escaped: boolean;
+    private static _rewards: Record<string, unknown>;
+    private static _tpbNeedsPartyCommand: boolean;
     
 }

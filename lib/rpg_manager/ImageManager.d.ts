@@ -7,8 +7,8 @@ declare class ImageManager {
     public static faceWidth: number;
     public static faceHeight: number;
 
-    private static _cache: Record<string, any>;
-    private static _system: Record<string, any>;
+    private static _cache: Record<string, Bitmap>;
+    private static _system: Record<string, Bitmap>;
     private static _newBitmap: Bitmap;
 
     public static loadAnimation(filename: string): Bitmap;

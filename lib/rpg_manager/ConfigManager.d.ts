@@ -17,20 +17,23 @@ declare class ConfigManager {
     private static _isLoaded: boolean;
 
     private static _bgmVolume: number;
-    private static bgsVolume: number;
-    private static meVolume: number;
-    private static seVolume: number;
+    private static _bgsVolume: number;
+    private static _meVolume: number;
+    private static _seVolume: number;
 
     constructor();
 
     public static get bgmVolume(): number;
-    public static set bgmVolume(value: number): number;
+    public static set bgmVolume(value: number);
+
     public static get bgsVolume(): number;
-    public static set bgsVolume(value: number): number;
+    public static set bgsVolume(value: number);
+
     public static get meVolume(): number;
-    public static set meVolume(value: number): number;
+    public static set meVolume(value: number);
+    
     public static get seVolume(): number;
-    public static set seVolume(value: number): number;
+    public static set seVolume(value: number);
 
     public static load(): void;
     public static save(): void;

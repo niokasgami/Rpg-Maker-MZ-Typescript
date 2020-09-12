@@ -24,8 +24,8 @@ declare class Game_Action {
     private _item: Game_Item;
     private _targetIndex: number;
 
-    public constructor(subject: Game_BattlerBase, forcing: boolean = false);
-    public initialize(subject: Game_BattlerBase, forcing: boolean = false);
+    public constructor(subject: Game_BattlerBase, forcing: boolean);
+    public initialize(subject: Game_BattlerBase, forcing: boolean);
     public clear(): void;
     public setSubject(subject: Game_BattlerBase): void;
     public subject(): Game_BattlerBase;
@@ -36,7 +36,7 @@ declare class Game_Action {
     public setGuard(): void;
     public setSkill(skillId: number): void;
     public setItem(itemId: number): void;
-    public setItemObject(object: Record<string, any>): GameType;
+    public setItemObject(object: Record<string, unknown>): GameType;
     public setTarget(targetIndex: number): void;
     public item(): GameType;
     public isSkill(): boolean;

@@ -6,7 +6,7 @@ declare class Game_Item {
 
     constructor();
 
-    public initialize(item: Record<string, any>): void;
+    public initialize(item: Record<string, unknown>): void;
     public isSkill(): string;
     public isItem(): string;
     public isUsableItem(): boolean;
@@ -16,7 +16,7 @@ declare class Game_Item {
     public isNull(): string;
     public itemId(): number;
     public object(): GameType;
-    public setObject(item: Record<string, any>): void;
+    public setObject(item: Record<string, unknown>): void;
     public setEquip(isWeapon: boolean, itemId: number): void;
 
 }

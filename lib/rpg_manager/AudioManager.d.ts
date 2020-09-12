@@ -1,6 +1,5 @@
 import { WebAudio } from "../rpg_core/WebAudio";
 
-
 declare interface CurrentAudio {
     name: string;
     volume: number;
@@ -10,7 +9,6 @@ declare interface CurrentAudio {
 }
 
 declare class AudioManager {
-
     private static _bgmVolume: number;
     private static _bgsVolume: number;
     private static _meVolume: number;
@@ -26,16 +24,16 @@ declare class AudioManager {
     private static _path: string;
 
     public static get bgmVolume(): number;
-    public static set bgmVolume(value: number): number;
+    public static set bgmVolume(value: number);
 
     public static get bgsVolume(): number;
-    public static set bgsVolume(value: number): number;
+    public static set bgsVolume(value: number);
 
     public static get meVolume(): number;
-    public static set meVolume(value: number): number;
+    public static set meVolume(value: number);
 
     public static get seVolume(): number;
-    public static set seVolume(value: number): number;
+    public static set seVolume(value: number);
 
     public static playBgm(bgm: CurrentAudio, pos: number): void;
     public static replayBgm(bgm: CurrentAudio): void;

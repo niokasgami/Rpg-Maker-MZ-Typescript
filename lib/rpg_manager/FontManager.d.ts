@@ -1,8 +1,8 @@
 
 declare class FontManager {
     
-    private static _urls : Record<string,string>;
-    private static _states : Record<string,string>;
+    private static _urls : Record<string, string>;
+    private static _states : Record<string, string>;
 
     public static load(family: string, filename: string): void;
     public static isReady(): boolean;
