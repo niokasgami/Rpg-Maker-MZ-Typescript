@@ -1,4 +1,4 @@
-import { WebAudio } from "../rmmz_core/WebAudio";
+import { WebAudio } from "../rmmz_core";
 
 declare interface CurrentAudio {
     name: string;

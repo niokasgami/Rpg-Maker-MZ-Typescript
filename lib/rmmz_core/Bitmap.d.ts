@@ -1,7 +1,6 @@
 import * as PIXI from "pixi.js";
 
-import { Rectangle } from "./Rectangle";
-import { Stage } from "./Stage";
+import { Rectangle, Stage } from ".";
 
 declare class Bitmap {
 

@@ -1,5 +1,6 @@
 import * as PIXI from "pixi.js";
-import { Bitmap } from "./Bitmap";
+
+import { Bitmap } from ".";
 
 declare type RGBA = [number, number, number, number];
 

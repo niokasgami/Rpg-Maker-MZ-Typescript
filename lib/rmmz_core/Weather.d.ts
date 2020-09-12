@@ -1,5 +1,6 @@
 import * as PIXI from "pixi.js";
-import { Point } from "./Point";
+
+import { Point } from ".";
 
 declare class Weather extends PIXI.Container {
 

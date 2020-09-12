@@ -1,8 +1,6 @@
 import * as PIXI from "pixi.js";
 
-import { Bitmap } from "./Bitmap";
-import { Rectangle } from "./Rectangle";
-import { Point } from "./Point";
+import { Bitmap, Rectangle, Point } from ".";
 
 declare class Window extends PIXI.Container {
 

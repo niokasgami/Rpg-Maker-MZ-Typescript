@@ -1,4 +1,4 @@
-import { RPG } from "./RPG";
+import { RPG } from ".";
 
 declare namespace Input {
 

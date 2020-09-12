@@ -1,7 +1,6 @@
 import * as PIXI from "pixi.js";
 
-import { Point } from "./Point";
-import { Bitmap } from "./Bitmap";
+import { Point, Bitmap } from ".";
 
 declare class Tilemap extends PIXI.Container {
 

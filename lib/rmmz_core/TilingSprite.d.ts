@@ -1,7 +1,6 @@
 import * as PIXI from "pixi.js";
 
-import { Bitmap } from "./Bitmap";
-import { Point } from "./Point";
+import { Bitmap, Point } from ".";
 
 declare class TilingSprite extends PIXI.TilingSprite {
 

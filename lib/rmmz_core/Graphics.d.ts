@@ -1,7 +1,7 @@
 import * as PIXI from "pixi.js";
 
 import { EffekseerContext } from "effekseer";
-import { Stage } from "./Stage";
+import { Stage } from ".";
 
 declare namespace Graphics {
 
