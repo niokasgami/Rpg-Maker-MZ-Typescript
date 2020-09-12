@@ -36,6 +36,7 @@ declare class ColorManager {
     public static dimColor2(): string;
     public static itemBackColor1(): string;
     public static itemBackColor2(): string;
+
 }
 
-export { ColorManager }
+export { ColorManager };

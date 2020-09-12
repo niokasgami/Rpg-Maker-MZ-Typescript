@@ -1,9 +1,4 @@
-//-----------------------------------------------------------------------------
-// DataManager
-//
-// The static class that manages the database and game objects.
-// @TODO : this class still need fix.
-//mport { RPG } from "./RPG";
+import { RPG } from "./RPG";
 
 
 /**
@@ -68,10 +63,10 @@ declare class DataManager {
     public static setupEventTest(): void;
     public static isEventTest(): boolean;
 
-    public static isSkill(item: Record<string, unknown>): boolean;
-    public static isItem(item: Record<string, unknown>): boolean;
-    public static isWeapon(item: Record<string, unknown>): boolean;
-    public static isArmor(item: Record<string, unknown>): boolean;
+    public static isSkill(item: unknown): item is RPG.DataSkill;
+    public static isItem(item: unknown): item is RPG.DataItem;
+    public static isWeapon(item: unknown): item is RPG.DataWeapon;
+    public static isArmor(item: unknown): item is RPG.DataArmor;
 
     public static setupNewGame(): void;
     public static createGameObjects(): void;

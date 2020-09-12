@@ -1,7 +1,12 @@
 declare namespace RPG {
 
-    export interface DataActor {
+    export interface Data {
         id: number;
+        name: string;
+        note: string;
+    }
+
+    export interface DataActor extends Data {
         battlerName: string;
         characterIndex: number;
         characterName: string;
@@ -9,100 +14,73 @@ declare namespace RPG {
         equips: number[];
         faceIndex: number;
         faceName: string;
-        traits: Trait[]; // TODO : define the trait
+        traits: Trait[];
         initialLevel: number;
         maxLevel: number;
-        name: string;
         nickname: string;
-        note: string;
         profile: string;
     }
 
-    export interface DataSkill {
-        id: number;
+    export interface DataItemBase extends Data {
+        description: string;
+        iconIndex: number;
+    }
+
+    export interface DataEquipItem extends DataItemBase {
+        etypeId: number;
+        traits: Trait[];
+        params: number[];
+        price: number;
+    }
+
+    export interface DataWeapon extends DataEquipItem {
+        animationId: number;
+        wtypeId: number;
+        etypeId: 1;
+    }
+
+    export interface DataArmor {
+        atypeId: number;
+        etypeId: 2 | 3 | 4 | 5;
+    }
+
+    export interface DataConsumable extends DataItemBase {
         animationId: number;
         damage: Damage;
-        description: string;
         effects: Effect[];
         hitType: number;
-        iconIndex: number;
+        occasion: number;
+        repeats: number;
+        scope: number;
+        speed: number;
+        successRate: number;
+        tpGain: number;
+    }
+
+    export interface DataSkill extends Data {
         message1: string;
         message2: string;
         messageType: number;
         mpCost: number;
-        name: string;
-        note: string;
-        occasion: number;
-        repeats: number;
         requiredWtypeId1: number;
         requiredWtypeId2: number;
-        scope: number;
-        speed: number;
         stypeId: number;
-        successRate: number;
         tpCost: number;
-        tpGain: number;
     }
 
-    export interface DataClass {
-        id: number;
+    export interface DataItem extends Data {
+        itypeId: number;
+        price: number;
+    }
+
+    export interface DataClass extends Data {
         expParams: number[];
         traits: Trait[];
         learnings: Learning[];
-        name: string;
-        note: string;
         params: Array<number[]>;
     }
 
-    export interface DataItem {
-        id: number;
-        animationId: number;
-        consumable: boolean;
-        damage: Damage;
-        description: string;
-        effects: Effect[];
-        hitType: number;
-        iconIndex: number;
-        itypeId: number;
-        name: string;
-        note: string;
-        occasion: number;
-        price: number;
-        repeats: number;
-        scope: number;
-        speed: number;
-        successRate: number;
-        tpGain: number;
-    }
-
-    export interface DataWeapon {
-        id: number;
-        animationId: number;
-        description: string;
-        etypeId: number;
-        traits: Trait[];
-        iconIndex: number;
-        name: string;
-        note: string;
-        params: number[];
-        price: number;
-        wtypeId: number;
-    }
-
-    export interface DataArmor {
-        id: number;
-        atypeId: number;
-        description: string;
-        etypeId: number;
-        traits: Trait[];
-        iconIndex: number;
-        name: string;
-        note: string;
-        params: number[];
-        price: number;
-    }
-
-    export interface DataEnemy {
+    export interface DataEnemy extends Data {
         id: number;
         actions: Action[];
         battlerHue: number;
@@ -116,14 +94,14 @@ declare namespace RPG {
         params: number[];
     }
 
-    export interface DataTroop {
+    export interface DataTroop extends Data {
         id: number;
         members: Member[];
         name: string;
         pages: Page[];
     }
 
-    export interface DataState {
+    export interface DataState extends Data {
         id: number;
         autoRemovalTiming: number;
         chanceByDamage: number;
@@ -164,7 +142,7 @@ declare namespace RPG {
         speed: number;
     }
 
-    export interface DataTileset {
+    export interface DataTileset extends Data {
         id: number;
         flags: number[];
         mode: number;
@@ -287,10 +265,7 @@ declare namespace RPG {
         volume: number;
     }
 
-    export interface Event {
-        id: number;
-        name: string;
-        note: string;
+    export interface Event extends Data {
         pages: Page[];
         x: number;
         y: number;
