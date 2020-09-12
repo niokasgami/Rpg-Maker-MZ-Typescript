@@ -9,12 +9,12 @@
   "types": "./lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/niokasgami/Rpg-Maker-MZ-Typescript.git"
+    "url": "git+https://github.com/masked-rpgmaker/Rpg-Maker-MZ-Typescript.git"
   },
   "author": "Nio Kasgami",
   "license": "LicenseRef-LICENSE",
   "bugs": {
-    "url": "https://github.com/niokasgami/Rpg-Maker-MZ-Typescript/issues"
+    "url": "https://github.com/masked-rpgmaker/Rpg-Maker-MZ-Typescript/issues"
   },
   "homepage": "https://github.com/niokasgami/Rpg-Maker-MZ-Typescript#readme",
   "dependencies": {
