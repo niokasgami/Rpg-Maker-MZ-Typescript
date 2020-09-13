@@ -29,16 +29,20 @@ declare class Window_BattleLog extends Window_Base {
     public setWaitMode(waitMode: string): void;
     public callNextMethod(): void;
     public isFastForward(): boolean;
+    
     /**
      * Adds a method and any accompanying parameters to the list of methods that
      * need to be called. The method needs to be a member of this object, and the
      * parameters must be applicable to the method.
-     * //TODO can we get any type safety on this?
      * 
      * @param methodName The name of a method to call.
      * @param args The arguments to pass to the method, if any.
      */
-    public push(methodName:string, ...args: any[]): void;
+    public push<K extends keyof this, F extends (...args: unknown[]) => unknown>(
+        methodName: K,
+        ...args: this[K] extends F ? Parameters<this[K]> : never
+    ): this[K] extends F ? void : never;
+   
     public clear(): void;
     public wait(): void;
     public waitForEffect(): void;
