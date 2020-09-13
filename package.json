@@ -1,6 +1,6 @@
 {
   "name": "@comuns-rpgmaker/rpg-maker-mz-typescript",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Type definitions for the RPG Maker MZ core script",
   "main": "index.js",
   "files": [
