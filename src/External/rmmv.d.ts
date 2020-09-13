@@ -10631,7 +10631,7 @@ declare class Game_Enemy extends Game_Battler {
 
     constructor(enemyId: number, x: number, y: number);
 
-    initMembers(): void;
+    public initMembers(): void;
     setup(enemyId: number, x: number, y: number): void;
     /**
      * Returns the other troops in the enemy team.

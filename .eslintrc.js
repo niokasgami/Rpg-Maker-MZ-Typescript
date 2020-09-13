@@ -9,4 +9,16 @@ module.exports = {
       'eslint:recommended',
       'plugin:@typescript-eslint/recommended',
     ],
+    rules : {
+      "@typescript-eslint/explicit-member-accessibility": "off"
+    },
+    overrides: [
+      {
+        // enable the rule specifically for TypeScript files
+        "files": ["*.ts", "*.tsx"],
+        "rules": {
+          "@typescript-eslint/explicit-member-accessibility": ["error"]
+        }
+      }
+    ]
   };
