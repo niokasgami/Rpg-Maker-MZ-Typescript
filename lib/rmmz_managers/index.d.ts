@@ -3,7 +3,6 @@ export * from './BattleManager';
 export * from './ColorManager';
 export * from './ConfigManager';
 export * from './DataManager';
-export * from './globals';
 export * from './EffectManager';
 export * from './FontManager';
 export * from './ImageManager';
