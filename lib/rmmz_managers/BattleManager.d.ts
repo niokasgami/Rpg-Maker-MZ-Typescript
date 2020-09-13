@@ -1,8 +1,8 @@
-import { Game_Actor, Game_Action } from '../rmmz_objects';
+import { Game_Battler, Game_Actor, Game_Action } from 'rmmz_objects';
 
-import { Spriteset_Battle } from "../rmmz_sprites";
+import { Spriteset_Battle } from 'rmmz_sprites';
 
-import { Window_BattleLog } from '../rmmz_windows';
+import { Window_BattleLog } from 'rmmz_windows';
 
 declare namespace BattleManager {
 

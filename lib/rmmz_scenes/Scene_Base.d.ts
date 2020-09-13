@@ -1,10 +1,10 @@
-import {Stage} from "../rmmz_core/Stage";
-import {WindowLayer} from "../rmmz_core/WindowLayer";
-import {ColorFilter} from "../rmmz_core/ColorFilter";
-import {Window} from "../rmmz_core/Window";
-import {Sprite} from "../rmmz_core/Sprite";
+import {Stage} from "rmmz_core/Stage";
+import {WindowLayer} from "rmmz_core/WindowLayer";
+import {ColorFilter} from "rmmz_core/ColorFilter";
+import {Window} from "rmmz_core/Window";
+import {Sprite} from "rmmz_core/Sprite";
 
-abstract class Scene_Base extends Stage {
+declare abstract class Scene_Base extends Stage {
 
     protected _started: boolean;
     protected _active: boolean;
@@ -15,10 +15,7 @@ abstract class Scene_Base extends Stage {
     protected _windowLayer: WindowLayer;
     protected _colorFilter: ColorFilter;
 
-
-    protected constructor(...arguments?: never[]);
-
-    public abstract initialize(...arguments: never[]): void;
+    protected constructor();
 
     public abstract create(): void;
 

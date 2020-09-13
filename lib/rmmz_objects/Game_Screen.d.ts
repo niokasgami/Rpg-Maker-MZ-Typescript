@@ -30,7 +30,7 @@ declare class Game_Screen {
     private _weatherPowerTarget: number;
     private _weatherDuration: number;
 
-    private _pictures: Game_Pictures[];
+    private _pictures/*: Game_Pictures[]*/; // FIXME
 
     constructor();
     public initialize(): void;

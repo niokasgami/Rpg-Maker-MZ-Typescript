@@ -1,4 +1,5 @@
-type GameType = RPG.DataSkill | RPG.DataItem | RPG.DataWeapon | RPG.DataArmor;
+import { RPG } from "RPG";
+
 declare class Game_Item {
 
     private _dataClass: string;
@@ -15,10 +16,10 @@ declare class Game_Item {
     public isEquipItem(): boolean;
     public isNull(): string;
     public itemId(): number;
-    public object(): GameType;
+    public object(): RPG.DataItemBase;
     public setObject(item: Record<string, unknown>): void;
     public setEquip(isWeapon: boolean, itemId: number): void;
 
 }
 
-export { Game_Item, GameType }
+export { Game_Item };

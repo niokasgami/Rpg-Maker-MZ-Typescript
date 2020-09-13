@@ -1,20 +1,22 @@
-import { Window } from "../rmmz_core/Window";
-import { Rectangle } from "../rmmz_core/Rectangle";
+import { Window } from "rmmz_core/Window";
+import { Rectangle } from "rmmz_core/Rectangle";
 
-declare interface TextState{
-    public text: string;
-    public index: number;
-    public x: number;
-    public y: number;
-    public width: number;
-    public height: number;
-    public startX: number;
-    public startY: number;
-    public rtl: boolean;
-    public buffer: string;
-    public drawing: boolean;
-    public outputWidth: number;
-    public outputHeight: number;
+declare namespace Window_Base {
+    export interface TextState {
+        text: string;
+        index: number;
+        x: number;
+        y: number;
+        width: number;
+        height: number;
+        startX: number;
+        startY: number;
+        rtl: boolean;
+        buffer: string;
+        drawing: boolean;
+        outputWidth: number;
+        outputHeight: number;
+    }
 }
 
 /**
@@ -87,24 +89,24 @@ declare class Window_Base extends Window{
     public textWidth(text: string): number;
     public drawTextEx(text: string, x: number, y: number, width: number): number;
     public textSizeEx(text: string): { width: number, height: number };
-    public createTextState(text: string, x: number, y: number, width: number): TextState;
-    public processAllText(textState: TextState): void;
-    public flushTextState(textState: TextState): void;
+    public createTextState(text: string, x: number, y: number, width: number): Window_Base.TextState;
+    public processAllText(textState: Window_Base.TextState): void;
+    public flushTextState(textState: Window_Base.TextState): void;
     public createTextBuffer(rtl: boolean): string;
     public convertEscapeCharacters(text: string): string;
     public actorName(n: number): string;
     public partyMemberName(n: number): string;
-    public processCharacter(textState: TextState): void;
-    public processControlCharacter(textState: TextState, c: string): void;
-    public processNewLine(textState: TextState): void;
-    public obtainEscapeCode(textState: TextState): void;
-    public obtainEscapeParam(textState: TextState): number | string;
-    public processEscapeCharacter(code: string, textState: TextState): void;
+    public processCharacter(textState: Window_Base.TextState): void;
+    public processControlCharacter(textState: Window_Base.TextState, c: string): void;
+    public processNewLine(textState: Window_Base.TextState): void;
+    public obtainEscapeCode(textState: Window_Base.TextState): void;
+    public obtainEscapeParam(textState: Window_Base.TextState): number | string;
+    public processEscapeCharacter(code: string, textState: Window_Base.TextState): void;
     public processColorChange(colorIndex: number): void;
-    public processDrawIcon(iconIndex: number, textState: TextState): void;
+    public processDrawIcon(iconIndex: number, textState: Window_Base.TextState): void;
     public makeFontBigger(): void;
     public makeFontSmaller(): void;
-    public calcTextHeight(textState: TextState): number;
+    public calcTextHeight(textState: Window_Base.TextState): number;
     public maxFontSizeInLine(line: string): number;
     public drawIcon(iconIndex: number, x: number, y: number): void;
     public drawFace(faceName: string, faceIndex: number, x: number, y: number, width: number, height: number): void;
@@ -124,4 +126,4 @@ declare class Window_Base extends Window{
     public playBuzzerSound(): void;
 }
 
-export {Window_Base, TextState}
+export { Window_Base };

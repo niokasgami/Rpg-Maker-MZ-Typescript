@@ -1,5 +1,5 @@
 import { Window_HorzCommand } from "./Window_HorzCommand";
-import { Rectangle } from "../rmmz_core/Rectangle";
+import { Rectangle } from "rmmz_core/Rectangle";
 import { Window_ItemList } from "./Window_ItemList";
 
 /**

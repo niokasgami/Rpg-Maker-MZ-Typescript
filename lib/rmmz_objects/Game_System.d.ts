@@ -1,4 +1,4 @@
-import { CurrentAudio } from "../rpg_manager/AudioManager";
+import { AudioManager } from "rmmz_managers";
 
 declare class Game_System {
 
@@ -13,14 +13,14 @@ declare class Game_System {
     private _versionId: number;
     private _savefileId: number;
     private _framesOnSave: number;
-    private _bgmOnSave: CurrentAudio;
-    private _bgsOnSave: CurrentAudio;
+    private _bgmOnSave: AudioManager.CurrentAudio;
+    private _bgsOnSave: AudioManager.CurrentAudio;
     private _windowTone: number[];
-    private _battleBgm: CurrentAudio;
-    private _victoryMe: CurrentAudio;
-    private _defeatMe: CurrentAudio;
-    private _savedBgm: CurrentAudio;
-    private _walkingBgm: CurrentAudio;
+    private _battleBgm: AudioManager.CurrentAudio;
+    private _victoryMe: AudioManager.CurrentAudio;
+    private _defeatMe: AudioManager.CurrentAudio;
+    private _savedBgm: AudioManager.CurrentAudio;
+    private _walkingBgm: AudioManager.CurrentAudio;
 
     constructor();
     public initialize(): void;
@@ -52,12 +52,12 @@ declare class Game_System {
     public setSavefileId(savefileId: number): void;
     public windowTone(): number[];
     public setWindowTone(value: number[]): void;
-    public battleBgm(): CurrentAudio;
-    public setBattleBgm(value: CurrentAudio): void;
-    public victoryMe(): CurrentAudio;
-    public setVictoryMe(value: CurrentAudio): void;
-    public defeatMe(): CurrentAudio;
-    public setDefeatMe(value: CurrentAudio): void;
+    public battleBgm(): AudioManager.CurrentAudio;
+    public setBattleBgm(value: AudioManager.CurrentAudio): void;
+    public victoryMe(): AudioManager.CurrentAudio;
+    public setVictoryMe(value: AudioManager.CurrentAudio): void;
+    public defeatMe(): AudioManager.CurrentAudio;
+    public setDefeatMe(value: AudioManager.CurrentAudio): void;
     public onBattleStart(): void;
     public onBattleWin(): void;
     public onBattleEscape(): void;
@@ -74,6 +74,7 @@ declare class Game_System {
     public numberFontFace(): string;
     public mainFontSize(): number;
     public windowPadding(): number
+
 }
 
-export { Game_System }
+export { Game_System };

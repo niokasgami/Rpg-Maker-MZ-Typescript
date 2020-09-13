@@ -22,15 +22,10 @@ All types are available from the top-level module:
 import { DataManager, $gameParty, Game_Character } from 'rmmz';
 ```
 
-Alternatively, you might import each module separately:
+## Configure with Rollup.js
 
-```ts
-import * as core from 'rmmz/rmmz_core';
-import * as objects from 'rmmz/rmmz_objects';
-import * as globals from 'rmmz/globals';
-
-// ...
-```
+All you need is to set `external: ["rmmz"]` and `output.globals.rmmz: "window"`
+in `rollup.config.js`.
 
 
 # Contributing

@@ -1,6 +1,7 @@
-import { Window_StatusBase } from "./Window_StatusBase";
-import { Rectangle } from "../rmmz_core/Rectangle";
-import { Game_Actor } from "../rmmz_core/Game_Actor";
+import { Window_StatusBase } from ".";
+
+import { Rectangle } from "rmmz_core";
+import { Game_Actor } from "rmmz_objects";
 
 /**
  * Window_EquipStatus
@@ -15,7 +16,11 @@ declare class Window_EquipStatus extends Window_StatusBase {
     public refresh(): void;
     public setTempActor(tempActor: Game_Actor): void;
     public drawAllParams(): void;
+
+    // Workaround to make TS accept bad OOP :s
+    public drawItem(index: number): never;
     public drawItem(x: number, y: number, paramId: number): void;
+
     public drawParamName(x: number, y: number, paramId: number): void;
     public drawCurrentParam(x: number, y: number, paramId: number): void;
     public drawRightArrow(x: number, y: number): void;

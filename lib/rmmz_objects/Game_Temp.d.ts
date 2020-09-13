@@ -1,3 +1,4 @@
+import { RPG } from "RPG";
 
 declare class Game_Temp {
 
@@ -31,7 +32,7 @@ declare class Game_Temp {
     public reserveCommonEvent(commonEventId: number): void;
     public retrieveCommonEvent(): RPG.DataCommonEvent;
     public isCommonEventReserved(): boolean;
-    public requestAnimation(targets: unknown, animationId: number, mirror: boolean = false): void;
+    public requestAnimation(targets: unknown, animationId: number, mirror?: boolean): void;
     public retrieveAnimation(): unknown;
     public requestBalloon(target: unknown, balloonId: number): void;
     public retrieveBalloon(): unknown;

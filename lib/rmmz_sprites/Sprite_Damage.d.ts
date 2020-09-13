@@ -2,9 +2,9 @@
  * @author Brandt (Masked)
  */
 
-import { Sprite, Bitmap } from '../rmmz_core';
+import { Sprite, Bitmap } from 'rmmz_core';
 
-import { Game_Battler } from '../rmmz_objects';
+import { Game_Battler } from 'rmmz_objects';
 
 declare class Sprite_Damage extends Sprite {
 

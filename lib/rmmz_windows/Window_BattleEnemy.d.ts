@@ -1,6 +1,8 @@
 import { Window_Selectable } from "./Window_Selectable";
-import { Rectangle } from "../rmmz_core/Rectangle";
-import { Game_Actor } from "../rmmz_core/Game_Actor";
+
+import { Rectangle } from "rmmz_core";
+
+import { Game_Actor } from "rmmz_objects";
 
 /**
  * Window_BattleEnemy
