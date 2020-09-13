@@ -19,15 +19,12 @@
   "homepage": "https://github.com/niokasgami/Rpg-Maker-MZ-Typescript#readme",
   "dependencies": {
     "@types/pako": "^1.0.1",
-    "@types/pixi.js": "^5.0.0",
-    "pixi-particles": "^4.2.1",
     "pixi.js": "^5.3.0",
-    "typescript": "^3.9.7"
+    "typescript": "^4.0.2"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.9.0",
     "@typescript-eslint/parser": "^3.9.0",
-    "eslint": "^7.6.0",
-    "typedoc": "^0.17.8"
+    "eslint": "^7.6.0"
   }
 }
