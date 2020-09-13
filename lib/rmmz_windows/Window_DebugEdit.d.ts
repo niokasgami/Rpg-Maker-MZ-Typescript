@@ -1,5 +1,5 @@
 import { Window_Selectable } from "./Window_Selectable";
-import { Rectangle } from "../rmmz_core/Rectangle";
+import { Rectangle } from "rmmz_core/Rectangle";
 
 /**
  * Window_DebugEdit

@@ -1,6 +1,7 @@
-import { Window_Command } from "./Window_Command";
-import { Rectangle } from "../rmmz_core/Rectangle";
-import { Game_Actor } from "../rpg_object/Game_Actor";
+import { Window_Command } from ".";
+
+import { Rectangle } from "rmmz_core";
+import { Game_Actor } from "rmmz_objects";
 
 /**
  * Window_ActorCommand

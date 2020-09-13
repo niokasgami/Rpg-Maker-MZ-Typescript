@@ -4,6 +4,8 @@
 
 import { Spriteset_Base, Sprite_Battler } from '.';
 
+import { Game_Battler } from 'rmmz_objects';
+
 declare class Spriteset_Battle extends Spriteset_Base<Game_Battler, Sprite_Battler> {
 
     constructor();

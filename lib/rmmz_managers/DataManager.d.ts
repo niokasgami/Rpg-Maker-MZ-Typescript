@@ -1,4 +1,14 @@
-import { RPG } from "../RPG";
+import { RPG } from "RPG";
+
+import {
+    Game_System,
+    Game_Screen,
+    Game_Timer,
+    Game_Switches,
+    Game_Variables,
+    Game_SelfSwitches,
+    Game_Party  
+} from 'rmmz_objects';
 
 declare interface SavefileInfo {
     title: string;
@@ -15,10 +25,10 @@ declare interface SavefileContent {
     switches: Game_Switches;
     variables: Game_Variables;
     selfSwitches: Game_SelfSwitches;
-    actors: Game_Actors;
+    actors/*:  Game_Actors */; // FIXME
     party: Game_Party;
-    map: Game_Map;
-    player: Game_Player;
+    map/*: Game_Map */; // FIXME
+    player/*: Game_Player */; // FIXME
 }
 
 declare namespace DataManager {

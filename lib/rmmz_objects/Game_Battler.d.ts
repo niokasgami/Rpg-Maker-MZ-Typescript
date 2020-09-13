@@ -2,7 +2,7 @@
  * @author Brandt (Masked)
  */
 
-import { RPG } from '../RPG';
+import { RPG } from 'RPG';
 
 import { Game_BattlerBase, Game_Action, Game_Unit } from '.';
 
@@ -55,7 +55,7 @@ declare abstract class Game_Battler extends Game_BattlerBase {
     numActions(): number;
     clearActions(): void;
 
-    result(): Game_ActionResult;
+    result()/*: Game_ActionResult */; // FIXME
     clearResult(): void;
 
     clearResult(): void;

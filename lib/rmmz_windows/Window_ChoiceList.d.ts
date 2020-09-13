@@ -1,6 +1,4 @@
-import { Window_Command } from "./Window_Command";
-import { Rectangle } from "../rmmz_core/Rectangle";
-import { Window_Message } from "./Window_Message";
+import { Window_Command, Window_Message } from ".";
 
 /**
  * Window_ChoiceList

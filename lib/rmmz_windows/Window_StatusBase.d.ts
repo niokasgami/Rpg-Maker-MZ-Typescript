@@ -1,6 +1,7 @@
-import { Window_Selectable } from "./Window_Selectable";
-import { Rectangle } from "../rmmz_core/Rectangle";
-import { Game_Actor } from "../rmmz_core/Game_Actor";
+import { Window_Selectable } from ".";
+
+import { Rectangle, Sprite } from "rmmz_core";
+import { Game_Actor } from "rmmz_objects";
 
 /**
  * Window_StatusBase
@@ -8,6 +9,7 @@ import { Game_Actor } from "../rmmz_core/Game_Actor";
  * The superclass of windows for displaying actor status.
  */
 declare class Window_StatusBase extends Window_Selectable {
+
     constructor(rect: Rectangle);
 
     public loadFaceImages(): void;
@@ -19,7 +21,7 @@ declare class Window_StatusBase extends Window_Selectable {
 
     // This method will usually return an object created with 'new spriteClass()',
     // but will return an existing Sprite if it finds one, which can be any kind of 'Sprite'
-    public createInnerSprite(key: string, spriteClass: new() => Sprite): Sprite;
+    public createInnerSprite(key: string, spriteClass: new () => Sprite): Sprite;
 
     public placeTimeGauge(actor: Game_Actor, x: number, y: number): void;
     public placeBasicGauges(actor: Game_Actor, x: number, y: number): void;
@@ -33,6 +35,7 @@ declare class Window_StatusBase extends Window_Selectable {
     public drawActorIcons(actor: Game_Actor, x: number, y: number, width: number): void;
     public drawActorSimpleStatus(actor: Game_Actor, x: number, y: number): void;
     public actorSlotName(actor: Game_Actor, index: number): string;
+
 }
 
 export { Window_StatusBase }

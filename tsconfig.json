@@ -4,11 +4,13 @@
     "module": "es2015",
     "moduleResolution": "node",
     "lib": ["ES6", "ES5", "ES2015.Iterable", "DOM", "DOM.Iterable"],
+    "baseUrl": "lib",
     "declaration": true,
     "noEmit": true,
     "strict": false,
     "esModuleInterop": true,
     "skipLibCheck": false,
-    "forceConsistentCasingInFileNames": true
-  }
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": ["./lib/**/*.ts"]
 }

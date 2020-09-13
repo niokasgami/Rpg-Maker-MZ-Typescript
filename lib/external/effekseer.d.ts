@@ -373,6 +373,4 @@ declare namespace effekseer {
     }
 }
 
-declare module "effekseer" {
-    export = effekseer;
-}
+export default effekseer;

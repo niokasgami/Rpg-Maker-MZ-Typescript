@@ -1,4 +1,4 @@
-import { Sprite, Rectangle } from "../rmmz_core";
+import { Sprite, Rectangle } from "rmmz_core";
 
 
 declare abstract class Sprite_Clickable extends Sprite {
