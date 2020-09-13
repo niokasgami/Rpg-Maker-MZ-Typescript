@@ -1,5 +1,5 @@
 {
-  "name": "@masked-rpgmaker/rpg-maker-mz-typescript",
+  "name": "@comuns-rpgmaker/rpg-maker-mz-typescript",
   "version": "0.1.0",
   "description": "Type definitions for the RPG Maker MZ core script",
   "main": "index.js",
@@ -9,12 +9,12 @@
   "types": "./lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/masked-rpgmaker/Rpg-Maker-MZ-Typescript.git"
+    "url": "git+https://github.com/comuns-rpgmaker/rpg-maker-mz-typescript.git"
   },
   "author": "Nio Kasgami",
   "license": "LicenseRef-LICENSE",
   "bugs": {
-    "url": "https://github.com/masked-rpgmaker/Rpg-Maker-MZ-Typescript/issues"
+    "url": "https://github.com/comuns-rpgmaker/rpg-maker-mz-typescript/issues"
   },
   "homepage": "https://github.com/niokasgami/Rpg-Maker-MZ-Typescript#readme",
   "dependencies": {

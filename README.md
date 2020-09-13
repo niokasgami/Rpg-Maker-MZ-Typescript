@@ -20,7 +20,7 @@ head to the original repository.
 The project can be installed via NPM, both via the default NPM registry and the
 Github NPM Registry:
 
-    npm install rmmz@npm:@masked-rpgmaker/rpg-maker-mz-typescript
+    npm install rmmz@npm:@comuns-rpgmaker/rpg-maker-mz-typescript
 
 All types are available from the top-level module:
 
