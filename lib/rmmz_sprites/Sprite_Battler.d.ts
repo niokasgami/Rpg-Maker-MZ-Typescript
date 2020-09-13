@@ -12,46 +12,46 @@ declare class Sprite_Battler extends Sprite_Clickable {
 
     constructor(battler: Game_Battler);
 
-    initMembers(): void;
+    public initMembers(): void;
 
-    setBattler(battler: Game_Battler): void;
-    checkBattler(battler: Game_Battler): boolean;
+    public setBattler(battler: Game_Battler): void;
+    public checkBattler(battler: Game_Battler): boolean;
 
-    mainSprite(): Sprite;
+    public mainSprite(): Sprite;
 
-    setHome(x: number, y: number): void;
+    public setHome(x: number, y: number): void;
 
-    updateMain(): void;
+    public updateMain(): void;
 
-    updateBitmap(): void;
-    updateFrame(): void;
+    public updateBitmap(): void;
+    public updateFrame(): void;
 
-    updateMove(): void;
-    updatePosition(): void;
-    updateDamagePopup(): void;
-    updateSelectionEffect(): void;
+    public updateMove(): void;
+    public updatePosition(): void;
+    public updateDamagePopup(): void;
+    public updateSelectionEffect(): void;
 
-    setupDamagePopup(): void;
+    public setupDamagePopup(): void;
 
-    createDamageSprite(): void;
-    destroyDamageSprite(sprite: Sprite_Damage): void;
+    public createDamageSprite(): void;
+    public destroyDamageSprite(sprite: Sprite_Damage): void;
 
-    damageOffsetX(): number;
-    damageOffsetY(): number;
+    public damageOffsetX(): number;
+    public damageOffsetY(): number;
 
-    startMove(x: number, y: number, duration: number): void;
+    public startMove(x: number, y: number, duration: number): void;
 
-    onMoveEnd(): void;
+    public onMoveEnd(): void;
 
-    isEffecting(): boolean;
-    isMoving(): boolean;
-    inHomePosition(): boolean;
+    public isEffecting(): boolean;
+    public isMoving(): boolean;
+    public inHomePosition(): boolean;
 
-    onMouseEnter(): void;
-    onMouseExit(): void;
+    public onMouseEnter(): void;
+    public onMouseExit(): void;
     
-    onPress(): void;
-    onClick(): void;
+    public onPress(): void;
+    public onClick(): void;
 
 }
 

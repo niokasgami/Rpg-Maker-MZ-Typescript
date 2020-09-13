@@ -8,6 +8,7 @@ interface selfSwitches {
 declare class Game_SelfSwitches {
 
     private _data: selfSwitches;
+
     constructor();
 
     public initialize(): void;

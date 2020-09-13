@@ -12,51 +12,51 @@ declare class Spriteset_Base<T, S> extends Sprite {
 
     constructor();
 
-    loadSystemImages(): void;
+    public loadSystemImages(): void;
 
-    createLowerLayer(): void;
-    createUpperLayer(): void;
+    public createLowerLayer(): void;
+    public createUpperLayer(): void;
 
-    update(): void;
+    public update(): void;
 
-    createBaseSprite(): void;
-    createBaseFilters(): void;
+    public createBaseSprite(): void;
+    public createBaseFilters(): void;
 
-    createPictures(): void;
-    pictureContainerRect(): Rectangle;
+    public createPictures(): void;
+    public pictureContainerRect(): Rectangle;
 
-    createTimer(): void;
+    public createTimer(): void;
 
-    createOverallFilters(): void;
+    public createOverallFilters(): void;
 
-    updateBaseFilters(): void;
-    updateOverallFilters(): void;
+    public updateBaseFilters(): void;
+    public updateOverallFilters(): void;
 
-    updatePosition(): void;
+    public updatePosition(): void;
 
-    findTargetSprite(target: T): S;
+    public findTargetSprite(target: T): S;
 
-    updateAnimations(): void;
-    processAnimationRequests(): void;
-    createAnimation(): void;
-    createAnimationSprite(): void;
+    public updateAnimations(): void;
+    public processAnimationRequests(): void;
+    public createAnimation(): void;
+    public createAnimationSprite(): void;
 
-    isMVAnimation(animation: RPG.DataAnimation): boolean;
+    public isMVAnimation(animation: RPG.DataAnimation): boolean;
 
-    makeTargetSprites(targets: T[]): S[];
+    public makeTargetSprites(targets: T[]): S[];
 
-    lastAnimationSprite(): Sprite_Animation | Sprite_AnimationMV;
-    isAnimationForEach(animation: RPG.DataAnimation): boolean;
+    public lastAnimationSprite(): Sprite_Animation | Sprite_AnimationMV;
+    public isAnimationForEach(animation: RPG.DataAnimation): boolean;
 
-    animationBaseDelay(): number;
-    animationNextDelay(): number;
+    public animationBaseDelay(): number;
+    public animationNextDelay(): number;
 
-    animationShouldMirror(target: Game_Battler): boolean;
+    public animationShouldMirror(target: Game_Battler): boolean;
 
-    removeAnimation(sprite: Sprite_Animation | Sprite_AnimationMV): void;
-    removeAllAnimations(): void;
+    public removeAnimation(sprite: Sprite_Animation | Sprite_AnimationMV): void;
+    public removeAllAnimations(): void;
 
-    isAnimationPlaying(): boolean;
+    public isAnimationPlaying(): boolean;
 
 }
 

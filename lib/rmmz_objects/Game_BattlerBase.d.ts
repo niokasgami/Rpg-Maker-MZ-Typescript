@@ -119,259 +119,259 @@ declare namespace Game_BattlerBase {
 
 declare class Game_BattlerBase {
 
-    static readonly TRAIT_ELEMENT_RATE: Game_BattlerBase.Traits.ELEMENT_RATE;
-    static readonly TRAIT_DEBUFF_RATE: Game_BattlerBase.Traits.DEBUFF_RATE;
-    static readonly TRAIT_STATE_RATE: Game_BattlerBase.Traits.STATE_RATE;
-    static readonly TRAIT_STATE_RESIST: Game_BattlerBase.Traits.STATE_RESIST;
-    static readonly TRAIT_PARAM: Game_BattlerBase.Traits.PARAM;
-    static readonly TRAIT_XPARAM: Game_BattlerBase.Traits.XPARAM;
-    static readonly TRAIT_SPARAM: Game_BattlerBase.Traits.SPARAM;
-    static readonly TRAIT_ATTACK_ELEMENT: Game_BattlerBase.Traits.ATTACK_ELEMENT;
-    static readonly TRAIT_ATTACK_STATE: Game_BattlerBase.Traits.ATTACK_STATE;
-    static readonly TRAIT_ATTACK_SPEED: Game_BattlerBase.Traits.ATTACK_SPEED;
-    static readonly TRAIT_ATTACK_TIMES: Game_BattlerBase.Traits.ATTACK_TIMES;
-    static readonly TRAIT_ATTACK_SKILL: Game_BattlerBase.Traits.ATTACK_SKILL;
-    static readonly TRAIT_STYPE_ADD: Game_BattlerBase.Traits.STYPE_ADD;
-    static readonly TRAIT_STYPE_SEAL: Game_BattlerBase.Traits.STYPE_SEAL;
-    static readonly TRAIT_SKILL_ADD: Game_BattlerBase.Traits.SKILL_ADD;
-    static readonly TRAIT_SKILL_SEAL: Game_BattlerBase.Traits.SKILL_SEAL;
-    static readonly TRAIT_EQUIP_WTYPE: Game_BattlerBase.Traits.EQUIP_WTYPE;
-    static readonly TRAIT_EQUIP_ATYPE: Game_BattlerBase.Traits.EQUIP_ATYPE;
-    static readonly TRAIT_EQUIP_LOCK: Game_BattlerBase.Traits.EQUIP_LOCK;
-    static readonly TRAIT_EQUIP_SEAL: Game_BattlerBase.Traits.EQUIP_SEAL;
-    static readonly TRAIT_SLOT_TYPE: Game_BattlerBase.Traits.SLOT_TYPE;
-    static readonly TRAIT_ACTION_PLUS: Game_BattlerBase.Traits.ACTION_PLUS;
-    static readonly TRAIT_SPECIAL_FLAG: Game_BattlerBase.Traits.SPECIAL_FLAG;
-    static readonly TRAIT_COLLAPSE_TYPE: Game_BattlerBase.Traits.COLLAPSE_TYPE;
-    static readonly TRAIT_PARTY_ABILITY: Game_BattlerBase.Traits.PARTY_ABILITY;
+    public static readonly TRAIT_ELEMENT_RATE: Game_BattlerBase.Traits.ELEMENT_RATE;
+    public static readonly TRAIT_DEBUFF_RATE: Game_BattlerBase.Traits.DEBUFF_RATE;
+    public static readonly TRAIT_STATE_RATE: Game_BattlerBase.Traits.STATE_RATE;
+    public static readonly TRAIT_STATE_RESIST: Game_BattlerBase.Traits.STATE_RESIST;
+    public static readonly TRAIT_PARAM: Game_BattlerBase.Traits.PARAM;
+    public static readonly TRAIT_XPARAM: Game_BattlerBase.Traits.XPARAM;
+    public static readonly TRAIT_SPARAM: Game_BattlerBase.Traits.SPARAM;
+    public static readonly TRAIT_ATTACK_ELEMENT: Game_BattlerBase.Traits.ATTACK_ELEMENT;
+    public static readonly TRAIT_ATTACK_STATE: Game_BattlerBase.Traits.ATTACK_STATE;
+    public static readonly TRAIT_ATTACK_SPEED: Game_BattlerBase.Traits.ATTACK_SPEED;
+    public static readonly TRAIT_ATTACK_TIMES: Game_BattlerBase.Traits.ATTACK_TIMES;
+    public static readonly TRAIT_ATTACK_SKILL: Game_BattlerBase.Traits.ATTACK_SKILL;
+    public static readonly TRAIT_STYPE_ADD: Game_BattlerBase.Traits.STYPE_ADD;
+    public static readonly TRAIT_STYPE_SEAL: Game_BattlerBase.Traits.STYPE_SEAL;
+    public static readonly TRAIT_SKILL_ADD: Game_BattlerBase.Traits.SKILL_ADD;
+    public static readonly TRAIT_SKILL_SEAL: Game_BattlerBase.Traits.SKILL_SEAL;
+    public static readonly TRAIT_EQUIP_WTYPE: Game_BattlerBase.Traits.EQUIP_WTYPE;
+    public static readonly TRAIT_EQUIP_ATYPE: Game_BattlerBase.Traits.EQUIP_ATYPE;
+    public static readonly TRAIT_EQUIP_LOCK: Game_BattlerBase.Traits.EQUIP_LOCK;
+    public static readonly TRAIT_EQUIP_SEAL: Game_BattlerBase.Traits.EQUIP_SEAL;
+    public static readonly TRAIT_SLOT_TYPE: Game_BattlerBase.Traits.SLOT_TYPE;
+    public static readonly TRAIT_ACTION_PLUS: Game_BattlerBase.Traits.ACTION_PLUS;
+    public static readonly TRAIT_SPECIAL_FLAG: Game_BattlerBase.Traits.SPECIAL_FLAG;
+    public static readonly TRAIT_COLLAPSE_TYPE: Game_BattlerBase.Traits.COLLAPSE_TYPE;
+    public static readonly TRAIT_PARTY_ABILITY: Game_BattlerBase.Traits.PARTY_ABILITY;
 
-    static readonly FLAG_ID_AUTO_BATTLE: Game_BattlerBase.FlagIds.AUTO_BATTLE;
-    static readonly FLAG_ID_GUARD: Game_BattlerBase.FlagIds.GUARD;
-    static readonly FLAG_ID_SUBSTITUTE: Game_BattlerBase.FlagIds.SUBSTITUTE;
-    static readonly FLAG_ID_PRESERVE_TP: Game_BattlerBase.FlagIds.PRESERVE_TP;
+    public static readonly FLAG_ID_AUTO_BATTLE: Game_BattlerBase.FlagIds.AUTO_BATTLE;
+    public static readonly FLAG_ID_GUARD: Game_BattlerBase.FlagIds.GUARD;
+    public static readonly FLAG_ID_SUBSTITUTE: Game_BattlerBase.FlagIds.SUBSTITUTE;
+    public static readonly FLAG_ID_PRESERVE_TP: Game_BattlerBase.FlagIds.PRESERVE_TP;
     
-    static readonly ICON_BUFF_START: 32;
-    static readonly ICON_DEBUFF_START: 48;
+    public static readonly ICON_BUFF_START: 32;
+    public static readonly ICON_DEBUFF_START: 48;
 
     constructor();
 
-    readonly hp: number;
-    readonly mp: number;
-    readonly tp: number;
+    public readonly hp: number;
+    public readonly mp: number;
+    public readonly tp: number;
 
-    readonly mhp: number;
-    readonly mmp: number;
-    readonly atk: number;
-    readonly def: number;
-    readonly mat: number;
-    readonly mdf: number;
-    readonly agi: number;
-    readonly luk: number;
+    public readonly mhp: number;
+    public readonly mmp: number;
+    public readonly atk: number;
+    public readonly def: number;
+    public readonly mat: number;
+    public readonly mdf: number;
+    public readonly agi: number;
+    public readonly luk: number;
 
-    readonly hit: number;
-    readonly eva: number;
-    readonly cri: number;
-    readonly cev: number;
-    readonly mev: number;
-    readonly mrf: number;
-    readonly cnt: number;
-    readonly hrg: number;
-    readonly mrg: number;
-    readonly trg: number;
+    public readonly hit: number;
+    public readonly eva: number;
+    public readonly cri: number;
+    public readonly cev: number;
+    public readonly mev: number;
+    public readonly mrf: number;
+    public readonly cnt: number;
+    public readonly hrg: number;
+    public readonly mrg: number;
+    public readonly trg: number;
 
-    readonly tgr: number;
-    readonly grd: number;
-    readonly rec: number;
-    readonly pha: number;
-    readonly mcr: number;
-    readonly tcr: number;
-    readonly pdr: number;
-    readonly mdr: number;
-    readonly fdr: number;
-    readonly exr: number;
+    public readonly tgr: number;
+    public readonly grd: number;
+    public readonly rec: number;
+    public readonly pha: number;
+    public readonly mcr: number;
+    public readonly tcr: number;
+    public readonly pdr: number;
+    public readonly mdr: number;
+    public readonly fdr: number;
+    public readonly exr: number;
     
-    initMembers(): void;
+    public initMembers(): void;
 
-    clearParamPlus(): void;
+    public clearParamPlus(): void;
 
-    clearStates(): void;
-    eraseState(stateId: number): void;
-    isStateAffected(stateId: number): boolean;
-    isDeathStateAffected(): boolean;
+    public clearStates(): void;
+    public eraseState(stateId: number): void;
+    public isStateAffected(stateId: number): boolean;
+    public isDeathStateAffected(): boolean;
 
-    deathStateId(): number;
+    public deathStateId(): number;
 
-    resetStateCounts(stateId: number): void;    
+    public resetStateCounts(stateId: number): void;    
 
-    isStateExpired(stateId: number): boolean;
+    public isStateExpired(stateId: number): boolean;
 
-    updateStateTurns(): void;
+    public updateStateTurns(): void;
 
-    clearBuffs(): void;
-    eraseBuff(paramId: Game_BattlerBase.Params): void;
-    buffLength(): number;
-    buff(paramId: Game_BattlerBase.Params): number;
+    public clearBuffs(): void;
+    public eraseBuff(paramId: Game_BattlerBase.Params): void;
+    public buffLength(): number;
+    public buff(paramId: Game_BattlerBase.Params): number;
 
-    isBuffAffected(paramId: Game_BattlerBase.Params): boolean;
-    isDebuffAffected(paramId: Game_BattlerBase.Params): boolean;
-    isBuffOrDebuffAffected(paramId: Game_BattlerBase.Params): boolean;
-    isMaxBuffAffected(paramId: Game_BattlerBase.Params): boolean;
-    isMaxDebuffAffected(paramId: Game_BattlerBase.Params): boolean;
+    public isBuffAffected(paramId: Game_BattlerBase.Params): boolean;
+    public isDebuffAffected(paramId: Game_BattlerBase.Params): boolean;
+    public isBuffOrDebuffAffected(paramId: Game_BattlerBase.Params): boolean;
+    public isMaxBuffAffected(paramId: Game_BattlerBase.Params): boolean;
+    public isMaxDebuffAffected(paramId: Game_BattlerBase.Params): boolean;
 
-    increaseBuff(paramId: Game_BattlerBase.Params): void;
-    decreaseBuff(paramId: Game_BattlerBase.Params): void;
+    public increaseBuff(paramId: Game_BattlerBase.Params): void;
+    public decreaseBuff(paramId: Game_BattlerBase.Params): void;
 
-    overwriteBuffTurns(paramId: Game_BattlerBase.Params, turns: number): void;
+    public overwriteBuffTurns(paramId: Game_BattlerBase.Params, turns: number): void;
 
-    isBuffExpired(paramId: Game_BattlerBase.Params): boolean;
-    updateBuffTurns(): void;
+    public isBuffExpired(paramId: Game_BattlerBase.Params): boolean;
+    public updateBuffTurns(): void;
 
-    die(): void;
-    revive(): void;
+    public die(): void;
+    public revive(): void;
 
-    states(): RPG.DataState[];
+    public states(): RPG.DataState[];
 
-    stateIcons(): number[];
-    buffIcons(): number[];
+    public stateIcons(): number[];
+    public buffIcons(): number[];
 
-    buffIconIndex(buffLevel: number, paramId: Game_BattlerBase.Params): number;
+    public buffIconIndex(buffLevel: number, paramId: Game_BattlerBase.Params): number;
 
-    allIcons(): number[];
+    public allIcons(): number[];
     
-    traitObjects(): { traits: RPG.Trait[] }[];
-    allTraits(): RPG.Trait[];
+    public traitObjects(): { traits: RPG.Trait[] }[];
+    public allTraits(): RPG.Trait[];
 
-    traits(code: Game_BattlerBase.Traits): RPG.Trait[];
-    traitsWithId(code: Game_BattlerBase.Traits, id: number): RPG.Trait[];
-    traitsPi(code: Game_BattlerBase.Traits, id: number): number;
-    traitsSum(code: Game_BattlerBase.Traits, id: number): number;
-    traitsSumAll(code: Game_BattlerBase.Traits): number;
-    traitsSet(code: Game_BattlerBase.Traits): number[];
+    public traits(code: Game_BattlerBase.Traits): RPG.Trait[];
+    public traitsWithId(code: Game_BattlerBase.Traits, id: number): RPG.Trait[];
+    public traitsPi(code: Game_BattlerBase.Traits, id: number): number;
+    public traitsSum(code: Game_BattlerBase.Traits, id: number): number;
+    public traitsSumAll(code: Game_BattlerBase.Traits): number;
+    public traitsSet(code: Game_BattlerBase.Traits): number[];
 
-    paramBase(paramId: Game_BattlerBase.Params): number;
-    paramPlus(paramId: Game_BattlerBase.Params): number;
-    paramBasePlus(paramId: Game_BattlerBase.Params): number;
+    public paramBase(paramId: Game_BattlerBase.Params): number;
+    public paramPlus(paramId: Game_BattlerBase.Params): number;
+    public paramBasePlus(paramId: Game_BattlerBase.Params): number;
 
-    paramMin(paramId: Game_BattlerBase.Params): number;
-    paramMax(paramId: Game_BattlerBase.Params): number;
+    public paramMin(paramId: Game_BattlerBase.Params): number;
+    public paramMax(paramId: Game_BattlerBase.Params): number;
 
-    paramRate(paramId: Game_BattlerBase.Params): number;
-    paramBuffRate(paramId: Game_BattlerBase.Params): number;
+    public paramRate(paramId: Game_BattlerBase.Params): number;
+    public paramBuffRate(paramId: Game_BattlerBase.Params): number;
 
-    param(paramId: Game_BattlerBase.Params): number;
-    xparam(paramId: Game_BattlerBase.ExtraParams): number;
-    sparam(paramId: Game_BattlerBase.SpecialParams): number;
+    public param(paramId: Game_BattlerBase.Params): number;
+    public xparam(paramId: Game_BattlerBase.ExtraParams): number;
+    public sparam(paramId: Game_BattlerBase.SpecialParams): number;
     
-    elementRate(elementId: number): number;
-    debuffRate(paramId: Game_BattlerBase.Params): number;
+    public elementRate(elementId: number): number;
+    public debuffRate(paramId: Game_BattlerBase.Params): number;
 
-    stateRate(stateId: number): number;
-    stateResistSet(): number[];
-    isStateResist(stateId: number): boolean;
+    public stateRate(stateId: number): number;
+    public stateResistSet(): number[];
+    public isStateResist(stateId: number): boolean;
 
-    attackElements(): number[];
-    attackStates(): number[];
-    attackStatesRate(stateId: number): number;
-    attackSpeed(): number;
-    attackTimesAdd(): number;
+    public attackElements(): number[];
+    public attackStates(): number[];
+    public attackStatesRate(stateId: number): number;
+    public attackSpeed(): number;
+    public attackTimesAdd(): number;
 
-    attackSkillId(): number;
-    attackSkillTypes(): number[];
-    addedSkillTypes(): number[];
-    isSkillTypeSealed(stypeId: number): boolean;
-    addedSkills(): number[];
-    isSkillSealed(skillId: number): boolean;
+    public attackSkillId(): number;
+    public attackSkillTypes(): number[];
+    public addedSkillTypes(): number[];
+    public isSkillTypeSealed(stypeId: number): boolean;
+    public addedSkills(): number[];
+    public isSkillSealed(skillId: number): boolean;
 
-    isEquipWtypeOk(wtypeId: number): boolean;
-    isEquipAtypeOk(atypeId: number): boolean;
-    isEquipTypeLocked(etypeId: number): boolean;
-    isEquipTypeSealed(etypeId: number): boolean;
+    public isEquipWtypeOk(wtypeId: number): boolean;
+    public isEquipAtypeOk(atypeId: number): boolean;
+    public isEquipTypeLocked(etypeId: number): boolean;
+    public isEquipTypeSealed(etypeId: number): boolean;
 
-    slotType(): number;
+    public slotType(): number;
 
-    isDualWield(): boolean;
+    public isDualWield(): boolean;
 
-    actionPlusSet(): number[];
-    specialFlag(flagId: Game_BattlerBase.FlagIds): boolean;
+    public actionPlusSet(): number[];
+    public specialFlag(flagId: Game_BattlerBase.FlagIds): boolean;
 
-    collapseType(): Game_BattlerBase.CollapseType;
+    public collapseType(): Game_BattlerBase.CollapseType;
 
-    partyAbility(abilityId: number): boolean;
+    public partyAbility(abilityId: number): boolean;
 
-    isAutoBattle(): boolean;
-    isGuard(): boolean;
-    isSubstitute(): boolean;
-    isPreserveTp(): boolean;
+    public isAutoBattle(): boolean;
+    public isGuard(): boolean;
+    public isSubstitute(): boolean;
+    public isPreserveTp(): boolean;
 
-    addParam(paramId: Game_BattlerBase.Params, value: number): void;
+    public addParam(paramId: Game_BattlerBase.Params, value: number): void;
 
-    setHp(hp: number): void
-    setMp(mp: number): void
-    setTp(tp: number): void
+    public setHp(hp: number): void
+    public setMp(mp: number): void
+    public setTp(tp: number): void
 
-    maxTp(): number;
+    public maxTp(): number;
 
-    refresh(): void;
-    recoverAll(): void;
+    public refresh(): void;
+    public recoverAll(): void;
     
-    hpRate(): number;
-    mpRate(): number;
-    tpRate(): number;
+    public hpRate(): number;
+    public mpRate(): number;
+    public tpRate(): number;
 
-    hide(): void;
-    appear(): void;
-    isHidden(): boolean;
-    isAppeared(): boolean;
+    public hide(): void;
+    public appear(): void;
+    public isHidden(): boolean;
+    public isAppeared(): boolean;
 
-    isDead(): boolean;
-    isAlive(): boolean;
-    isDying(): boolean;
-    isRestricted(): boolean;
+    public isDead(): boolean;
+    public isAlive(): boolean;
+    public isDying(): boolean;
+    public isRestricted(): boolean;
 
-    canInput(): boolean;    
-    canMove(): boolean;
+    public canInput(): boolean;    
+    public canMove(): boolean;
 
-    isConfused(): boolean;
-    confusionLevel(): number;
+    public isConfused(): boolean;
+    public confusionLevel(): number;
 
-    isActor(): this is Game_Actor;
-    isEnemy(): this is Game_Enemy;
+    public isActor(): this is Game_Actor;
+    public isEnemy(): this is Game_Enemy;
 
-    sortStates(): void;
+    public sortStates(): void;
 
-    restriction(): number;
+    public restriction(): number;
 
-    addNewState(stateId: number): void;
+    public addNewState(stateId: number): void;
 
-    onRestrict(): void;
+    public onRestrict(): void;
 
-    mostImportantStateText(): string;
-    stateMotionIndex(): number;
-    stateOverlayIndex(): number;
+    public mostImportantStateText(): string;
+    public stateMotionIndex(): number;
+    public stateOverlayIndex(): number;
 
-    isSkillWtypeOk(skill: RPG.DataSkill): boolean;
+    public isSkillWtypeOk(skill: RPG.DataSkill): boolean;
     
-    skillMpCost(skill: RPG.DataSkill): number;
-    skillTpCost(skill: RPG.DataSkill): number;
+    public skillMpCost(skill: RPG.DataSkill): number;
+    public skillTpCost(skill: RPG.DataSkill): number;
 
-    canPaySkillCost(skill: RPG.DataSkill): boolean;
-    paySkillCost(skill: RPG.DataSkill): void;
+    public canPaySkillCost(skill: RPG.DataSkill): boolean;
+    public paySkillCost(skill: RPG.DataSkill): void;
 
-    isOccasionOk(item: RPG.DataItem): boolean;
-    meetsUsableItemConditions(item: RPG.DataConsumable): boolean;
-    meetsSkillConditions(skill: RPG.DataSkill): boolean;
-    meetsItemConditions(item: RPG.DataItem): boolean;
+    public isOccasionOk(item: RPG.DataItem): boolean;
+    public meetsUsableItemConditions(item: RPG.DataConsumable): boolean;
+    public meetsSkillConditions(skill: RPG.DataSkill): boolean;
+    public meetsItemConditions(item: RPG.DataItem): boolean;
 
-    canUse(item?: RPG.DataConsumable): boolean;
-    canEquip(item?: RPG.DataEquipItem): boolean;
+    public canUse(item?: RPG.DataConsumable): boolean;
+    public canEquip(item?: RPG.DataEquipItem): boolean;
 
-    canEquipWeapon(item: RPG.DataWeapon): boolean;
-    canEquipArmor(item: RPG.DataArmor): boolean;
+    public canEquipWeapon(item: RPG.DataWeapon): boolean;
+    public canEquipArmor(item: RPG.DataArmor): boolean;
 
-    guardSkillId(): number;
+    public guardSkillId(): number;
 
-    canAttack(): boolean;
-    canGuard(): boolean;
+    public canAttack(): boolean;
+    public canGuard(): boolean;
 
 }
 

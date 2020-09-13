@@ -12,13 +12,21 @@ module.exports = {
     rules : {
       "@typescript-eslint/explicit-member-accessibility": "off"
     },
+    ignorePatterns: ["lib/external/**"],
     overrides: [
       {
         // enable the rule specifically for TypeScript files
-        "files": ["*.ts", "*.tsx"],
-        "rules": {
-          "@typescript-eslint/explicit-member-accessibility": ["error"]
+        files: ["*.ts", "*.tsx"],
+        rules: {
+          "@typescript-eslint/explicit-member-accessibility": [
+            "error",
+            {
+              overrides: {
+                constructors: "no-public"
+              }
+            }
+          ]
         }
-      }
+      }     
     ]
   };

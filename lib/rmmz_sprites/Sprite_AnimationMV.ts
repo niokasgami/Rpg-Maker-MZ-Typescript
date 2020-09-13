@@ -10,54 +10,54 @@ declare class Sprite_AnimationMV extends Sprite {
 
     constructor();
 
-    initMembers(): void;
+    public initMembers(): void;
 
-    setup(
+    public setup(
         targets: Game_Battler[],
         animation: RPG.DataAnimation, // TODO: DataAnimationMV
         mirror: boolean,
         delay: number
     ): void;
 
-    setupRate(): number;
+    public setupRate(): number;
 
-    setupDuration(): number;
+    public setupDuration(): number;
 
-    updateFlash(): void;
-    updateScreenFlash(): void;
+    public updateFlash(): void;
+    public updateScreenFlash(): void;
 
-    absoluteX(): number;
-    absoluteY(): number;
+    public absoluteX(): number;
+    public absoluteY(): number;
 
-    updateHiding(): void;
+    public updateHiding(): void;
 
-    isPlaying(): boolean;
+    public isPlaying(): boolean;
 
-    loadBitmaps(): void;
+    public loadBitmaps(): void;
 
-    isReady(): boolean;
+    public isReady(): boolean;
 
-    createCellSprites(): void;
-    createScreenFlashSprite(): void;
+    public createCellSprites(): void;
+    public createScreenFlashSprite(): void;
 
-    updateMain(): void;
-    updatePosition(): void;
+    public updateMain(): void;
+    public updatePosition(): void;
 
-    updateFrame(): void;
+    public updateFrame(): void;
 
-    currentFrameIndex(): number;
+    public currentFrameIndex(): number;
 
-    updateAllCellSprites(frame: number[][]): void; // TODO: DataAnimationMV
-    updateCellSprite(sprite: Sprite, cell: number[]): void;
+    public updateAllCellSprites(frame: number[][]): void; // TODO: DataAnimationMV
+    public updateCellSprite(sprite: Sprite, cell: number[]): void;
 
-    processTimingData(timing: unknown): void; // TODO: DataAnimationMV
+    public processTimingData(timing: unknown): void; // TODO: DataAnimationMV
 
-    startFlash(color: RGBA, duration: number): void;
-    startScreenFlash(color: RGBA, duration: number): void;
+    public startFlash(color: RGBA, duration: number): void;
+    public startScreenFlash(color: RGBA, duration: number): void;
 
-    startHiding(duration: number): void;
+    public startHiding(duration: number): void;
 
-    onEnd(): void;
+    public onEnd(): void;
 }
 
 export { Sprite_AnimationMV };

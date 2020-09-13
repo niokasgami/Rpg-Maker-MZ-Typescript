@@ -18,57 +18,57 @@ declare class Game_Enemy extends Game_Battler {
 
     constructor(enemyId: number, x: number, y: number);
 
-    setup(enemyId: number, x: number, y: number): void;
+    public setup(enemyId: number, x: number, y: number): void;
 
-    isEnemy(): true;
+    public isEnemy(): true;
 
-    friendsUnit(): Game_Troop;
-    opponentsUnit(): Game_Party;
+    public friendsUnit(): Game_Troop;
+    public opponentsUnit(): Game_Party;
 
-    index(): number;
+    public index(): number;
 
-    isBattleMember(): boolean;
+    public isBattleMember(): boolean;
 
-    enemyId(): number;
-    enemy(): RPG.DataEnemy;
+    public enemyId(): number;
+    public enemy(): RPG.DataEnemy;
 
-    exp(): number;
-    gold(): number;
+    public exp(): number;
+    public gold(): number;
 
-    makeDropItems(): RPG.DataItemBase[];
-    dropItemRate(): number;
+    public makeDropItems(): RPG.DataItemBase[];
+    public dropItemRate(): number;
 
-    itemObject(kind: Game_Enemy.ItemKind, dataId: number): RPG.DataItemBase;
+    public itemObject(kind: Game_Enemy.ItemKind, dataId: number): RPG.DataItemBase;
 
-    isSpriteVisible(): boolean;
+    public isSpriteVisible(): boolean;
 
-    screenX(): number;
-    screenY(): number;
+    public screenX(): number;
+    public screenY(): number;
 
-    battlerName(): string;
-    battlerHue(): number;
+    public battlerName(): string;
+    public battlerHue(): number;
 
-    originalName(): string;
-    name(): string;
+    public originalName(): string;
+    public name(): string;
 
-    isLetterEmpty(): boolean;
-    setLetter(letter: string): void;
-    setPlural(plural: boolean): void;
+    public isLetterEmpty(): boolean;
+    public setLetter(letter: string): void;
+    public setPlural(plural: boolean): void;
 
-    transform(enemyId: number): void;
+    public transform(enemyId: number): void;
 
-    meetsCondition(action: Game_Action): boolean;
-    meetsTurnCondition(param1: number, param2: number): boolean;
-    meetsHpCondition(param1: number, param2: number): boolean;
-    meetsMpCondition(param1: number, param2: number): boolean;
-    meetsStateCondition(param1: number, param2: number): boolean;
-    meetsPartyLevelCondition(param1: number, param2: number): boolean;
-    meetsSwitchCondition(param1: number, param2: number): boolean;
+    public meetsCondition(action: Game_Action): boolean;
+    public meetsTurnCondition(param1: number, param2: number): boolean;
+    public meetsHpCondition(param1: number, param2: number): boolean;
+    public meetsMpCondition(param1: number, param2: number): boolean;
+    public meetsStateCondition(param1: number, param2: number): boolean;
+    public meetsPartyLevelCondition(param1: number, param2: number): boolean;
+    public meetsSwitchCondition(param1: number, param2: number): boolean;
 
-    isActionValid(action: Game_Action): boolean;
+    public isActionValid(action: Game_Action): boolean;
 
-    selectAction(actionList: Game_Action[], ratingZero: number): Game_Action | null;
-    selectAllActions(actionList: Game_Action[]): void;
+    public selectAction(actionList: Game_Action[], ratingZero: number): Game_Action | null;
+    public selectAllActions(actionList: Game_Action[]): void;
 
 }
 

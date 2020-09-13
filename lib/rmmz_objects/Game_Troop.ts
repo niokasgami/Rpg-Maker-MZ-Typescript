@@ -8,38 +8,38 @@ import { Game_Unit, Game_Enemy } from '.';
 
 declare class Game_Troop extends Game_Unit<Game_Enemy> {
 
-    static readonly LETTER_TABLE_HALF: string[];
-    static readonly LETTER_TABLE_FULL: string[];
+    public static readonly LETTER_TABLE_HALF: string[];
+    public static readonly LETTER_TABLE_FULL: string[];
 
     constructor();
 
-    isEventRunning(): boolean;
-    updateInterpreter(): void;
+    public isEventRunning(): boolean;
+    public updateInterpreter(): void;
 
-    turnCount(): number;
+    public turnCount(): number;
 
-    clear(): void;
+    public clear(): void;
 
-    troop(): RPG.DataTroop;
+    public troop(): RPG.DataTroop;
 
-    setup(troopId: number): void;
-    makeUniqueNames(): void;
-    updatePluralFlags(): void;
+    public setup(troopId: number): void;
+    public makeUniqueNames(): void;
+    public updatePluralFlags(): void;
 
-    letterTable(): string[];
-    enemyNames(): string[];
+    public letterTable(): string[];
+    public enemyNames(): string[];
 
-    meetsConditions(page: RPG.Page): boolean;
-    setupBattleEvent(): void;
+    public meetsConditions(page: RPG.Page): boolean;
+    public setupBattleEvent(): void;
 
-    increaseTurn(): void;
+    public increaseTurn(): void;
 
-    expTotal(): number;
-    goldTotal(): number;
-    goldRate(): number;
+    public expTotal(): number;
+    public goldTotal(): number;
+    public goldRate(): number;
 
-    makeDropItems(): RPG.DataItemBase[];
-    isTpbTurnEnd(): boolean;
+    public makeDropItems(): RPG.DataItemBase[];
+    public isTpbTurnEnd(): boolean;
 
 }
 

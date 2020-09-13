@@ -8,40 +8,40 @@ declare class Game_Unit<T extends Game_Battler> {
 
     constructor();
 
-    inBattle(): boolean;
+    public inBattle(): boolean;
 
-    members(): T[];
-    aliveMembers(): T[];
-    deadMembers(): T[];
-    movableMembers(): T[];
+    public members(): T[];
+    public aliveMembers(): T[];
+    public deadMembers(): T[];
+    public movableMembers(): T[];
 
-    clearActions(): void;
+    public clearActions(): void;
 
-    agility(): number;
-    tgrSum(): number;
+    public agility(): number;
+    public tgrSum(): number;
 
-    randomTarget(): T;
-    randomDeadTarget(): T;
-    smoothTarget(): T;
-    smoothDeadTarget(): T;
+    public randomTarget(): T;
+    public randomDeadTarget(): T;
+    public smoothTarget(): T;
+    public smoothDeadTarget(): T;
 
-    clearResults(): void;
+    public clearResults(): void;
 
-    onBattleStart(advantageous: boolean): void;
+    public onBattleStart(advantageous: boolean): void;
 
-    onBattleEnd(): void;
-    makeActions(): void;
+    public onBattleEnd(): void;
+    public makeActions(): void;
 
-    select(activeMember: T): void;
+    public select(activeMember: T): void;
 
-    isAllDead(): boolean;
+    public isAllDead(): boolean;
 
-    substituteBattler(): T;
+    public substituteBattler(): T;
 
-    tpbBaseSpeed(): number;
-    tpbReferenceTime(): number;
+    public tpbBaseSpeed(): number;
+    public tpbReferenceTime(): number;
 
-    updateTpb(): void;
+    public updateTpb(): void;
 
 }
 

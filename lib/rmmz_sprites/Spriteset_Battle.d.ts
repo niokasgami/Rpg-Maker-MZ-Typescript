@@ -8,25 +8,25 @@ declare class Spriteset_Battle extends Spriteset_Base<Game_Battler, Sprite_Battl
 
     constructor();
 
-    createBackground(): void;
-    createBattleback(): void;
-    createBattleField(): void;
+    public createBackground(): void;
+    public createBattleback(): void;
+    public createBattleField(): void;
 
-    battleFieldOffsetY(): number;
+    public battleFieldOffsetY(): number;
 
-    updateBattleback(): void;
+    public updateBattleback(): void;
 
-    createEnemies(): void;
-    compareEnemySprite(a: Sprite_Battler, b: Sprite_Battler): number;
+    public createEnemies(): void;
+    public compareEnemySprite(a: Sprite_Battler, b: Sprite_Battler): number;
 
-    createActors(): void;
-    updateActors(): void;
+    public createActors(): void;
+    public updateActors(): void;
 
-    battlerSprites(): Sprite_Battler[];
+    public battlerSprites(): Sprite_Battler[];
 
-    isEffecting(): boolean;
-    isAnyoneMoving(): boolean;
-    isBusy(): boolean;
+    public isEffecting(): boolean;
+    public isAnyoneMoving(): boolean;
+    public isBusy(): boolean;
 }
 
 export { Spriteset_Battle };

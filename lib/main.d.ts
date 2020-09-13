@@ -3,34 +3,34 @@ export declare const scriptUrls: string[];
 export declare const effekseerWasmUrl: string;
 
 export declare class Main {
-    xhrSucceeded: boolean;
-    loadCount: number;
-    error: unknown;
+    public xhrSucceeded: boolean;
+    public loadCount: number;
+    public error: unknown;
 
-    run(): void;
+    public run(): void;
 
-    showLoadingSpinner(): void;
-    eraseLoadingSpinner(): void;
+    public showLoadingSpinner(): void;
+    public eraseLoadingSpinner(): void;
 
-    testXhr(): void;
+    public testXhr(): void;
 
-    loadMainScripts(): void
+    public loadMainScripts(): void
 
-    onScriptLoad(): void;
-    onScriptError(e: Event): void;
+    public onScriptLoad(): void;
+    public onScriptError(e: Event): void;
 
-    printError(name: string, message: string): void;
-    makeErrorHtml(name: string, message: string): string;
+    public printError(name: string, message: string): void;
+    public makeErrorHtml(name: string, message: string): string;
 
-    onWindowLoad(): void;
-    onWindowError(e: ErrorEvent): void;
+    public onWindowLoad(): void;
+    public onWindowError(e: ErrorEvent): void;
 
-    isPathRandomized(): boolean;
+    public isPathRandomized(): boolean;
 
-    initEffekseerRuntime(): void;
+    public initEffekseerRuntime(): void;
 
-    onEffekseerLoad(): void;
-    onEffekseerError(): void;
+    public onEffekseerLoad(): void;
+    public onEffekseerError(): void;
 }
 
 export const main: Main;

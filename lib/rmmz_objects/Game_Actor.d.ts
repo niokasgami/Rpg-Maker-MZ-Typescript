@@ -7,171 +7,173 @@ import { RPG } from '../RPG';
 import { Game_Battler, Game_Party, Game_Troop } from '.';
 
 declare class Game_Actor extends Game_Battler {
-    readonly level: number;
+
+    public readonly level: number;
 
     constructor(actorId: number);
 
-    setup(actorId: number): void;
+    public setup(actorId: number): void;
     
-    actorId(): number;
-    actor(): RPG.DataActor;
+    public actorId(): number;
+    public actor(): RPG.DataActor;
     
-    name(): string;
-    setName(name: string): void;
+    public name(): string;
+    public setName(name: string): void;
 
-    nickname(): string;
-    setNickname(name: string): void;
+    public nickname(): string;
+    public setNickname(name: string): void;
 
-    profile(): string;
-    setProfile(name: string): void;
+    public profile(): string;
+    public setProfile(name: string): void;
 
-    characterName(): string;
-    characterIndex(): number;
+    public characterName(): string;
+    public characterIndex(): number;
 
-    faceName(): string;
-    faceIndex(): number;
+    public faceName(): string;
+    public faceIndex(): number;
 
-    battlerName(): string;
+    public battlerName(): string;
 
-    initImages(): void;
+    public initImages(): void;
 
-    expForLevel(level: number): number;
-    initExp(): void;
-    currentExp(): number;
-    currentLevelExp(): number;
-    nextLevelExp(): number;
-    nextRequiredExp(): number;
+    public expForLevel(level: number): number;
+    public initExp(): void;
+    public currentExp(): number;
+    public currentLevelExp(): number;
+    public nextLevelExp(): number;
+    public nextRequiredExp(): number;
 
-    maxLevel(): number;
-    isMaxLevel(): boolean;
+    public maxLevel(): number;
+    public isMaxLevel(): boolean;
 
-    initSkills(): void;
-    initEquips(): void;
+    public initSkills(): void;
+    public initEquips(): void;
 
-    equipSlots(): number[];
+    public equipSlots(): number[];
 
-    equips(): (RPG.DataWeapon | RPG.DataArmor)[];
+    public equips(): (RPG.DataWeapon | RPG.DataArmor)[];
 
-    weapons(): RPG.DataWeapon;
-    armors(): RPG.DataArmor;
+    public weapons(): RPG.DataWeapon;
+    public armors(): RPG.DataArmor;
 
-    hasWeapon(weapon: RPG.DataWeapon): boolean;
-    hasArmor(armor: RPG.DataArmor): boolean;
+    public hasWeapon(weapon: RPG.DataWeapon): boolean;
+    public hasArmor(armor: RPG.DataArmor): boolean;
 
-    isEquipChangeOk(slotId: number): boolean;
-    changeEquip(slotId: number, item: RPG.DataEquipItem): void;
-    forceChangeEquip(slotId: number, item: RPG.DataEquipItem): void;
-    tradeItemWithParty(newItem: RPG.DataEquipItem, oldItem: RPG.DataEquipItem): boolean;
+    public isEquipChangeOk(slotId: number): boolean;
+    public changeEquip(slotId: number, item: RPG.DataEquipItem): void;
+    public forceChangeEquip(slotId: number, item: RPG.DataEquipItem): void;
+    public tradeItemWithParty(newItem: RPG.DataEquipItem, oldItem: RPG.DataEquipItem): boolean;
 
-    changeEquipById(etypeId: number, itemId: number): void;
+    public changeEquipById(etypeId: number, itemId: number): void;
 
-    isEquipped(item: RPG.DataEquipItem): boolean;
-    discardEquip(item: RPG.DataEquipItem): void;
-    releaseUnequippableItems(forcing: boolean): void;
-    clearEquipments(): void;
-    optimizeEquipments(): void;
+    public isEquipped(item: RPG.DataEquipItem): boolean;
+    public discardEquip(item: RPG.DataEquipItem): void;
+    public releaseUnequippableItems(forcing: boolean): void;
+    public clearEquipments(): void;
+    public optimizeEquipments(): void;
     
-    bestEquipItem(slotId: number): RPG.DataEquipItem;
-    calcEquipItemPerformance(item: RPG.DataEquipItem): number;
+    public bestEquipItem(slotId: number): RPG.DataEquipItem;
+    public calcEquipItemPerformance(item: RPG.DataEquipItem): number;
     
-    isSkillWtypeOk(skill: RPG.DataSkill): boolean;
-    isWtypeEquipped(wtypeId: number): boolean;
+    public isSkillWtypeOk(skill: RPG.DataSkill): boolean;
+    public isWtypeEquipped(wtypeId: number): boolean;
 
-    isActor(): true;
+    public isActor(): true;
 
-    friendsUnit(): Game_Party;
-    opponentsUnit(): Game_Troop;
+    public friendsUnit(): Game_Party;
+    public opponentsUnit(): Game_Troop;
 
-    index(): number;
+    public index(): number;
 
-    isBattleMember(): boolean;
-    isFormationChangeOk(): boolean;
+    public isBattleMember(): boolean;
+    public isFormationChangeOk(): boolean;
 
-    currentClass(): RPG.DataClass;
+    public currentClass(): RPG.DataClass;
 
-    isClass(gameClass?: RPG.DataClass): boolean;
+    public isClass(gameClass?: RPG.DataClass): boolean;
 
-    skillTypes(): number[];
-    skills(): RPG.DataSkill[];
-    usableSkills(): RPG.DataSkill[];
+    public skillTypes(): number[];
+    public skills(): RPG.DataSkill[];
+    public usableSkills(): RPG.DataSkill[];
 
-    hasNoWeapons(): boolean;
-    bareHandsElementId(): number;
+    public hasNoWeapons(): boolean;
+    public bareHandsElementId(): number;
 
-    attackAnimationId1(): number;
-    attackAnimationId2(): number;
-    bareHandsAnimationId(): number;
+    public attackAnimationId1(): number;
+    public attackAnimationId2(): number;
+    public bareHandsAnimationId(): number;
 
-    changeExp(exp: number, show: boolean): void;
-    levelUp(): void;
-    levelDown(): void;
+    public changeExp(exp: number, show: boolean): void;
+    public levelUp(): void;
+    public levelDown(): void;
 
-    findNewSkills(lastSkills: RPG.DataSkill[]): RPG.DataSkill[];
-    displayLevelUp(newSkills: RPG.DataSkill[]): void;
+    public findNewSkills(lastSkills: RPG.DataSkill[]): RPG.DataSkill[];
+    public displayLevelUp(newSkills: RPG.DataSkill[]): void;
 
-    gainExp(exp: number): void;
-    finalExpRate(): number;
+    public gainExp(exp: number): void;
+    public finalExpRate(): number;
 
-    benchMembersExpRate(): number;
+    public benchMembersExpRate(): number;
 
-    shouldDisplayLevelUp(): boolean;
+    public shouldDisplayLevelUp(): boolean;
 
-    changeLevel(level: number, show: boolean): void;
-    learnSkill(skillId: number): void;
-    forgetSkill(skillId: number): void;
+    public changeLevel(level: number, show: boolean): void;
+    public learnSkill(skillId: number): void;
+    public forgetSkill(skillId: number): void;
 
-    isLearnedSkill(skillId: number): boolean;
-    hasSkill(skillId: number): boolean;
+    public isLearnedSkill(skillId: number): boolean;
+    public hasSkill(skillId: number): boolean;
 
-    changeClass(classId: number, keepExp: boolean): void;
+    public changeClass(classId: number, keepExp: boolean): void;
 
-    setCharacterImage(characterName: string, characterIndex: number): void;
-    setFaceImage(faceName: string, faceIndex: number): void;
-    setBattlerImage(battlerName: string): void;
+    public setCharacterImage(characterName: string, characterIndex: number): void;
+    public setFaceImage(faceName: string, faceIndex: number): void;
+    public setBattlerImage(battlerName: string): void;
 
-    isSpriteVisible(): boolean;
-    performAttack(): void;
-    performVictory(): void;
-    performEscape(): void;
+    public isSpriteVisible(): boolean;
+    public performAttack(): void;
+    public performVictory(): void;
+    public performEscape(): void;
 
-    makeActionList(): Game_Action[];
-    makeAutoBattleActions(): void;
-    makeConfusionActions(): void;
+    public makeActionList(): Game_Action[];
+    public makeAutoBattleActions(): void;
+    public makeConfusionActions(): void;
 
-    onPlayerWalk(): void;
+    public onPlayerWalk(): void;
 
-    updateStateSteps(state: RPG.DataState): void;
-    showAddedStates(): void;
-    showRemovedStates(): void;
+    public updateStateSteps(state: RPG.DataState): void;
+    public showAddedStates(): void;
+    public showRemovedStates(): void;
 
-    stepsForTurn(): number;
+    public stepsForTurn(): number;
     
-    turnEndOnMap(): void;
+    public turnEndOnMap(): void;
 
-    checkFloorEffect(): void;
-    executeFloorDamage(): void;
+    public checkFloorEffect(): void;
+    public executeFloorDamage(): void;
 
-    basicFloorDamage(): number;
-    maxFloorDamage(): number;
+    public basicFloorDamage(): number;
+    public maxFloorDamage(): number;
 
-    performMapDamage(): void;
-    inputtingAction(): Game_Action;
-    selectNextCommand(): boolean;
-    selectNextCommand(): boolean;
+    public performMapDamage(): void;
+    public inputtingAction(): Game_Action;
+    public selectNextCommand(): boolean;
+    public selectNextCommand(): boolean;
 
-    lastSkill(): RPG.DataSkill;
+    public lastSkill(): RPG.DataSkill;
 
-    lastMenuSkill(): RPG.DataSkill;
-    setLastMenuSkill(skill: RPG.DataSkill): void;
+    public lastMenuSkill(): RPG.DataSkill;
+    public setLastMenuSkill(skill: RPG.DataSkill): void;
 
-    lastBattleSkill(): RPG.DataSkill;
-    setLastBattleSkill(skill: RPG.DataSkill): void;
+    public lastBattleSkill(): RPG.DataSkill;
+    public setLastBattleSkill(skill: RPG.DataSkill): void;
 
-    lastCommandSymbol(): string;
-    setLastCommandSymbol(symbol: string): void;
+    public lastCommandSymbol(): string;
+    public setLastCommandSymbol(symbol: string): void;
 
-    testEscape(item: RPG.DataConsumable): boolean;
-    onEscapeFailure(): boolean;
+    public testEscape(item: RPG.DataConsumable): boolean;
+    public onEscapeFailure(): boolean;
+
 }
 
 export { Game_Actor };

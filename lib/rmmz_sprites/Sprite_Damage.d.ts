@@ -10,32 +10,32 @@ declare class Sprite_Damage extends Sprite {
 
     constructor();
  
-    setup(target: Game_Battler): void;
-    setupCriticalEffect(): void;
+    public setup(target: Game_Battler): void;
+    public setupCriticalEffect(): void;
 
-    fontFace(): string;
-    fontSize(): number;
+    public fontFace(): string;
+    public fontSize(): number;
 
-    damageColor(): string;
+    public damageColor(): string;
 
-    outlineColor(): string;
-    outlineWidth(): number;
+    public outlineColor(): string;
+    public outlineWidth(): number;
 
-    createMiss(): void;
+    public createMiss(): void;
 
-    createDigits(value: number): void;
+    public createDigits(value: number): void;
 
-    createChildSprite(width: number, height: number): Sprite;
-    createBitmap(width: number, height: number): Bitmap;
+    public createChildSprite(width: number, height: number): Sprite;
+    public createBitmap(width: number, height: number): Bitmap;
 
-    update(): void;
+    public update(): void;
 
-    updateChild(sprite: Sprite): void;
+    public updateChild(sprite: Sprite): void;
 
-    updateFlash(): void;
-    updateOpacity(): void;
+    public updateFlash(): void;
+    public updateOpacity(): void;
 
-    isPlaying(): boolean;
+    public isPlaying(): boolean;
 
 }
 

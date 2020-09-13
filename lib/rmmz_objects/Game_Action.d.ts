@@ -24,7 +24,8 @@ declare class Game_Action {
     private _item: Game_Item;
     private _targetIndex: number;
 
-    public constructor(subject: Game_BattlerBase, forcing: boolean);
+    constructor(subject: Game_BattlerBase, forcing: boolean);
+    
     public initialize(subject: Game_BattlerBase, forcing: boolean);
     public clear(): void;
     public setSubject(subject: Game_BattlerBase): void;

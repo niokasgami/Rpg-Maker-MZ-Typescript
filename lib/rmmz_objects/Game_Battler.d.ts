@@ -18,180 +18,182 @@ declare namespace Game_Battler {
 }
 
 declare abstract class Game_Battler extends Game_BattlerBase {
+
     constructor();
 
-    clearDamagePopup(): void;
-    clearWeaponAnimation(): void;
-    clearEffect(): void;
-    clearMotion(): void;
+    public clearDamagePopup(): void;
+    public clearWeaponAnimation(): void;
+    public clearEffect(): void;
+    public clearMotion(): void;
     
-    requestEffect(effectType: Game_Battler.EffectType): void;
-    requestMotion(motionType: Game_Battler.MotionType): void;
+    public requestEffect(effectType: Game_Battler.EffectType): void;
+    public requestMotion(motionType: Game_Battler.MotionType): void;
 
-    requestMotionRefresh(): void;
+    public requestMotionRefresh(): void;
     
-    select(): void;
-    deselect(): void;
+    public select(): void;
+    public deselect(): void;
 
-    isDamagePopupRequested(): boolean;
-    isEffectRequested(): boolean;
-    isMotionRequested(): boolean;
-    isWeaponAnimationRequested(): boolean;
-    isMotionRefreshRequested(): boolean;
-    isSelected(): boolean;
+    public isDamagePopupRequested(): boolean;
+    public isEffectRequested(): boolean;
+    public isMotionRequested(): boolean;
+    public isWeaponAnimationRequested(): boolean;
+    public isMotionRefreshRequested(): boolean;
+    public isSelected(): boolean;
 
-    effectType(): Game_Battler.EffectType;
-    motionType(): Game_Battler.MotionType;
+    public effectType(): Game_Battler.EffectType;
+    public motionType(): Game_Battler.MotionType;
 
-    weaponImageId(): number;
+    public weaponImageId(): number;
     
-    startDamagePopup(): void;
-    shouldPopupDamage(): boolean;
+    public startDamagePopup(): void;
+    public shouldPopupDamage(): boolean;
 
-    startWeaponAnimation(weaponImageId: number): void;
+    public startWeaponAnimation(weaponImageId: number): void;
 
-    action(index: number): Game_Action;
-    setAction(index: number, action: Game_Action): void;
-    numActions(): number;
-    clearActions(): void;
+    public action(index: number): Game_Action;
+    public setAction(index: number, action: Game_Action): void;
+    public numActions(): number;
+    public clearActions(): void;
 
-    result(): Game_ActionResult;
-    clearResult(): void;
+    public result(): Game_ActionResult;
+    public clearResult(): void;
 
-    clearResult(): void;
+    public clearResult(): void;
     
-    clearTpbChargeTime(): void;
-    applyTpbPenalty(): void;
+    public clearTpbChargeTime(): void;
+    public applyTpbPenalty(): void;
     
-    initTpbChargeTime(advantageous: boolean): void;
+    public initTpbChargeTime(advantageous: boolean): void;
 
-    tbpChargeTime(): number;
+    public tbpChargeTime(): number;
 
-    startTpbCasting(): void;    
-    startTpbAction(): void;
+    public startTpbCasting(): void;    
+    public startTpbAction(): void;
 
-    isTpbCharged(): boolean;    
-    isTpbReady(): boolean;    
-    isTpbTimeout(): boolean;
+    public isTpbCharged(): boolean;    
+    public isTpbReady(): boolean;    
+    public isTpbTimeout(): boolean;
 
-    updateTpb(): void;    
-    updateTpbChargeTime(): void;    
-    updateTpbCastTime(): void;
-    updateTpbAutoBattle(): void;
-    updateTpbIdleTime(): void;
+    public updateTpb(): void;    
+    public updateTpbChargeTime(): void;    
+    public updateTpbCastTime(): void;
+    public updateTpbAutoBattle(): void;
+    public updateTpbIdleTime(): void;
 
-    tpbAcceleration(): number;
-    tpbRelativeSpeed(): number;
-    tpbSpeed(): number;
-    tpbBaseSpeed(): number;
-    tpbRequiredCastTime(): number;
+    public tpbAcceleration(): number;
+    public tpbRelativeSpeed(): number;
+    public tpbSpeed(): number;
+    public tpbBaseSpeed(): number;
+    public tpbRequiredCastTime(): number;
 
-    onTpbCharged(): void;
-    shouldDelayTpbCharge(): boolean;
-    finishTpbCharge(): void;
-    isTpbTurnEnd(): boolean;
+    public onTpbCharged(): void;
+    public shouldDelayTpbCharge(): boolean;
+    public finishTpbCharge(): void;
+    public isTpbTurnEnd(): boolean;
 
-    initTpbTurn(): void;
-    startTpbTurn(): void;
-    makeTpbActions(): void;
-    onTpbTimeout(): void;
+    public initTpbTurn(): void;
+    public startTpbTurn(): void;
+    public makeTpbActions(): void;
+    public onTpbTimeout(): void;
 
-    turnCount(): number;
+    public turnCount(): number;
 
-    canInput(): boolean;
+    public canInput(): boolean;
 
-    refresh(): void;
+    public refresh(): void;
 
-    addState(stateId: number): void;
-    isStateAddable(stateId: number): boolean;
-    isStateRestrict(stateId: number): boolean;
+    public addState(stateId: number): void;
+    public isStateAddable(stateId: number): boolean;
+    public isStateRestrict(stateId: number): boolean;
 
-    onRestrict(): void;
+    public onRestrict(): void;
 
-    removeState(stateId: number): void;
+    public removeState(stateId: number): void;
 
-    escape(): void;
+    public escape(): void;
     
-    addBuff(paramId: Game_BattlerBase.Params, turns: number): void;    
-    addDebuff(paramId: Game_BattlerBase.Params, turns: number): void;    
+    public addBuff(paramId: Game_BattlerBase.Params, turns: number): void;    
+    public addDebuff(paramId: Game_BattlerBase.Params, turns: number): void;    
 
-    removeBuff(paramId: Game_BattlerBase.Params): void;    
-    removeBattleStates(): void;    
-    removeAllBuffs(): void;    
-    removeStatesAuto(timing: number): void;    
-    removeBuffsAuto(): void;    
-    removeStatesByDamage(): void;
+    public removeBuff(paramId: Game_BattlerBase.Params): void;    
+    public removeBattleStates(): void;    
+    public removeAllBuffs(): void;    
+    public removeStatesAuto(timing: number): void;    
+    public removeBuffsAuto(): void;    
+    public removeStatesByDamage(): void;
 
-    makeActionTimes(): number;
-    makeActions(): void;
+    public makeActionTimes(): number;
+    public makeActions(): void;
 
-    speed(): number;
-    makeSpeed(): void;
+    public speed(): number;
+    public makeSpeed(): void;
 
-    currentAction(): Game_Action;
-    removeCurrentAction(): void;
+    public currentAction(): Game_Action;
+    public removeCurrentAction(): void;
 
-    setLastTarget(target: Game_Battler): void;
+    public setLastTarget(target: Game_Battler): void;
 
-    forceAction(skillId: number, targetIndex: number): void;
-    useItem(item: RPG.DataConsumable): void;
+    public forceAction(skillId: number, targetIndex: number): void;
+    public useItem(item: RPG.DataConsumable): void;
 
-    consumeItem(item: RPG.DataItem): void;
-    gainHp(value: number): void;
-    gainMp(value: number): void;
-    gainTp(value: number): void;
-    gainSilentTp(value: number): void;
-    initTp(): void;
-    clearTp(): void;
-    chargeTpByDamage(damageRate: number): void;
+    public consumeItem(item: RPG.DataItem): void;
+    public gainHp(value: number): void;
+    public gainMp(value: number): void;
+    public gainTp(value: number): void;
+    public gainSilentTp(value: number): void;
+    public initTp(): void;
+    public clearTp(): void;
+    public chargeTpByDamage(damageRate: number): void;
 
-    regenerateHp(): void;
-    maxSlipDamage(): number;
-    regenerateMp(): void;
-    regenerateTp(): void;
+    public regenerateHp(): void;
+    public maxSlipDamage(): number;
+    public regenerateMp(): void;
+    public regenerateTp(): void;
 
-    regenerateAll(): void;
+    public regenerateAll(): void;
 
-    onBattleStart(advantageous: boolean): void;
-    onAllActionsEnd(): void;
-    onTurnEnd(): void;
-    onBattleEnd(): void;
-    onDamage(value: number): void;
+    public onBattleStart(advantageous: boolean): void;
+    public onAllActionsEnd(): void;
+    public onTurnEnd(): void;
+    public onBattleEnd(): void;
+    public onDamage(value: number): void;
 
-    setActionState(actionState: Game_Battler.ActionState): void;
+    public setActionState(actionState: Game_Battler.ActionState): void;
 
-    isUndecided(): boolean;
-    isInputting(): boolean;
-    isWaiting(): boolean;
-    isActing(): boolean;
+    public isUndecided(): boolean;
+    public isInputting(): boolean;
+    public isWaiting(): boolean;
+    public isActing(): boolean;
 
-    isChanting(): boolean;
-    isGuardWaiting(): boolean;
+    public isChanting(): boolean;
+    public isGuardWaiting(): boolean;
 
-    performActionStart(action: Game_Action): void;
-    performAction(action: Game_Action): void;
-    performActionEnd(): void;
-    performDamage(): void;
-    performMiss(): void;
-    performRecovery(): void;
-    performEvasion(): void;
-    performMagicEvasion(): void;
-    performCounter(): void;
-    performReflection(): void;
-    performSubstitute(target: Game_Battler): void;
-    performCollapse(): void;
+    public performActionStart(action: Game_Action): void;
+    public performAction(action: Game_Action): void;
+    public performActionEnd(): void;
+    public performDamage(): void;
+    public performMiss(): void;
+    public performRecovery(): void;
+    public performEvasion(): void;
+    public performMagicEvasion(): void;
+    public performCounter(): void;
+    public performReflection(): void;
+    public performSubstitute(target: Game_Battler): void;
+    public performCollapse(): void;
 
     abstract name(): string;
     abstract index(): number;
     
-    abstract isSpriteVisible(): boolean;
+    public abstract isSpriteVisible(): boolean;
     
-    abstract friendsUnit(): Game_Unit<Game_Battler>;
-    abstract opponentsUnit(): Game_Unit<Game_Battler>;
+    public abstract friendsUnit(): Game_Unit<Game_Battler>;
+    public abstract opponentsUnit(): Game_Unit<Game_Battler>;
 
-    abstract isBattleMember(): boolean;
+    public abstract isBattleMember(): boolean;
 
-    abstract battlerName(): string;
+    public abstract battlerName(): string;
+
 }
 
 export { Game_Battler };

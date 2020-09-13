@@ -46,7 +46,7 @@ declare class Window_Selectable extends Window_Scrollable{
     public setHelpWindow(helpWindow: Window_Help): void;
     public showHelpWindow(): void;
     public hideHelpWindow(): void;
-    public setHandler(symbol: string, method: Function): void;
+    public setHandler(symbol: string, method: VoidFunction): void;
     public isHandled(symbol: string): boolean;
     public callHandler(symbol: string): void;
     public isOpenAndActive(): boolean;

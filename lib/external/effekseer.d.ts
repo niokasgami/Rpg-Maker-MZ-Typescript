@@ -270,7 +270,7 @@ declare namespace effekseer {
         /**
          * Gets the number of remaining allocated instances.
          */
-        getRestInstancesCount(): Number;
+        getRestInstancesCount(): number;
     }
 
     export class EffekseerEffect {

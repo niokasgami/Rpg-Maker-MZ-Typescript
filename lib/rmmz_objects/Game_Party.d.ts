@@ -20,115 +20,115 @@ declare namespace Game_Party {
 declare class Game_Party extends Game_Unit<Game_Actor> {
     constructor();
 
-    static readonly ABILITY_ENCOUNTER_HALF: Game_Party.Ability.ENCOUNTER_HALF;
-    static readonly ABILITY_ENCOUNTER_NONE: Game_Party.Ability.ENCOUNTER_NONE;
-    static readonly ABILITY_CANCEL_SURPRISE: Game_Party.Ability.CANCEL_SURPRISE;
-    static readonly ABILITY_RAISE_PREEMPTIVE: Game_Party.Ability.RAISE_PREEMPTIVE;
-    static readonly ABILITY_GOLD_DOUBLE: Game_Party.Ability.GOLD_DOUBLE;
-    static readonly ABILITY_DROP_ITEM_DOUBLE: Game_Party.Ability.DROP_ITEM_DOUBLE;
+    public static readonly ABILITY_ENCOUNTER_HALF: Game_Party.Ability.ENCOUNTER_HALF;
+    public static readonly ABILITY_ENCOUNTER_NONE: Game_Party.Ability.ENCOUNTER_NONE;
+    public static readonly ABILITY_CANCEL_SURPRISE: Game_Party.Ability.CANCEL_SURPRISE;
+    public static readonly ABILITY_RAISE_PREEMPTIVE: Game_Party.Ability.RAISE_PREEMPTIVE;
+    public static readonly ABILITY_GOLD_DOUBLE: Game_Party.Ability.GOLD_DOUBLE;
+    public static readonly ABILITY_DROP_ITEM_DOUBLE: Game_Party.Ability.DROP_ITEM_DOUBLE;
 
-    initAllItems(): void;
+    public initAllItems(): void;
 
-    exists(): boolean;
+    public exists(): boolean;
 
-    size(): number;
-    isEmpty(): boolean;
+    public size(): number;
+    public isEmpty(): boolean;
 
-    allMembers(): Game_Actor[];
+    public allMembers(): Game_Actor[];
 
-    battleMembers(): Game_Actor[];
-    maxBattleMembers(): number;
-    leader(): Game_Actor;
+    public battleMembers(): Game_Actor[];
+    public maxBattleMembers(): number;
+    public leader(): Game_Actor;
 
-    removeInvalidMembers(): void;
-    reviveBattleMembers(): void;
+    public removeInvalidMembers(): void;
+    public reviveBattleMembers(): void;
 
-    items(): RPG.DataItem[];
-    weapons(): RPG.DataWeapon[];
-    armors(): RPG.DataArmor[];
-    equipItems(): RPG.DataEquipItem[];
-    allItems(): RPG.DataItemBase[];
+    public items(): RPG.DataItem[];
+    public weapons(): RPG.DataWeapon[];
+    public armors(): RPG.DataArmor[];
+    public equipItems(): RPG.DataEquipItem[];
+    public allItems(): RPG.DataItemBase[];
 
-    itemContainer(item: RPG.DataItemBase): Record<number, number> | null;
+    public itemContainer(item: RPG.DataItemBase): Record<number, number> | null;
 
-    setupStartingMembers(): void;
+    public setupStartingMembers(): void;
 
-    name(): string;
+    public name(): string;
 
-    setupBattleTest(): void;
-    setupBattleTestMembers(): void;
-    setupBattleTestItems(): void;
+    public setupBattleTest(): void;
+    public setupBattleTestMembers(): void;
+    public setupBattleTestItems(): void;
 
-    highestLevel(): number;
+    public highestLevel(): number;
 
-    addActor(actorId: number): void;
-    removeActor(actorId: number): void;
+    public addActor(actorId: number): void;
+    public removeActor(actorId: number): void;
 
-    gold(): number;
-    gainGold(amount: number): void;
-    loseGold(amount: number): void;
-    maxGold(): number;
+    public gold(): number;
+    public gainGold(amount: number): void;
+    public loseGold(amount: number): void;
+    public maxGold(): number;
     
-    steps(): number;
-    increaseSteps(): void;
+    public steps(): number;
+    public increaseSteps(): void;
 
-    numItems(item: RPG.DataItemBase): number;
-    maxItems(item: RPG.DataItemBase): number;
+    public numItems(item: RPG.DataItemBase): number;
+    public maxItems(item: RPG.DataItemBase): number;
 
-    hasMaxItems(item: RPG.DataItemBase): boolean;
+    public hasMaxItems(item: RPG.DataItemBase): boolean;
 
-    hasItem(item: RPG.DataItemBase): boolean;
-    hasItem(item: RPG.DataEquipItem, includeEquip: boolean): boolean;
+    public hasItem(item: RPG.DataItemBase): boolean;
+    public hasItem(item: RPG.DataEquipItem, includeEquip: boolean): boolean;
 
-    isAnyMemberEquipped(item: RPG.DataItem): false;
-    isAnyMemberEquipped(item: RPG.DataEquipItem): boolean;
+    public isAnyMemberEquipped(item: RPG.DataItem): false;
+    public isAnyMemberEquipped(item: RPG.DataEquipItem): boolean;
 
-    gainItem(item: RPG.DataItemBase, amount: number): void;
-    gainItem(item: RPG.DataEquipItem, amount: number, includeEquip: boolean): void;
+    public gainItem(item: RPG.DataItemBase, amount: number): void;
+    public gainItem(item: RPG.DataEquipItem, amount: number, includeEquip: boolean): void;
 
-    discardMembersEquip(item: RPG.DataEquipItem, amount: number): void;
+    public discardMembersEquip(item: RPG.DataEquipItem, amount: number): void;
 
-    loseItem(item: RPG.DataEquipItem, amount: number, includeEquip: boolean): void;
-    consumeItem(item: RPG.DataItem): void;
+    public loseItem(item: RPG.DataEquipItem, amount: number, includeEquip: boolean): void;
+    public consumeItem(item: RPG.DataItem): void;
 
-    canUse(item: RPG.DataItem): boolean;
-    canInput(): boolean;
+    public canUse(item: RPG.DataItem): boolean;
+    public canInput(): boolean;
 
-    onPlayerWalk(): void;
+    public onPlayerWalk(): void;
 
-    menuActor(): Game_Actor;
-    setMenuActor(actor: Game_Actor): void;
-    makeMenuActorNext(): void;
-    makeMenuActorPrevious(): void;
+    public menuActor(): Game_Actor;
+    public setMenuActor(actor: Game_Actor): void;
+    public makeMenuActorNext(): void;
+    public makeMenuActorPrevious(): void;
 
-    targetActor(): Game_Actor;
-    setTargetActor(actor: Game_Actor): void;
+    public targetActor(): Game_Actor;
+    public setTargetActor(actor: Game_Actor): void;
 
-    lastItem(): RPG.DataItem;
-    setLastItem(item: RPG.DataItem): void;
+    public lastItem(): RPG.DataItem;
+    public setLastItem(item: RPG.DataItem): void;
 
-    swapOrder(index1: number, index2: number): void;
+    public swapOrder(index1: number, index2: number): void;
 
-    charactersForSavefile(): [string, number][];
-    facesForSavefile(): [string, number][];
+    public charactersForSavefile(): [string, number][];
+    public facesForSavefile(): [string, number][];
 
-    partyAbility(abilityId: Game_Party.Ability): boolean;
-    hasEncounterHalf(): boolean;
-    hasEncounterNone(): boolean;
-    hasCancelSurprise(): boolean;
-    hasRaisePreemptive(): boolean;
-    hasGoldDouble(): boolean;
-    hasDropItemDouble(): boolean;
+    public partyAbility(abilityId: Game_Party.Ability): boolean;
+    public hasEncounterHalf(): boolean;
+    public hasEncounterNone(): boolean;
+    public hasCancelSurprise(): boolean;
+    public hasRaisePreemptive(): boolean;
+    public hasGoldDouble(): boolean;
+    public hasDropItemDouble(): boolean;
 
-    ratePreemptive(troopAgi: number): number;
-    rateSurprise(troopAgi: number): number;
+    public ratePreemptive(troopAgi: number): number;
+    public rateSurprise(troopAgi: number): number;
 
-    performVictory(): void;
-    performEscape(): void;
+    public performVictory(): void;
+    public performEscape(): void;
 
-    removeBattleStates(): void;
-    requestMotionRefresh(): void;
-    onEscapeFailure(): void;
+    public removeBattleStates(): void;
+    public requestMotionRefresh(): void;
+    public onEscapeFailure(): void;
 }
 
 export { Game_Party };

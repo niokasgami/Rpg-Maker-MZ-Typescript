@@ -16,9 +16,9 @@ declare class Sprite_Animation extends Sprite {
 
     constructor();
 
-    initMembers(): void;
+    public initMembers(): void;
 
-    setup(
+    public setup(
         targets: Game_Battler[],
         animation: RPG.DataAnimation,
         mirror: boolean,
@@ -26,36 +26,36 @@ declare class Sprite_Animation extends Sprite {
         previous: Sprite_Animation | Sprite_AnimationMV
     ): void;
 
-    canStart(): boolean;
+    public canStart(): boolean;
 
-    shouldWaitForPrevious(): boolean;
+    public shouldWaitForPrevious(): boolean;
 
-    updateEffectGeometry(): void;
-    updateMain(): void;
+    public updateEffectGeometry(): void;
+    public updateMain(): void;
 
-    processSoundTimings(): void;
-    processFlashTimings(): void;
+    public processSoundTimings(): void;
+    public processFlashTimings(): void;
 
-    checkEnd(): void;
+    public checkEnd(): void;
 
-    updateFlash(): void;
+    public updateFlash(): void;
 
-    isPlaying(): boolean;
+    public isPlaying(): boolean;
 
-    setRotation(x: number, y: number, z: number): void;
+    public setRotation(x: number, y: number, z: number): void;
 
-    setProjectionMatrix(renderer: PIXI.Renderer): void;
-    setCameraMatrix(renderer: PIXI.Renderer): void;
-    setViewport(renderer: PIXI.Renderer): void;
+    public setProjectionMatrix(renderer: PIXI.Renderer): void;
+    public setCameraMatrix(renderer: PIXI.Renderer): void;
+    public setViewport(renderer: PIXI.Renderer): void;
 
-    targetPosition(renderer: PIXI.Renderer): Point;
-    targetSpritePosition(sprite: Sprite): Point;
+    public targetPosition(renderer: PIXI.Renderer): Point;
+    public targetSpritePosition(sprite: Sprite): Point;
 
-    saveViewport(renderer: PIXI.Renderer): void;
-    resetViewport(renderer: PIXI.Renderer): void;
+    public saveViewport(renderer: PIXI.Renderer): void;
+    public resetViewport(renderer: PIXI.Renderer): void;
 
-    onBeforeRender(renderer: PIXI.Renderer): void;
-    onAfterRender(renderer: PIXI.Renderer): void;
+    public onBeforeRender(renderer: PIXI.Renderer): void;
+    public onAfterRender(renderer: PIXI.Renderer): void;
 
 }
 

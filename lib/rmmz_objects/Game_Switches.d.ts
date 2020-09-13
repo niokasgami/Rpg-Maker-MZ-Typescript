@@ -2,6 +2,7 @@
 declare class Game_Switches {
 
     private _data: boolean[];
+    
     constructor();
 
     public initialize(): void;
