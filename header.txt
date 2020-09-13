@@ -1,5 +1,0 @@
-Declaration file for rpg maker MZ 
-@name rmmz_API
-@author nio kasgami 
-@version 1.00 
-@license https://github.com/niokasgami/Rpg-Maker-MZ-Typescript/blob/master/LICENSE
