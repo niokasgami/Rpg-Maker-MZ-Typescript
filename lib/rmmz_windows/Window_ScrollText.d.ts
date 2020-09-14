@@ -1,5 +1,5 @@
 import { Window_Base } from "./Window_Base";
-import { Rectangle } from "rmmz_core/Rectangle";
+import { Rectangle } from "../rmmz_core";
 
 /**
  * Window_ScrollText

@@ -1,4 +1,4 @@
-import { RPG } from "RPG";
+import { RPG } from "../RPG";
 
 declare class Game_Temp {
 

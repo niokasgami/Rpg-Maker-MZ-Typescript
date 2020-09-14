@@ -1,4 +1,4 @@
-import { RPG } from "RPG";
+import { RPG } from "../RPG";
 
 import {
     Game_System,
@@ -8,7 +8,7 @@ import {
     Game_Variables,
     Game_SelfSwitches,
     Game_Party  
-} from 'rmmz_objects';
+} from "../rmmz_objects";
 
 declare interface SavefileInfo {
     title: string;

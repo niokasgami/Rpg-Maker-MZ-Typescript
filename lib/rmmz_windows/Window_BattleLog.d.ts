@@ -1,6 +1,6 @@
-import { Rectangle } from "rmmz_core";
+import { Rectangle } from "../rmmz_core";
 
-import { Spriteset_Battle } from "rmmz_sprites";
+import { Spriteset_Battle } from "../rmmz_sprites";
 
 import {
     Game_Battler,
@@ -8,7 +8,7 @@ import {
     Game_Actor,
     Game_Enemy,
     Game_BattlerBase
-} from "rmmz_objects";
+} from "../rmmz_objects";
 
 import { Window_Base } from ".";
 

@@ -1,4 +1,4 @@
-import { AudioManager } from "rmmz_managers";
+import { AudioManager } from "../rmmz_managers";
 
 declare class Game_System {
 

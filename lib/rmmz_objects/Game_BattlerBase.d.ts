@@ -2,7 +2,7 @@
  * @author Brandt (Masked)
  */
 
-import { RPG } from 'RPG';
+import { RPG } from "../RPG";
 
 import { Game_Actor } from './Game_Actor';
 import { Game_Enemy } from './Game_Enemy';

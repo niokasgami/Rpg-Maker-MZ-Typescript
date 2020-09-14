@@ -1,7 +1,7 @@
 import { Window_StatusBase } from ".";
 
-import { Rectangle, Sprite, Window } from "rmmz_core";
-import { Game_Actor } from "rmmz_objects";
+import { Rectangle, Sprite, Window } from "../rmmz_core";
+import { Game_Actor } from "../rmmz_objects";
 import { Window_Base } from "./Window_Base";
 import { Window_Help } from "./Window_Help";
 

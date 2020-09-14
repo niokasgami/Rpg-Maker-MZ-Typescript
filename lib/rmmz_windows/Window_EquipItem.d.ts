@@ -1,7 +1,7 @@
 import { Window_ItemList, Window_EquipStatus } from ".";
 
-import { Rectangle } from "rmmz_core";
-import { Game_Actor } from "rmmz_objects";
+import { Rectangle } from "../rmmz_core";
+import { Game_Actor } from "../rmmz_objects";
 
 /**
  * Window_EquipItem

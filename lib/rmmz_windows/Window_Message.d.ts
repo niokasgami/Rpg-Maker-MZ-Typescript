@@ -1,4 +1,4 @@
-import { Rectangle } from "rmmz_core";
+import { Rectangle } from "../rmmz_core";
 
 import {
     Window_Base,

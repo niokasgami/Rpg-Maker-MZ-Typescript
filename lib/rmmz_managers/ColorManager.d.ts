@@ -1,4 +1,4 @@
-import { Game_Actor } from 'rmmz_objects';
+import { Game_Actor } from "../rmmz_objects";
 
 declare namespace ColorManager {
 

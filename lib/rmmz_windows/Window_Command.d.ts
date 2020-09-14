@@ -1,6 +1,6 @@
 import { Window_Selectable } from ".";
 
-import { Rectangle } from "rmmz_core";
+import { Rectangle } from "../rmmz_core";
 
 declare interface Command<T> {
     name: string;

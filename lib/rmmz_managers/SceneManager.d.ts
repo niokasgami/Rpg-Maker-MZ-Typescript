@@ -1,4 +1,4 @@
-import { Bitmap, Stage } from "rmmz_core";
+import { Bitmap, Stage } from "../rmmz_core";
 
 declare type SceneConstructor = new () => Stage;
 

@@ -1,6 +1,6 @@
 import { Window_Scrollable } from "./Window_Scrollable";
 import { Window_Help } from "./Window_Help";
-import { Rectangle } from "rmmz_core/Rectangle";
+import { Rectangle } from "../rmmz_core";
 
 /**
  * Window_Selectable

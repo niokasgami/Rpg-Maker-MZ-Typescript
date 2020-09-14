@@ -2,9 +2,9 @@
  * @author Brandt (Masked)
  */
 
-import { Sprite } from 'rmmz_core';
+import { Sprite } from "../rmmz_core";
 
-import { Game_Battler } from 'rmmz_objects';
+import { Game_Battler } from "../rmmz_objects";
 
 import { Sprite_Clickable, Sprite_Damage } from '.';
 

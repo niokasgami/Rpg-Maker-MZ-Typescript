@@ -1,4 +1,4 @@
-import { Bitmap } from "rmmz_core/Bitmap";
+import { Bitmap } from "../rmmz_core";
 
 declare namespace ImageManager {
 

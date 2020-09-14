@@ -1,5 +1,5 @@
 import { Window_SkillList } from "./Window_SkillList";
-import { Rectangle } from "rmmz_core/Rectangle";
+import { Rectangle } from "../rmmz_core";
 
 /**
  * Window_BattleSkill

@@ -1,8 +1,8 @@
-import {Stage} from "rmmz_core/Stage";
-import {WindowLayer} from "rmmz_core/WindowLayer";
-import {ColorFilter} from "rmmz_core/ColorFilter";
-import {Window} from "rmmz_core/Window";
-import {Sprite} from "rmmz_core/Sprite";
+import {Stage} from "../rmmz_core";
+import {WindowLayer} from "../rmmz_core";
+import {ColorFilter} from "../rmmz_core";
+import {Window} from "../rmmz_core";
+import {Sprite} from "../rmmz_core";
 
 declare abstract class Scene_Base extends Stage {
 
