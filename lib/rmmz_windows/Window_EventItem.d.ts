@@ -1,5 +1,5 @@
 import { Window_ItemList } from "./Window_ItemList";
-import { Rectangle } from "rmmz_core/Rectangle";
+import { Rectangle } from "../rmmz_core";
 import { Window_Message } from "./Window_Message";
 
 /**

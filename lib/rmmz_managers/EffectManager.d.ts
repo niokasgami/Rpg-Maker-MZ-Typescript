@@ -1,4 +1,4 @@
-import effekseer from "external/effekseer";
+import effekseer from "../external/effekseer";
 
 declare namespace EffectManager {
 

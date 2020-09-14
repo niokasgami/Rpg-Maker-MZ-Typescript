@@ -1,5 +1,5 @@
-import { Window } from "rmmz_core/Window";
-import { Rectangle } from "rmmz_core/Rectangle";
+import { Window } from "../rmmz_core";
+import { Rectangle } from "../rmmz_core";
 
 declare namespace Window_Base {
     export interface TextState {

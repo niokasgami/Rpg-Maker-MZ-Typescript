@@ -1,6 +1,6 @@
 import * as PIXI from "pixi.js";
 
-import effekseer from "external/effekseer";
+import effekseer from "../external/effekseer";
 
 import { Stage } from ".";
 

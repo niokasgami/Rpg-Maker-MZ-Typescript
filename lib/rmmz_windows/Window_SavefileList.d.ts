@@ -1,6 +1,6 @@
 import { Window_Selectable } from ".";
-import { Rectangle } from "rmmz_core";
-import { SavefileInfo } from "rmmz_managers";
+import { Rectangle } from "../rmmz_core";
+import { SavefileInfo } from "../rmmz_managers";
 
 /**
  * Window_SavefileList

@@ -1,6 +1,6 @@
 import { Window_StatusBase } from "./Window_StatusBase";
-import { Rectangle } from "rmmz_core/Rectangle";
-import { Game_Actor } from "rmmz_objects";
+import { Rectangle } from "../rmmz_core";
+import { Game_Actor } from "../rmmz_objects";
 
 /**
  * Window_Status

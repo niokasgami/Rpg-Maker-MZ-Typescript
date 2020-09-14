@@ -1,4 +1,4 @@
-import { WebAudio } from "rmmz_core";
+import { WebAudio } from "../rmmz_core";
 
 declare namespace AudioManager {
 
