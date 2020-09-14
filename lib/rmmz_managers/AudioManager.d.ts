@@ -1,14 +1,14 @@
 import { WebAudio } from "../rmmz_core";
 
-declare interface CurrentAudio {
-    name: string;
-    volume: number;
-    pitch: number;
-    pan?: number;
-    pos?: number;
-}
-
 declare namespace AudioManager {
+
+    interface CurrentAudio {
+        name: string;
+        volume: number;
+        pitch: number;
+        pan?: number;
+        pos?: number;
+    }
 
     export let bgmVolume: number;
     export let bgsVolume: number;
@@ -78,4 +78,4 @@ declare namespace AudioManager {
 
 }
 
-export { AudioManager, CurrentAudio };
+export { AudioManager };

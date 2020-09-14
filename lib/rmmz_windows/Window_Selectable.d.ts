@@ -1,6 +1,6 @@
 import { Window_Scrollable } from "./Window_Scrollable";
 import { Window_Help } from "./Window_Help";
-import { Rectangle } from "../rmmz_core/Rectangle";
+import { Rectangle } from "../rmmz_core";
 
 /**
  * Window_Selectable
@@ -91,7 +91,7 @@ declare class Window_Selectable extends Window_Scrollable{
     public setHelpWindowItem(item: { iconIndex: number; name: string; description: string; }): void;
     public isCurrentItemEnabled(): boolean;
     public drawAllItems(): void;
-    public drawItem(/*index*/): void;
+    public drawItem(index: number): void;
     public clearItem(index: number): void;
     public drawItemBackground(index: number): void;
     public drawBackgroundRect(rect: Rectangle): void;

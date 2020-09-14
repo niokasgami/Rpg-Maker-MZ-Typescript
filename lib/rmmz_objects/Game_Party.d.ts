@@ -4,7 +4,7 @@
 
 import { Game_Unit, Game_Actor } from '.';
 
-import { RPG } from '../RPG';
+import { RPG } from "../RPG";
 
 declare namespace Game_Party {
     export enum Ability {

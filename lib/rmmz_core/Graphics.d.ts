@@ -1,6 +1,7 @@
 import * as PIXI from "pixi.js";
 
-import { EffekseerContext } from "effekseer";
+import effekseer from "../external/effekseer";
+
 import { Stage } from ".";
 
 declare namespace Graphics {
@@ -11,7 +12,7 @@ declare namespace Graphics {
     export let boxWidth: number;
     export let defaultScale: number;
 
-    export const effekseer: EffekseerContext;
+    export const effekseer: effekseer.EffekseerContext;
 
     export let frameCount: number;
     export let height: number;

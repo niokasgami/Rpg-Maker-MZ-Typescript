@@ -9,6 +9,7 @@
     "strict": false,
     "esModuleInterop": true,
     "skipLibCheck": false,
-    "forceConsistentCasingInFileNames": true
-  }
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": ["./lib/**/*.ts"]
 }

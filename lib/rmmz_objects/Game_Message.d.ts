@@ -56,7 +56,7 @@ declare class Game_Message {
     public setScroll(speed: number, noFast: boolean): void;
     // eslint-disable-next-line @typescript-eslint/ban-types
     public setChoiceCallback(callback: Function): void;
-    public onChoice(n: arguments): void;
+    public onChoice(n: number): void;
     public hasText(): boolean
     public isChoice(): boolean;
     public isNumberInput(): boolean;

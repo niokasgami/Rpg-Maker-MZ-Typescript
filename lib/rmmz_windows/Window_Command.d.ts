@@ -1,11 +1,12 @@
-import { Window_Selectable } from "./Window_Selectable";
-import { Rectangle } from "../rmmz_core/Rectangle";
+import { Window_Selectable } from ".";
+
+import { Rectangle } from "../rmmz_core";
 
 declare interface Command<T> {
-    public name: string;
-    public symbol: string;
-    public enabled: boolean;
-    public ext: T;
+    name: string;
+    symbol: string;
+    enabled: boolean;
+    ext: T;
 }
 
 /**
@@ -19,7 +20,7 @@ declare class Window_Command<T> extends Window_Selectable {
     public maxItems(): number;
     public clearCommandList(): void;
     public makeCommandList(): void;
-    public addCommand(name: string, symbol: string, enabled = true, ext: T = null): void;
+    public addCommand(name: string, symbol: string, enabled?: boolean, ext?: T): void;
     public commandName(index: number): string;
     public commandSymbol(index: number): string;
     public isCommandEnabled(index: number): boolean;

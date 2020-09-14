@@ -2,9 +2,9 @@
  * @author Brandt (Masked)
  */
 
-import { RPG } from '../RPG';
-import { Sprite, Rectangle } from '../rmmz_core';
-import { Game_Battler } from '../rmmz_objects';
+import { RPG } from "../RPG";
+import { Sprite, Rectangle } from "../rmmz_core";
+import { Game_Battler } from "../rmmz_objects";
 
 import { Sprite_Animation, Sprite_AnimationMV } from '.';
 

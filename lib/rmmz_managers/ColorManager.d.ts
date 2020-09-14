@@ -1,3 +1,5 @@
+import { Game_Actor } from "../rmmz_objects";
+
 declare namespace ColorManager {
 
     export function loadWindowskin(): void;

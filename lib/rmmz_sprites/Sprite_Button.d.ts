@@ -22,7 +22,6 @@ declare class Sprite_Button extends Sprite_Clickable {
 
     constructor(buttonType: string);
 
-    public initialize(buttonType: string): void;
     public setupFrame(): void;
     public blockWidth(): number;
     public blockHeight(): number;
@@ -36,6 +35,9 @@ declare class Sprite_Button extends Sprite_Clickable {
     public setHotFrame(x: number,y: number,width: number,height: number): void;
     public setClickHandler(method: Function): void;
     public onClick(): void;
+    public onMouseEnter(): void;
+    public onMouseExit(): void;
+    public onPress(): void;
 
 }
 

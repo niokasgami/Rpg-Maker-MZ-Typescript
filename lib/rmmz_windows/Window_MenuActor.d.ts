@@ -1,5 +1,5 @@
 import { Window_MenuStatus } from "./Window_MenuStatus";
-import { Rectangle } from "../rmmz_core/Rectangle";
+import { Rectangle } from "../rmmz_core";
 
 /**
  * Window_MenuActor

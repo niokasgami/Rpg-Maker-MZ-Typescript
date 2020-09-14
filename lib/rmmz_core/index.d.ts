@@ -6,7 +6,6 @@ export * from './jsExtensions';
 export * from './JsonEx';
 export * from './Point';
 export * from './Rectangle';
-export * from './RPG';
 export * from './ScreenSprite';
 export * from './Sprite';
 export * from './Stage';

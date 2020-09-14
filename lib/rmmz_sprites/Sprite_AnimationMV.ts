@@ -2,9 +2,10 @@
  * @author Brandt (Masked)
  */
 
-import { RPG } from '../RPG';
+import { RPG } from "../RPG";
 
-import { RGBA, Sprite } from '../rmmz_core';
+import { RGBA, Sprite } from "../rmmz_core";
+import { Game_Battler } from "../rmmz_objects";
 
 declare class Sprite_AnimationMV extends Sprite {
 

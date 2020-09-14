@@ -4,11 +4,11 @@
 
 import * as PIXI from 'pixi.js';
 
-import { RPG } from '../RPG';
+import { RPG } from "../RPG";
 
-import { Sprite, Point } from '../rmmz_core';
+import { Sprite, Point } from "../rmmz_core";
 
-import { Game_Battler } from '../rmmz_objects';
+import { Game_Battler } from "../rmmz_objects";
 
 import { Sprite_AnimationMV } from '.';
 

@@ -2,9 +2,9 @@
  * @author Brandt (Masked)
  */
 
-import { RPG } from '../RPG';
+import { RPG } from "../RPG";
 
-import { Game_Battler, Game_Party, Game_Troop } from '.';
+import { Game_Battler, Game_Party, Game_Troop, Game_Action } from '.';
 
 declare class Game_Actor extends Game_Battler {
 

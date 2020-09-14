@@ -1,5 +1,5 @@
 import { Window_BattleStatus } from "./Window_BattleStatus";
-import { Rectangle } from "../rmmz_core/Rectangle";
+import { Rectangle } from "../rmmz_core";
 
 /**
  * Window_BattleActor
