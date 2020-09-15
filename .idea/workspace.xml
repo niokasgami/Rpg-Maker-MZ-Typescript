@@ -2,14 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9ebfa6c-a255-443d-b685-b13da7317b5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/rpg_object/Game_BattlerBase(rmmz_objects).d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/External/rmmv.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/External/rmmv.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Boot.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_ItemBase.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Map.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Menu.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_MenuBase.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Message.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Title.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rmmz_scenes/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rmmz_scenes/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -28,6 +43,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1hLzwMhq8ODdm6sj2uBceLU0nU6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,6 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/rmmz_scenes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,7 +67,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nioPC\Documents\GitHub\Rpg-Maker-MZ-Typescript\lib\rmmz_scenes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nioPC\Documents\GitHub\Rpg-Maker-MZ-Typescript" />
       <recent name="C:\Users\nioPC\Documents\GitHub\Rpg-Maker-MZ-Typescript\src\rpg_object" />
     </key>
   </component>
@@ -74,6 +97,10 @@
       <workItem from="1599805400781" duration="917000" />
       <workItem from="1599879819672" duration="976000" />
       <workItem from="1599881872412" duration="554000" />
+      <workItem from="1600059255083" duration="156000" />
+      <workItem from="1600059435746" duration="10000" />
+      <workItem from="1600059457675" duration="4475000" />
+      <workItem from="1600140724329" duration="2815000" />
     </task>
     <servers />
   </component>
@@ -93,6 +120,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1599805715284" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1600061738179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1600061738179" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600059430457">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1600059430457" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1600059433768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1600059433768" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1600059433767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1600059433767" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1600059433767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1600059433767" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1600059433767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1600059433767" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1599880789802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -101,5 +152,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="677" y="289" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1599882352678" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/rmmz_sprites/Sprite_Animation.d.ts</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/REF/rmmz_scenes.js</url>
+          <line>654</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/REF/rmmz_scenes.js</url>
+          <line>666</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
