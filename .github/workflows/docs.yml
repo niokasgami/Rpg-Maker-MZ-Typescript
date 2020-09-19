@@ -17,6 +17,8 @@ jobs:
         run: npm ci
       - name: Build docs
         run: npm run docs
+      - name: Copy files
+        run: cp typescript.jpg dist/docs
       - name: Deploy to Github Pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
