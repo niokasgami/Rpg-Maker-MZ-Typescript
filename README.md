@@ -1,6 +1,7 @@
 ![banner](./typescript.jpg)
 
 ![Node.js Package](https://github.com/niokasgami/Rpg-Maker-MZ-Typescript/workflows/Node.js%20Package/badge.svg)
+[![Docs](https://github.com/niokasgami/Rpg-Maker-MZ-Typescript/workflows/Docs/badge.svg)](https://niokasgami.github.io/Rpg-Maker-MZ-Typescript/)
 
 
 # Introduction
