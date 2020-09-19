@@ -1,18 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:pr" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b9ebfa6c-a255-443d-b685-b13da7317b5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Boot.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_ItemBase.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Map.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Menu.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_MenuBase.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Message.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Title.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Equip.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_File.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_GameEnd.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Item.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Load.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Options.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Save.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Skill.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Status.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rmmz_core/jsExtensions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rmmz_core/jsExtensions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rmmz_objects/Game_Party.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rmmz_objects/Game_Party.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Base.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Base.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_ItemBase.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_ItemBase.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/rmmz_scenes/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rmmz_scenes/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +89,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
     <property name="ts.external.directory.path" value="C:\Users\nioPC\Documents\GitHub\Rpg-Maker-MZ-Typescript\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -100,12 +127,39 @@
       <workItem from="1600059255083" duration="156000" />
       <workItem from="1600059435746" duration="10000" />
       <workItem from="1600059457675" duration="4475000" />
-      <workItem from="1600140724329" duration="2815000" />
+      <workItem from="1600140724329" duration="3012000" />
+      <workItem from="1600386962593" duration="10483000" />
+      <workItem from="1600483728993" duration="5191000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Scenes">
+      <created>1600143592858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600143592858</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Scenes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Scenes" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="412" key="#ESLint" timestamp="1599881907446">
@@ -124,6 +178,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1600061738179" />
+    <state x="565" y="88" key="CommitChangelistDialog2" timestamp="1600143590399">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="565" y="88" key="CommitChangelistDialog2/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1600143590399" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600059430457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -144,10 +202,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1600059433767" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1599880789802">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1600494688822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1599880789802" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/0.1080.1920.1040@0.0.1920.1040" timestamp="1600494688822" />
     <state x="677" y="289" key="refactoring.ChangeSignatureDialog" timestamp="1599882352678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -164,13 +222,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/REF/rmmz_scenes.js</url>
           <line>654</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/REF/rmmz_scenes.js</url>
           <line>666</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

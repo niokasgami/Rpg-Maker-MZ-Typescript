@@ -17,6 +17,9 @@ declare abstract class Scene_Base extends Stage {
 
     protected constructor();
 
+    /**
+     * the create method of the scene.
+     */
     public abstract create(): void;
 
     public isActive(): boolean;
@@ -41,6 +44,11 @@ declare abstract class Scene_Base extends Stage {
 
     public addWindow(window: Window): void;
 
+    /**
+     *
+     * @param {number} duration the duration
+     * @param {boolean} white whether the fadein should be white or not.
+     */
     public startFadeIn(duration: number, white?: boolean): void;
 
     public startFadeOut(duration: number, white?: boolean): void;
@@ -97,3 +105,4 @@ declare abstract class Scene_Base extends Stage {
 }
 
 export {Scene_Base}
+

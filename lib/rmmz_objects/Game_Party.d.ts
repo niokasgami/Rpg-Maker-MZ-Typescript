@@ -129,6 +129,7 @@ declare class Game_Party extends Game_Unit<Game_Actor> {
     public removeBattleStates(): void;
     public requestMotionRefresh(): void;
     public onEscapeFailure(): void;
+
 }
 
 export { Game_Party };

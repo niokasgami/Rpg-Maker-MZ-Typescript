@@ -29,7 +29,7 @@ declare class Scene_ItemBase extends Scene_MenuBase {
     // TODO : fixe the typing to be more exact? (we can override based on the class.
     public item(): Record<string, any>;
 
-    public user(): null;
+    public user(): unknown[] | unknown;
 
     public isCursorLeft(): boolean;
 
