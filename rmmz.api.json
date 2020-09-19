@@ -1,0 +1,1962 @@
+{
+	"type": "RootDoc",
+	"children": [
+		{
+			"name": "ColorFilter",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": ""
+		},
+		{
+			"name": "Game_Actor",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": ""
+		},
+		{
+			"name": "Game_Enemy",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": ""
+		},
+		{
+			"name": "Game_Message",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": ""
+		},
+		{
+			"name": "Game_Picture",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": ""
+		},
+		{
+			"name": "Game_SelfSwitches",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": ""
+		},
+		{
+			"name": "Game_System",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": ""
+		},
+		{
+			"name": "Game_Timer",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": ""
+		},
+		{
+			"name": "Game_Unit",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": ""
+		},
+		{
+			"name": "Rectangle",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": ""
+		},
+		{
+			"name": "Scene_Base",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "",
+			"children": [
+				{
+					"name": "create",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>the create method of the scene.</p>"
+				},
+				{
+					"name": "startFadeIn",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Scene_Equip",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "",
+			"children": [
+				{
+					"name": "create",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>the create method of the scene.</p>"
+				},
+				{
+					"name": "startFadeIn",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Scene_GameEnd",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "",
+			"children": [
+				{
+					"name": "create",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>the create method of the scene.</p>"
+				},
+				{
+					"name": "startFadeIn",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Scene_ItemBase",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "",
+			"children": [
+				{
+					"name": "create",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>the create method of the scene.</p>"
+				},
+				{
+					"name": "startFadeIn",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Scene_Map",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "",
+			"children": [
+				{
+					"name": "create",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>the create method of the scene.</p>"
+				},
+				{
+					"name": "startFadeIn",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Scene_MenuBase",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "",
+			"children": [
+				{
+					"name": "create",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>the create method of the scene.</p>"
+				},
+				{
+					"name": "startFadeIn",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Scene_Options",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "",
+			"children": [
+				{
+					"name": "create",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>the create method of the scene.</p>"
+				},
+				{
+					"name": "startFadeIn",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Scene_Skill",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "",
+			"children": [
+				{
+					"name": "create",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>the create method of the scene.</p>"
+				},
+				{
+					"name": "startFadeIn",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Scene_Title",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "",
+			"children": [
+				{
+					"name": "create",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>the create method of the scene.</p>"
+				},
+				{
+					"name": "startFadeIn",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Sprite",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": ""
+		},
+		{
+			"name": "Sprite_AnimationMV",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": ""
+		},
+		{
+			"name": "Sprite_Button",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": ""
+		},
+		{
+			"name": "Sprite_Clickable",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": ""
+		},
+		{
+			"name": "Spriteset_Base",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": ""
+		},
+		{
+			"name": "Tilemap",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": ""
+		},
+		{
+			"name": "Weather",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": ""
+		},
+		{
+			"name": "Window",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": ""
+		},
+		{
+			"name": "Window_ActorCommand",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_ActorCommand</p>\n<p>The window for selecting an actor's action on the battle screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_Base",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_Base\nThe superclass of all windows within the game.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_BattleActor",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_BattleActor</p>\n<p>The window for selecting a target actor on the battle screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_BattleEnemy",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_BattleEnemy</p>\n<p>The window for selecting a target enemy on the battle screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_BattleItem",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_BattleItem</p>\n<p>The window for selecting an item to use on the battle screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_BattleLog",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_BattleLog</p>\n<p>The window for displaying battle progress. No frame is displayed, but it is\nhandled as a window for convenience.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "push",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Adds a method and any accompanying parameters to the list of methods that\nneed to be called. The method needs to be a member of this object, and the\nparameters must be applicable to the method.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_BattleSkill",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_BattleSkill</p>\n<p>The window for selecting a skill to use on the battle screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_BattleStatus",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_BattleStatus</p>\n<p>The window for displaying the status of party members on the battle screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_ChoiceList",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_ChoiceList</p>\n<p>The window used for the event command [Show Choices].</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_Command",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_Command</p>\n<p>The superclass of windows for selecting a command.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_DebugEdit",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_DebugEdit</p>\n<p>The window for displaying switches and variables on the debug screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_DebugRange",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_DebugRange</p>\n<p>The window for selecting a block of switches/variables on the debug screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_EquipCommand",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_EquipCommand</p>\n<p>The window for selecting a command on the equipment screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_EquipItem",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_EquipItem</p>\n<p>The window for selecting an equipment item on the equipment screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_EquipSlot",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_EquipSlot</p>\n<p>The window for selecting an equipment slot on the equipment screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_EquipStatus",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_EquipStatus</p>\n<p>The window for displaying parameter changes on the equipment screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_EventItem",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_EventItem</p>\n<p>The window used for the event command [Select Item].</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_GameEnd",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_GameEnd</p>\n<p>The window for selecting &quot;Go to Title&quot; on the game end screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_Gold",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_Gold</p>\n<p>The window for displaying the party's gold.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_Help",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_Help</p>\n<p>The window for displaying the description of the selected item.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_HorzCommand",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_HorzCommand</p>\n<p>The command window for the horizontal selection format.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_ItemCategory",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_ItemCategory</p>\n<p>The window for selecting a category of items on the item and shop screens.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_ItemList",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_ItemList</p>\n<p>The window for selecting an item on the item screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_MapName",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_MapName</p>\n<p>The window for displaying the map name on the map screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_MenuActor",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_MenuActor</p>\n<p>The window for selecting a target actor on the item and skill screens.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_MenuCommand",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_MenuCommand</p>\n<p>The window for selecting a command on the menu screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_MenuStatus",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_MenuStatus</p>\n<p>The window for displaying party member status on the menu screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_Message",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_Message</p>\n<p>The window for displaying text messages.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_NameBox",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_NameBox</p>\n<p>The window for displaying a speaker name above the message window.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_NameEdit",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_NameEdit</p>\n<p>The window for editing an actor's name on the name input screen.</p>"
+		},
+		{
+			"name": "Window_NameInput",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_NameInput</p>\n<p>The window for selecting text characters on the name input screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_NumberInput",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_NumberInput</p>\n<p>The window used for the event command [Input Number].</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_Options",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_Options</p>\n<p>The window for changing various settings on the options screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_PartyCommand",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_PartyCommand</p>\n<p>The window for selecting whether to fight or escape on the battle screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_SavefileList",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_SavefileList</p>\n<p>The window for selecting a save file on the save and load screens.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_Scrollable",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_Scrollable</p>\n<p>The window class with scroll functions.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_ScrollText",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_ScrollText</p>\n<p>The window for displaying scrolling text. No frame is displayed, but it\nis handled as a window for convenience.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_Selectable",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_Selectable</p>\n<p>The window class with cursor movement functions.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_ShopBuy",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_ShopBuy</p>\n<p>The window for selecting an item to buy on the shop screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_ShopCommand",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_ShopCommand</p>\n<p>The window for selecting buy/sell on the shop screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_ShopNumber",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_ShopNumber</p>\n<p>The window for inputting quantity of items to buy or sell on the shop\nscreen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_ShopSell",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_ShopSell</p>\n<p>The window for selecting an item to sell on the shop screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_ShopStatus",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_ShopStatus</p>\n<p>The window for displaying number of items in possession and the actor's\nequipment on the shop screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_SkillList",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_SkillList</p>\n<p>The window for selecting a skill on the skill screen.\nThis class is a bit misleading, as all of the 'items'\nin it are actually skills.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_SkillStatus",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_SkillStatus</p>\n<p>The window for displaying the skill user's status on the skill screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_SkillType",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_SkillType</p>\n<p>The window for selecting a skill type on the skill screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_Status",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_Status</p>\n<p>The window for displaying full status on the status screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "expNextValue",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Only returns a string if the actor set through setActor\nis at max level, otherwise return experience points as a number.</p>"
+				},
+				{
+					"name": "expTotalValue",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Only returns a string if the actor set through setActor\nis at max level, otherwise return experience points as a number.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_StatusBase",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_StatusBase</p>\n<p>The superclass of windows for displaying actor status.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_StatusEquip",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_StatusEquip</p>\n<p>The window for displaying equipment items on the status screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_StatusParams",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_StatusParams</p>\n<p>The window for displaying parameters on the status screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "Window_TitleCommand",
+			"type": "ClassDoc",
+			"brief": "",
+			"description": "<p>Window_TitleCommand</p>\n<p>The window for selecting New Game/Continue on the title screen.</p>",
+			"children": [
+				{
+					"name": "changeOutlineColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the outline color for this window.</p>"
+				},
+				{
+					"name": "changeTextColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>Changes the text color for this window.</p>"
+				},
+				{
+					"name": "systemColor",
+					"type": "MethodDoc",
+					"scope": "instance",
+					"brief": "",
+					"description": "<p>The returned string is a color in hexadecimal format.</p>"
+				}
+			]
+		},
+		{
+			"name": "AGI",
+			"type": "PropertyDoc",
+			"brief": "<p>AGIlity</p>",
+			"description": ""
+		},
+		{
+			"name": "ATK",
+			"type": "PropertyDoc",
+			"brief": "<p>ATtacK power</p>",
+			"description": ""
+		},
+		{
+			"name": "CEV",
+			"type": "PropertyDoc",
+			"brief": "<p>Critical EVasion rate</p>",
+			"description": ""
+		},
+		{
+			"name": "CNT",
+			"type": "PropertyDoc",
+			"brief": "<p>CouNTer attack rate</p>",
+			"description": ""
+		},
+		{
+			"name": "CRI",
+			"type": "PropertyDoc",
+			"brief": "<p>CRItical rate</p>",
+			"description": ""
+		},
+		{
+			"name": "DEF",
+			"type": "PropertyDoc",
+			"brief": "<p>DEFense power</p>",
+			"description": ""
+		},
+		{
+			"name": "EVA",
+			"type": "PropertyDoc",
+			"brief": "<p>EVAsion rate</p>",
+			"description": ""
+		},
+		{
+			"name": "EXR",
+			"type": "PropertyDoc",
+			"brief": "<p>EXperience Rate</p>",
+			"description": ""
+		},
+		{
+			"name": "FDR",
+			"type": "PropertyDoc",
+			"brief": "<p>Floor Damage Rate</p>",
+			"description": ""
+		},
+		{
+			"name": "GRD",
+			"type": "PropertyDoc",
+			"brief": "<p>GuaRD effect rate</p>",
+			"description": ""
+		},
+		{
+			"name": "HIT",
+			"type": "PropertyDoc",
+			"brief": "<p>HIT rate</p>",
+			"description": ""
+		},
+		{
+			"name": "HRG",
+			"type": "PropertyDoc",
+			"brief": "<p>Hp ReGeneration rate</p>",
+			"description": ""
+		},
+		{
+			"name": "LUK",
+			"type": "PropertyDoc",
+			"brief": "<p>LUcK</p>",
+			"description": ""
+		},
+		{
+			"name": "MAT",
+			"type": "PropertyDoc",
+			"brief": "<p>Magic ATtack power</p>",
+			"description": ""
+		},
+		{
+			"name": "MCR",
+			"type": "PropertyDoc",
+			"brief": "<p>Mp Cost Rate</p>",
+			"description": ""
+		},
+		{
+			"name": "MDF",
+			"type": "PropertyDoc",
+			"brief": "<p>Magic DeFense power</p>",
+			"description": ""
+		},
+		{
+			"name": "MDR",
+			"type": "PropertyDoc",
+			"brief": "<p>Magic Damage Rate</p>",
+			"description": ""
+		},
+		{
+			"name": "MEV",
+			"type": "PropertyDoc",
+			"brief": "<p>Magic EVasion rate</p>",
+			"description": ""
+		},
+		{
+			"name": "MHP",
+			"type": "PropertyDoc",
+			"brief": "<p>Maximum Hit Points</p>",
+			"description": ""
+		},
+		{
+			"name": "MMP",
+			"type": "PropertyDoc",
+			"brief": "<p>Maximum Magic Points</p>",
+			"description": ""
+		},
+		{
+			"name": "MRF",
+			"type": "PropertyDoc",
+			"brief": "<p>Magic ReFlection rate</p>",
+			"description": ""
+		},
+		{
+			"name": "MRG",
+			"type": "PropertyDoc",
+			"brief": "<p>Mp ReGeneration rate</p>",
+			"description": ""
+		},
+		{
+			"name": "PDR",
+			"type": "PropertyDoc",
+			"brief": "<p>Physical Damage Rate</p>",
+			"description": ""
+		},
+		{
+			"name": "PHA",
+			"type": "PropertyDoc",
+			"brief": "<p>PHArmacology</p>",
+			"description": ""
+		},
+		{
+			"name": "REC",
+			"type": "PropertyDoc",
+			"brief": "<p>RECovery effect rate</p>",
+			"description": ""
+		},
+		{
+			"name": "TCR",
+			"type": "PropertyDoc",
+			"brief": "<p>Tp Charge Rate</p>",
+			"description": ""
+		},
+		{
+			"name": "TGR",
+			"type": "PropertyDoc",
+			"brief": "<p>TarGet Rate</p>",
+			"description": ""
+		},
+		{
+			"name": "TRG",
+			"type": "PropertyDoc",
+			"brief": "<p>Tp ReGeneration rate</p>",
+			"description": ""
+		},
+		{
+			"name": "contains",
+			"type": "MethodDoc",
+			"brief": "",
+			"description": "<p>Checks whether the array contains a given element.</p>"
+		}
+	]
+}
