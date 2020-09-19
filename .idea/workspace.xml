@@ -25,21 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9ebfa6c-a255-443d-b685-b13da7317b5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Equip.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_File.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_GameEnd.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Item.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Load.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Options.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Save.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Skill.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Status.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rmmz_core/jsExtensions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rmmz_core/jsExtensions.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rmmz_objects/Game_Party.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rmmz_objects/Game_Party.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Base.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_Base.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_ItemBase.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rmmz_scenes/Scene_ItemBase.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rmmz_scenes/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rmmz_scenes/index.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +116,7 @@
       <workItem from="1600140724329" duration="3012000" />
       <workItem from="1600386962593" duration="10483000" />
       <workItem from="1600483728993" duration="5191000" />
+      <workItem from="1600539668925" duration="2282000" />
     </task>
     <task id="LOCAL-00001" summary="Added Scenes">
       <created>1600143592858</created>
