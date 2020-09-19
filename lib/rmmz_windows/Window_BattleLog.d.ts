@@ -44,8 +44,8 @@ declare class Window_BattleLog extends Window_Base {
      * need to be called. The method needs to be a member of this object, and the
      * parameters must be applicable to the method.
      * 
-     * @param methodName The name of a method to call.
-     * @param args The arguments to pass to the method, if any.
+     * @param methodName - The name of a method to call.
+     * @param args - The arguments to pass to the method, if any.
      */
     public push<K extends keyof this, F extends (...args: unknown[]) => unknown>(
         methodName: K,
