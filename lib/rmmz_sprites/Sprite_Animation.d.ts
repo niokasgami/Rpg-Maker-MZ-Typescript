@@ -1,7 +1,3 @@
-/**
- * @author Brandt (Masked)
- */
-
 import * as PIXI from 'pixi.js';
 
 import { RPG } from "../RPG";

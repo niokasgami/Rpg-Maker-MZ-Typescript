@@ -6,6 +6,9 @@
   "files": [
     "lib"
   ],
+  "scripts": {
+    "docs": "webdoc -R README.md"
+  },
   "types": "./lib/index.d.ts",
   "repository": {
     "type": "git",
@@ -25,6 +28,8 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.9.0",
     "@typescript-eslint/parser": "^3.9.0",
-    "eslint": "^7.6.0"
+    "@webdoc/cli": "^1.0.0",
+    "eslint": "^7.6.0",
+    "pixi-webdoc-template": "0.0.39-alpha.0"
   }
 }

@@ -72,14 +72,14 @@ declare class Window_Base extends Window{
     /**
      * Changes the text color for this window.
      * 
-     * @param {string} color The color of the text in CSS format.
+     * @param {string} color - The color of the text in CSS format.
      */
     public changeTextColor(color: string): void;
 
     /**
      * Changes the outline color for this window.
      * 
-     * @param {string} color The color of the outline in CSS format.
+     * @param {string} color - The color of the outline in CSS format.
      */
     public changeOutlineColor(color: string): void;
 

@@ -1,7 +1,3 @@
-/**
- * @author Brandt (Masked)
- */
-
 import { Game_Battler } from '.';
 
 declare class Game_Unit<T extends Game_Battler> {

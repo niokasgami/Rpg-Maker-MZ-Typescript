@@ -1,7 +1,3 @@
-/**
- * @author Brandt (Masked)
- */
-
 import { RPG } from "../RPG";
 
 import { Game_Actor } from './Game_Actor';

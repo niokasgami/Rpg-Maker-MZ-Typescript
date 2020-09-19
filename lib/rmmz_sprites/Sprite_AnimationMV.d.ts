@@ -1,7 +1,3 @@
-/**
- * @author Brandt (Masked)
- */
-
 import { RPG } from "../RPG";
 
 import { RGBA, Sprite } from "../rmmz_core";

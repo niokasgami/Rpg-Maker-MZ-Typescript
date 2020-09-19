@@ -1,7 +1,3 @@
-/**
- * @author Brandt (Masked)
- */
-
 import { Sprite, Bitmap } from "../rmmz_core";
 
 import { Game_Battler } from "../rmmz_objects";
