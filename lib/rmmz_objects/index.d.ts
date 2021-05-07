@@ -21,3 +21,4 @@ export * from './Game_Timer';
 export * from './Game_Variables';
 
 export * from './Game_Temp';
+export * from './Game_Message';

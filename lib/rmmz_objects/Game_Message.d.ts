@@ -26,7 +26,7 @@ declare class Game_Message {
 
     public initialize(): void;
     public clear(): void;
-    public choices(): string[]; // TODO is it the proper type?
+    public choices(): Array<string>// TODO is it the proper type?
     public speakerName(): string;
     public faceName(): string;
     public faceIndex(): number;
@@ -66,3 +66,4 @@ declare class Game_Message {
     public allText(): string;
     public isRTL(): boolean
 }
+export {Game_Message}
