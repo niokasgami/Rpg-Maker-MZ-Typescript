@@ -26,7 +26,7 @@ declare class Game_Message {
 
     public initialize(): void;
     public clear(): void;
-    public choices(): Array<string>// TODO is it the proper type?
+    public choices(): object[]; // Tested all types can think of and only object returns true to instanceof
     public speakerName(): string;
     public faceName(): string;
     public faceIndex(): number;
