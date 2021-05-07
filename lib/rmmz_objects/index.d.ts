@@ -19,3 +19,5 @@ export * from './Game_System';
 
 export * from './Game_Timer';
 export * from './Game_Variables';
+
+export * from './Game_Temp';

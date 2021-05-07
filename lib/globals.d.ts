@@ -1,6 +1,7 @@
 import { RPG } from './RPG';
 
 import {
+    Game_Temp,
     Game_System,
     Game_Screen,
     Game_Timer,
@@ -28,7 +29,7 @@ export declare const $dataMapInfos: RPG.DataMapInfo[];
 export declare const $dataMap: RPG.DataMap[];
 
 // TODO: Uncomment these when types are done
-//export declare const $gameTemp: Game_Temp;
+export declare const $gameTemp: Game_Temp;
 export declare const $gameSystem: Game_System;
 export declare const $gameScreen: Game_Screen;
 export declare const $gameTimer: Game_Timer;
