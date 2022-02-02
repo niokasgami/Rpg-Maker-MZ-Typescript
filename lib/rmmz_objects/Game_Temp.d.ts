@@ -36,6 +36,14 @@ declare class Game_Temp {
     public retrieveAnimation(): unknown;
     public requestBalloon(target: unknown, balloonId: number): void;
     public retrieveBalloon(): unknown;
-
-    // TODO : finish Game_Temp?
+    public lastActionData(type: unknown): number;
+    public setLastActionData(type: unknown, value: number): void;
+    public setLastUsedSkillId(skillID: number): void;
+    public setLastUsedItemId(itemID: number): void;
+    public setLastSubjectActorId(actorID: number): void;
+    public setLastSubjectEnemyIndex(enemyIndex: number): void;
+    public setLastTargetActorId(actorID: number): void;
+    public setLastTargetEnemyIndex(enemyIndex: number): void;
 }
+
+export {Game_Temp}
