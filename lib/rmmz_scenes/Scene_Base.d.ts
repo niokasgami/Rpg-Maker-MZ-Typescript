@@ -71,7 +71,7 @@ declare abstract class Scene_Base extends Stage {
 
     public slowFadeSpeed(): number;
 
-    public scaleSprite(): void;
+    public scaleSprite(sprite: Sprite): void;
 
     public centerSprite(sprite: Sprite): void;
 
